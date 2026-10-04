@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('CreovoCafe — Your daily dose of golden.'), metaDescription: t('Coffee, churros, and the moments in between. Explore the CreovoCafe concept.') }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="tiny-sun">✳</span> <%- t('LITTLE RITUALS. GOLDEN MOMENTS.') %></div>
+        <h1><%- t('Your daily<br>dose of <em>golden.</em>') %></h1>
+        <p><%- t('Perfectly pulled coffee. Warm, cinnamon-dusted churros.<br class="desktop"> A little escape from the everyday.') %></p>
+        <div class="hero-actions">
+          <a href="<%= langPrefix %>/menu/" class="button"><%- t('Explore the menu') %> <span>↗</span></a>
+          <a href="<%= langPrefix %>/locations/" class="link"><%- t('Find your café') %> <span>↗</span></a>
+        </div>
+        <div class="hero-note">
+          <span class="line-drawing" aria-hidden="true">✺</span>
+          <span><%- t('Made for slow sips<br>and sweet little moments.') %></span>
+        </div>
+        <div class="hero-foot">
+          <span><%- t('COFFEE & CHURROS, BEAUTIFULLY TOGETHER.') %></span>
+          <a href="#favorites" aria-label="Discover our favorites">↓</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <picture>
+          <source type="image/avif" srcset="/assets/churros-800.avif 800w, /assets/churros-1400.avif 1400w" sizes="(max-width:760px) 100vw, 52vw">
+          <img src="/assets/churros-1400.webp" srcset="/assets/churros-800.webp 800w, /assets/churros-1400.webp 1400w" sizes="(max-width:760px) 100vw, 52vw" width="1400" height="1750" fetchpriority="high" alt="Golden cinnamon churros with chocolate dipping sauce and a cappuccino">
+        </picture>
+        <div class="photo-caption">
+          <span><%- t('A MATCH MADE IN CREOVO.') %></span>
+          <span><%- t('01 / THE EVERYDAY RITUAL') %></span>
+        </div>
+        <div class="round-seal" aria-hidden="true">
+          <span><%- t('A LITTLE SIP') %></span><b>✳</b><span><%- t('A LITTLE JOY') %></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="ribbon" aria-hidden="true">
+      <span><%- t('COFFEE WITH CHARACTER') %></span><b>✳</b>
+      <span><%- t('CHURROS WORTH SHARING') %></span><b>✳</b>
+      <span><%- t('YOUR KIND OF PLACE') %></span><b>✳</b>
+      <span><%- t('A LITTLE EVERYDAY JOY') %></span><b>✳</b>
+    </div>
+
+    <section class="section favorites" id="favorites">
+      <div class="section-top">
+        <div>
+          <p class="eyebrow"><%- t('THE GOOD STUFF') %></p>
+          <h2><%- t('Meet your next <em>favorite.</em>') %></h2>
+        </div>
+        <a class="link" href="<%= langPrefix %>/menu/"><%- t('Discover the full menu') %> <span>↗</span></a>
+      </div>
+      <div class="filter-row">
+        <div class="filters" aria-label="Filter signature menu">
+          <button class="filter active" data-category="all" aria-pressed="true"><%- t('All favorites') %></button>
+          <button class="filter" data-category="churros" aria-pressed="false"><%- t('Churros & sweet things') %></button>
+          <button class="filter" data-category="coffee" aria-pressed="false"><%- t('Coffee & more') %></button>
+          <button class="filter" data-category="cold" aria-pressed="false"><%- t('Something chilled') %></button>
+        </div>
+        <span class="small-note"><%- t('A TASTE OF THE SAMPLE MENU') %></span>
+      </div>
+
+      <div class="product-grid" id="products" aria-live="polite">
+        <% products.slice(0, 3).forEach(p => { %>
+          <button class="product" data-product="<%= p.id %>">
+            <div class="product-photo">
+              <img src="/assets/<%= p.image %>" width="800" height="800" alt="<%= p.alt %>" loading="lazy">
+              <span class="badge"><%= isArabic ? 'قائمة تجريبية' : p.tag %></span>
+            </div>
+            <div class="product-title">
+              <h3><%= isArabic ? p.ar : p.name %></h3>
+              <span class="product-arrow">↗</span>
+            </div>
+            <p><%= isArabic ? p.descriptionAr : p.description %></p>
+          </button>
+        <% }); %>
+      </div>
+
+      <div class="menu-bottom">
+        <span><%- t('Something sweet. Something bold. Always a good idea.') %></span>
+        <span><%- t('Sample selections · prices to be added') %></span>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-photo">
+        <img src="/assets/barista-900.webp" width="900" height="1100" alt="The quiet craft of pouring latte art" loading="lazy" decoding="async">
+        <span class="vertical-caption"><%- t('GOOD THINGS TAKE A LITTLE CARE.') %></span>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow"><%- t('HELLO, WE’RE CREOVO') %></p>
+        <h2><%- t('For the moments<br>in <em>between.</em>') %></h2>
+        <p class="lead"><%- t('Between the rush and the routine, there’s a little room for something lovely.') %></p>
+        <p><%- t('A warm cup held in both hands. The first bite of a golden churro. A conversation that lasts longer than you planned. That’s the feeling behind CreovoCafe.') %></p>
+        <p><%- t('We’re a café concept built around a simple idea: the little things can make the whole day.') %></p>
+        <a class="link" href="<%= langPrefix %>/about/"><%- t('A little more about us') %> <span>↗</span></a>
+        <div class="story-signature"><%- t('Stay a little. Smile a lot.') %> <span>✳</span></div>
+      </div>
+    </section>
+
+    <section class="moment">
+      <img src="/assets/cafe-interior-1600.webp" width="1600" height="900" alt="Sunlit café tables and an inviting place to pause" loading="lazy" decoding="async">
+      <div>
+        <p class="eyebrow"><%- t('LESS RUSH. MORE RITUAL.') %></p>
+        <h2><%- t('Some things are better<br><em>enjoyed slowly.</em>') %></h2>
+        <a href="<%= langPrefix %>/locations/" class="button light"><%- t('Find your little escape') %> <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section locations" id="locations">
+      <div class="section-top">
+        <div>
+          <p class="eyebrow"><%- t('SAME WARM WELCOME. A NEW LITTLE CORNER.') %></p>
+          <h2><%- t('Find your <em>Creovo.</em>') %></h2>
+        </div>
+        <p><%- t('Four spaces to imagine.<br>One unmistakable feeling.') %></p>
+      </div>
+      <div class="location-layout">
+        <div class="branch-list" id="branch-list"></div>
+        <div class="branch-preview" id="branch-preview"></div>
+      </div>
+      <p class="template-note"><%- t('Branch concepts shown for this template. Addresses, opening hours, and services will appear once confirmed.') %></p>
+    </section>
+
+    <section class="gather section">
+      <div>
+        <p class="eyebrow"><%- t('GOOD COMPANY, GREAT TASTE') %></p>
+        <h2><%- t('Bring a little golden<br>to your <em>gathering.</em>') %></h2>
+        <p><%- t('From office catch-ups to your biggest little celebrations.<br>Make room for coffee, churros, and a little Creovo magic.') %></p>
+        <a class="button" href="<%= langPrefix %>/catering/"><%- t('Let’s plan something') %> <span>↗</span></a>
+      </div>
+      <div class="gather-image">
+        <img src="/assets/coffee-pastry-900.webp" width="900" height="750" loading="lazy" alt="Coffee and pastry ready for an unhurried catch-up">
+        <span><%- t('BETTER TOGETHER. ALWAYS.') %></span>
+      </div>
+    </section>
+
+    <section class="newsletter section">
+      <div class="newsletter-star" aria-hidden="true">✳</div>
+      <div>
+        <p class="eyebrow"><%- t('A LITTLE MORE CREOVO') %></p>
+        <h2><%- t('Good things. <em>In your inbox.</em>') %></h2>
+        <p><%- t('New tastes, little surprises, and a reason to drop by.') %></p>
+      </div>
+      <form id="newsletter">
+        <label for="newsletter-email"><%- t('Your email address') %></label>
+        <div class="email-control">
+          <input id="newsletter-email" type="email" placeholder="<%= t('You bring the email. We’ll bring the good stuff.') %>" required autocomplete="email">
+          <button type="submit" aria-label="Preview newsletter signup">↗</button>
+        </div>
+        <p class="form-note"><%- t('Demo signup. No email is sent or stored.') %></p>
+        <p id="newsletter-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

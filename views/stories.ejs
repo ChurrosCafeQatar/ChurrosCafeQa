@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('The Creovo journal'), metaDescription: 'Notes from our little corner. Craft, people, and daily rituals.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('THE CREOVO JOURNAL') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('THE CREOVO JOURNAL') %></p>
+      <h1><%- t('Notes from<br><em>our little corner.</em>') %></h1>
+      <p><%- t('A place for the craft, the people, and the little things behind your daily ritual.') %></p>
+    </section>
+    <section class="page-body">
+      <div class="info-grid">
+        <article class="info-panel">
+          <p class="eyebrow"><%- t('EDITORIAL CONCEPT 01') %></p>
+          <h2><%- t('The art of the everyday pause.') %></h2>
+          <p><%- t('A proposed story about the joy of small rituals and making time for yourself. Add a real, original article before publishing.') %></p>
+          <a class="link" href="<%= langPrefix %>/about/"><%- t('Meet the concept') %> ↗</a>
+        </article>
+        <article class="info-panel">
+          <p class="eyebrow"><%- t('EDITORIAL CONCEPT 02') %></p>
+          <h2><%- t('Better with a little cinnamon.') %></h2>
+          <p><%- t('A proposed look at the ingredients and technique behind the signature churros. Recipes and sourcing claims must come from the kitchen team.') %></p>
+          <a class="link" href="<%= langPrefix %>/menu/"><%- t('Explore the sample menu') %> ↗</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

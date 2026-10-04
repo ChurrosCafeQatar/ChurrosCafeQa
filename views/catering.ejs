@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('Catering & gatherings'), metaDescription: 'Imagine CreovoCafe at your next gathering. Sample catering inquiry.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('CATERING & GATHERINGS') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('CATERING & GATHERINGS') %></p>
+      <h1><%- t('Good things.<br><em>Better together.</em>') %></h1>
+      <p><%- t('Imagine a little Creovo at your next gathering. Use the sample form to explore the inquiry experience. Catering packages, pricing, and service availability are awaiting confirmation.') %></p>
+    </section>
+    <section class="page-body">
+      <div class="info-grid">
+        <div>
+          <form class="demo-form form-fields" action="/api/catering" method="POST" style="max-width:620px">
+            <label><%- t('Your name') %><input name="name" required autocomplete="name" maxlength="100"></label>
+            <label><%- t('Email address') %><input name="email" required type="email" autocomplete="email" maxlength="200"></label>
+            <label><%- t('Occasion') %>
+              <select name="occasion">
+                <option><%- t('A team gathering') %></option>
+                <option><%- t('A celebration') %></option>
+                <option><%- t('Something else') %></option>
+              </select>
+            </label>
+            <label><%- t('Approximate guests') %><input name="guests" type="number" min="1" max="10000" required></label>
+            <label><%- t('Tell us a little more') %><textarea name="message" required maxlength="3000" placeholder="<%= t('What do you have in mind?') %>"></textarea></label>
+            <p class="template-note"><%- t('Template preview only. Information entered here is not sent or stored.') %></p>
+            <button class="button" type="submit"><%- t('Preview your inquiry') %> <span>↗</span></button>
+            <p class="form-status" role="status"></p>
+          </form>
+        </div>
+        <div>
+          <img class="wide-photo" src="/assets/coffee-pastry-900.webp" alt="Coffee and pastry together" width="900" height="750" loading="lazy">
+          <p class="template-note"><%- t('Illustrative café photography.') %></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

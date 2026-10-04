@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: isArabic ? branch.ar : branch.name, metaDescription: branch.intro }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><a href="<%= langPrefix %>/locations/"><%- t('Find your café') %></a><span>/</span><span><%= isArabic ? branch.ar : branch.name %></span>
+      </nav>
+      <p class="eyebrow"><%- t('BRANCH CONCEPT') %> <%= branch.number %></p>
+      <h1><%- (isArabic ? branch.ar : branch.name).replace(/(café|retreat|place|corner|مقهى|استراحة|مكان|الركن)/i, '<em>$1</em>') %></h1>
+      <p><%= branch.intro %></p>
+    </section>
+    <section class="page-body">
+      <img class="wide-photo" src="/assets/<%= branch.image %>" width="1600" height="900" alt="Illustrative photography for <%= branch.name %>">
+      <div class="info-grid">
+        <div class="info-panel">
+          <p class="eyebrow"><%- t('YOUR VISIT') %></p>
+          <h2><%= branch.subtitle %></h2>
+          <p><%- t('This is a sample branch concept. A unique introduction, genuine branch photography, and verified local details will make this space your own.') %></p>
+          <p><strong><%- t('Address') %></strong><br><%- t('Awaiting the confirmed street address.') %></p>
+          <p><strong><%- t('Opening hours & status') %></strong><br><%- t('Not configured. No live opening status is shown.') %></p>
+          <button class="button" data-action="reserve" data-branch-id="<%= branch.id %>"><%- t('Plan a visit') %> <span>↗</span></button>
+        </div>
+        <div class="info-panel">
+          <p class="eyebrow"><%- t('MAKE YOURSELF AT HOME') %></p>
+          <h2><%- t('The little details.') %></h2>
+          <p><strong><%- t('Call & WhatsApp') %></strong><br><%- t('Verified contact numbers to be added.') %></p>
+          <p><strong><%- t('Parking, access & nearby landmarks') %></strong><br><%- t('Confirmed branch information to be added.') %></p>
+          <p><strong><%- t('Amenities & delivery coverage') %></strong><br><%- t('To be verified by the branch team.') %></p>
+          <p><strong><%- t('Map & directions') %></strong><br><%- t('A map will appear after the address and coordinates are verified.') %></p>
+        </div>
+      </div>
+      <div class="section-top" style="margin-top:55px">
+        <div>
+          <p class="eyebrow"><%- t('SOMETHING LOVELY AWAITS') %></p>
+          <h2><%- t('Pick your <em>moment.</em>') %></h2>
+        </div>
+        <a href="<%= langPrefix %>/menu/" class="link"><%- t('Explore the sample menu') %> ↗</a>
+      </div>
+      <div class="product-grid">
+        <% products.slice(0, 3).forEach(p => { %>
+          <button class="product" data-product="<%= p.id %>">
+            <div class="product-photo">
+              <img src="/assets/<%= p.image %>" width="800" height="800" alt="<%= p.alt %>" loading="lazy">
+              <span class="badge"><%= isArabic ? 'قائمة تجريبية' : p.tag %></span>
+            </div>
+            <div class="product-title">
+              <h3><%= isArabic ? p.ar : p.name %></h3>
+              <span class="product-arrow">↗</span>
+            </div>
+            <p><%= isArabic ? p.descriptionAr : p.description %></p>
+          </button>
+        <% }); %>
+      </div>
+      <h2 style="font-size:35px;margin-top:45px"><%- t('A few things to know.') %></h2>
+      <details>
+        <summary><%- t('Can I reserve a table?') %></summary>
+        <p><%- t('Reservation availability is not confirmed for this sample branch. Explore the preview to see how the experience could work.') %></p>
+      </details>
+      <details>
+        <summary><%- t('Where can I find the address and opening hours?') %></summary>
+        <p><%- t('The branch team will add and verify these before the site goes live. This template does not represent a confirmed physical location.') %></p>
+      </details>
+      <details>
+        <summary><%- t('Can you accommodate dietary requirements?') %></summary>
+        <p><%- t('Recipes and allergen information must be verified before dietary guidance can be provided. Please check with the real branch team once contact details are available.') %></p>
+      </details>
+      <div class="info-panel" style="margin-top:30px">
+        <h3><%- t('Another little corner to discover.') %></h3>
+        <p><%- t('Explore another branch concept. Proximity between branches has not been established.') %></p>
+        <% otherBranches.forEach(x => { %>
+          <a class="link" style="margin-right:25px" href="<%= langPrefix %>/locations/<%= x.id %>/"><%= isArabic ? x.ar : x.name %> ↗</a>
+        <% }); %>
+      </div>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

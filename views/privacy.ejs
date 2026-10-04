@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('Privacy & cookies'), metaDescription: 'Template privacy notice.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('TEMPLATE PRIVACY NOTICE') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('TEMPLATE PRIVACY NOTICE') %></p>
+      <h1><%- t('Your privacy,<br><em>with care.</em>') %></h1>
+    </section>
+    <section class="page-body prose">
+      <p><%- t('This is a website demonstration. Forms validate entries in your browser but do not submit or store them. No analytics or advertising cookies are set by this template.') %></p>
+      <p><%- t('Fonts and images are hosted locally. This template makes no analytics, advertising, map, or external font requests.') %></p>
+      <p><%- t('The site includes inactive, consent-gated analytics event hooks. A real privacy policy, retention schedule, consent controls, legal business identity, and contact method must be added before data collection is enabled.') %></p>
+      <p><%- t('The optional content editor stores draft JSON on your device only when you choose to save it. Clear the editor’s draft to remove that local storage entry.') %></p>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

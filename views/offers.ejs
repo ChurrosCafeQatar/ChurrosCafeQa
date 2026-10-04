@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('Seasonal moments'), metaDescription: 'Seasonal moments and special events at CreovoCafe.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('SEASONAL MOMENTS') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('SEASONAL MOMENTS') %></p>
+      <h1><%- t('A season for<br><em>something lovely.</em>') %></h1>
+      <p><%- t('A space for future menu launches, Ramadan gatherings, Eid treats, and little reasons to reconnect.') %></p>
+    </section>
+    <section class="page-body">
+      <div class="info-panel prose">
+        <h2><%- t('Something golden is taking shape.') %></h2>
+        <p><%- t('No live offers are currently configured. Future campaigns will include confirmed dates, participating branches, availability, and clear terms.') %></p>
+        <a class="link" href="<%= langPrefix %>/menu/"><%- t('Explore the sample menu') %> ↗</a>
+      </div>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

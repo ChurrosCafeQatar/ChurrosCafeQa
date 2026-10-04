@@ -1,0 +1,39 @@
+<footer>
+  <div class="footer-main">
+    <div>
+      <a class="footer-logo" href="<%= langPrefix %>/"><%= brand.replace('Cafe', '') %><em>Cafe</em></a>
+      <p><%- t('Your daily dose of golden.') %></p>
+      <span class="footer-tag"><%- t('COFFEE. CHURROS. CONNECTION.') %></span>
+    </div>
+    <div>
+      <h3><%- t('Come on in') %></h3>
+      <a href="<%= langPrefix %>/menu/"><%- t('Our menu') %></a>
+      <a href="<%= langPrefix %>/locations/"><%- t('Find your café') %></a>
+      <a href="<%= langPrefix %>/about/"><%- t('Our story') %></a>
+    </div>
+    <div>
+      <h3><%- t('A little more') %></h3>
+      <a href="<%= langPrefix %>/catering/"><%- t('Catering & gatherings') %></a>
+      <a href="<%= langPrefix %>/contact/"><%- t('Let’s talk') %></a>
+      <a href="<%= langPrefix %>/stories/"><%- t('The Creovo journal') %></a>
+    </div>
+    <div>
+      <h3><%- t('Make it a moment') %></h3>
+      <button data-action="reserve"><%- t('Plan a visit') %> ↗</button>
+      <a href="<%= langPrefix %>/offers/"><%- t('Seasonal moments') %> ↗</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <%= new Date().getFullYear() %> <%= brand %> · <%- t('Café website template') %></span>
+    <span><%- t('CONCEIVED WITH WARMTH. SERVED WITH JOY.') %></span>
+    <a href="<%= langPrefix %>/privacy/"><%- t('Privacy & cookies') %></a>
+  </div>
+</footer>
+<div class="mobile-bar">
+  <a href="<%= langPrefix %>/menu/"><%- t('Menu') %></a>
+  <a href="<%= langPrefix %>/locations/"><%- t('Find a café') %></a>
+</div>
+<dialog id="dialog" aria-labelledby="dialog-title">
+  <button class="close-dialog" aria-label="<%= t('Close dialog') %>">×</button>
+  <div id="dialog-content"></div>
+</dialog>

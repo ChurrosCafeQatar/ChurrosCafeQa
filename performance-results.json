@@ -1,0 +1,160 @@
+{
+  "context": "Local Edge headless, desktop 1440x1000, no throttling; not a field CWV assessment",
+  "errors": [],
+  "metrics": {
+    "cls": 0.0006187126932026427,
+    "lcp": 560,
+    "resources": [
+      {
+        "name": "03mlb2gjgcnte.css",
+        "bytes": 6372,
+        "duration": 29
+      },
+      {
+        "name": "310vm2bl3xxpt.js",
+        "bytes": 2270,
+        "duration": 30
+      },
+      {
+        "name": "19mx3mg6lkumu.js",
+        "bytes": 7914,
+        "duration": 31
+      },
+      {
+        "name": "0bma92pht_c97.js",
+        "bytes": 71928,
+        "duration": 46
+      },
+      {
+        "name": "3cu010xrqoc79.js",
+        "bytes": 45427,
+        "duration": 48
+      },
+      {
+        "name": "turbopack-1lbnagdrijapn.js",
+        "bytes": 4151,
+        "duration": 40
+      },
+      {
+        "name": "3fntmmi971322.js",
+        "bytes": 3961,
+        "duration": 41
+      },
+      {
+        "name": "22i43cg4l4-dq.js",
+        "bytes": 3908,
+        "duration": 40
+      },
+      {
+        "name": "2o6dpa3baoqqx.js",
+        "bytes": 13340,
+        "duration": 43
+      },
+      {
+        "name": "0byxsc3uu87si.js",
+        "bytes": 10493,
+        "duration": 49
+      },
+      {
+        "name": "fonts.css",
+        "bytes": 604,
+        "duration": 29
+      },
+      {
+        "name": "churros-800.avif",
+        "bytes": 69226,
+        "duration": 24
+      },
+      {
+        "name": "font-1.woff2",
+        "bytes": 37232,
+        "duration": 159
+      },
+      {
+        "name": "font-3.woff2",
+        "bytes": 38704,
+        "duration": 158
+      },
+      {
+        "name": "font-2.woff2",
+        "bytes": 22184,
+        "duration": 160
+      },
+      {
+        "name": "churros-800.webp",
+        "bytes": 144410,
+        "duration": 10
+      },
+      {
+        "name": "coffee-detail.webp",
+        "bytes": 87020,
+        "duration": 11
+      },
+      {
+        "name": "coffee-pastry-900.webp",
+        "bytes": 117394,
+        "duration": 13
+      },
+      {
+        "name": "barista-900.webp",
+        "bytes": 65184,
+        "duration": 13
+      },
+      {
+        "name": "favicon.svg",
+        "bytes": 699,
+        "duration": 3
+      },
+      {
+        "name": "?_rsc=5CB68i4pnAekjehf",
+        "bytes": 556,
+        "duration": 29
+      },
+      {
+        "name": "?_rsc=5CB68i4pnAekjehf",
+        "bytes": 559,
+        "duration": 50
+      },
+      {
+        "name": "?_rsc=5CB68i4pnAekjehf",
+        "bytes": 560,
+        "duration": 52
+      },
+      {
+        "name": "?_rsc=5CB68i4pnAekjehf",
+        "bytes": 562,
+        "duration": 49
+      },
+      {
+        "name": "?_rsc=FWN8B1Lzz6Z-ebwg",
+        "bytes": 1591,
+        "duration": 7
+      },
+      {
+        "name": "?_rsc=FWN8B1Lzz6Z-ebwg",
+        "bytes": 1580,
+        "duration": 32
+      },
+      {
+        "name": "?_rsc=FWN8B1Lzz6Z-ebwg",
+        "bytes": 1563,
+        "duration": 14
+      },
+      {
+        "name": "?_rsc=FWN8B1Lzz6Z-ebwg",
+        "bytes": 1575,
+        "duration": 13
+      },
+      {
+        "name": "?_rsc=FWN8B1Lzz6Z-ebwg",
+        "bytes": 1564,
+        "duration": 14
+      },
+      {
+        "name": "?_rsc=FWN8B1Lzz6Z-ebwg",
+        "bytes": 1649,
+        "duration": 13
+      }
+    ]
+  }
+}

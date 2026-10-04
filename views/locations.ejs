@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('Find your café'), metaDescription: 'Explore our café branch concepts.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('OUR CAFÉ CONCEPTS') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('OUR CAFÉ CONCEPTS') %></p>
+      <h1><%- t('Your kind of <em>place.</em>') %></h1>
+      <p><%- t('Four different moods, the same warm welcome. These are sample branch concepts for the template, with no live physical locations represented.') %></p>
+    </section>
+    <section class="page-body">
+      <label for="branch-search"><%- t('Find a branch concept') %></label>
+      <input type="search" class="search-input branch-search" id="branch-search" placeholder="<%= t('Try city, neighborhood, or quiet') %>">
+      <p id="branch-search-status" role="status" class="template-note"><%- t('4 branch concepts') %></p>
+      <div class="branch-grid">
+        <% branches.forEach(b => { %>
+          <article class="branch-card">
+            <img src="/assets/<%= b.image %>" width="900" height="600" alt="Illustrative photography for <%= b.name %>" loading="lazy">
+            <div>
+              <p class="eyebrow"><%- t('BRANCH CONCEPT') %> <%= b.number %></p>
+              <h2><%= isArabic ? b.ar : b.name %></h2>
+              <p><%= isArabic ? b.intro : b.intro %></p>
+              <p><%- t('Address & opening hours to be confirmed.') %></p>
+              <a class="link" href="<%= langPrefix %>/locations/<%= b.id %>/"><%- t('Explore the space') %> <span>↗</span></a>
+            </div>
+          </article>
+        <% }); %>
+      </div>
+      <p class="template-note"><%- t('Maps, nearby detection, directions, contact details, and opening status become available after verified branch data is added.') %></p>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

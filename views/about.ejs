@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('Our story'), metaDescription: 'Learn more about the CreovoCafe story and brand concept.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('THE CREOVO STORY') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('THE CREOVO STORY') %></p>
+      <h1><%- t('Small rituals.<br><em>Lasting feelings.</em>') %></h1>
+      <p><%- t('A little coffee, a little cinnamon, and a place to make yourself at home.') %></p>
+    </section>
+    <section class="story section">
+      <div class="story-photo">
+        <img src="/assets/barista-900.webp" width="900" height="1100" alt="The careful craft of making coffee" loading="lazy">
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow"><%- t('A NOTE FROM THE CONCEPT') %></p>
+        <h2><%- t('Life happens.<br><em>Pause here.</em>') %></h2>
+        <p class="lead"><%- t('CreovoCafe is imagined as a warm pause in a busy day.') %></p>
+        <p><%- t('We believe there is something lovely in the ordinary: a shared plate, a familiar greeting, a cup made with care. Our café concept brings coffee and churros together around that feeling.') %></p>
+        <p><%- t('This is a brand story template, ready for your real founding story, people, ingredients, and craft. No founding date, sourcing promise, award, or business history has been invented.') %></p>
+        <a href="<%= langPrefix %>/menu/" class="link"><%- t('Find your little ritual') %> ↗</a>
+      </div>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

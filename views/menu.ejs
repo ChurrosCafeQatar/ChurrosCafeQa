@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('The menu'), metaDescription: 'Discover your next ritual. Browse our illustrative menu selections.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('THE CREOVO MENU') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('THE CREOVO MENU') %></p>
+      <h1><%- t('A little sip.<br>A little <em>sweet.</em>') %></h1>
+      <p><%- t('Discover your next ritual. Browse our illustrative selections, then tap a favorite for a closer look.') %></p>
+    </section>
+    <section class="page-body">
+      <div class="menu-controls">
+        <div class="filters" aria-label="Menu categories">
+          <button class="filter active" data-category="all" aria-pressed="true"><%- t('All favorites') %></button>
+          <button class="filter" data-category="churros" aria-pressed="false"><%- t('Churros & sweet things') %></button>
+          <button class="filter" data-category="coffee" aria-pressed="false"><%- t('Coffee & more') %></button>
+          <button class="filter" data-category="cold" aria-pressed="false"><%- t('Something chilled') %></button>
+        </div>
+        <label>
+          <span class="sr-only"><%- t('Search the menu') %></span>
+          <input id="menu-search" class="search-input" type="search" placeholder="<%= t('Search your next favorite…') %>" aria-label="<%= t('Search the menu') %>">
+        </label>
+      </div>
+      <div class="product-grid" id="products" aria-live="polite">
+        <% products.forEach(p => { %>
+          <button class="product" data-product="<%= p.id %>">
+            <div class="product-photo">
+              <img src="/assets/<%= p.image %>" width="800" height="800" alt="<%= p.alt %>" loading="lazy">
+              <span class="badge"><%= isArabic ? 'قائمة تجريبية' : p.tag %></span>
+            </div>
+            <div class="product-title">
+              <h3><%= isArabic ? p.ar : p.name %></h3>
+              <span class="product-arrow">↗</span>
+            </div>
+            <p><%= isArabic ? p.descriptionAr : p.description %></p>
+          </button>
+        <% }); %>
+      </div>
+      <p class="template-note"><%- t('Sample menu only. Prices, ingredients, allergens, dietary suitability, and branch availability need verification before launch. Product photographs are illustrative.') %></p>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

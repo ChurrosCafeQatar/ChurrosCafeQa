@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('Plan a visit'), metaDescription: 'Plan your visit to CreovoCafe.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('PLAN A VISIT') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('PLAN A VISIT') %></p>
+      <h1><%- t('Make time for<br><em>your people.</em>') %></h1>
+      <p><%- t('Choose a café concept and preview your visit. This template cannot confirm a table.') %></p>
+    </section>
+    <section class="page-body">
+      <button class="button" data-action="reserve"><%- t('Preview a reservation') %> <span>↗</span></button>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

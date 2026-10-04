@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: t('Let’s talk'), metaDescription: 'Get in touch with CreovoCafe.' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="<%= langPrefix %>/"><%- t('Home') %></a><span>/</span><span><%- t('LET’S TALK') %></span>
+      </nav>
+      <p class="eyebrow"><%- t('LET’S TALK') %></p>
+      <h1><%- t('Every good thing starts<br>with <em>hello.</em>') %></h1>
+      <p><%- t('A thought, a question, a little idea. Preview our contact experience below.') %></p>
+    </section>
+    <section class="page-body">
+      <form class="demo-form form-fields" action="/api/contact" method="POST" style="max-width:620px">
+        <label><%- t('Your name') %><input name="name" required autocomplete="name" maxlength="100"></label>
+        <label><%- t('Email address') %><input name="email" required type="email" autocomplete="email" maxlength="200"></label>
+        <label><%- t('Tell us a little more') %><textarea name="message" required maxlength="3000" placeholder="<%= t('What do you have in mind?') %>"></textarea></label>
+        <p class="template-note"><%- t('Template preview only. Information entered here is not sent or stored.') %></p>
+        <button class="button" type="submit"><%- t('Preview your inquiry') %> <span>↗</span></button>
+        <p class="form-status" role="status"></p>
+      </form>
+      <p class="template-note"><%- t('Official email, telephone, social accounts, and WhatsApp details will be added after confirmation.') %></p>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

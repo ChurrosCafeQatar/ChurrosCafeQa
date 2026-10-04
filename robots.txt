@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Staging/template only. Replace after verified production content and domain are configured.

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="<%= isArabic ? 'ar' : 'en' %>" <% if (isArabic) { %>dir="rtl"<% } %>>
+<head>
+  <%- include('partials/head', { pageTitle: isArabic ? 'الصفحة غير موجودة' : 'Page not found', metaDescription: '404 Page Not Found' }) %>
+</head>
+<body <% if (isArabic) { %>class="arabic"<% } %>>
+  <%- include('partials/header') %>
+  <main id="main">
+    <section class="page-heading">
+      <p class="eyebrow">404 · <%= isArabic ? 'الصفحة غير موجودة' : 'PAGE NOT FOUND' %></p>
+      <h1><%- isArabic ? 'هذه الصفحة في<br>استراحة <em>قهوة.</em>' : 'This page is taking<br>a <em>coffee break.</em>' %></h1>
+    </section>
+    <section class="page-body">
+      <a class="button" href="<%= langPrefix %>/"><%= isArabic ? 'العودة للرئيسية ↗' : 'Back to a little golden ↗' %></a>
+    </section>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#A02D21">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Content studio — CreovoCafe</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/theme.css">
+  <script src="/content.js" defer></script>
+  <script src="/admin/admin.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="/">CreovoCafe <small>CONTENT STUDIO</small></a>
+    <a class="link" href="/">Back to the website ↗</a>
+  </header>
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">YOUR LITTLE CONTENT STUDIO</p>
+      <h1>Make it <em>your own.</em></h1>
+      <p>Edit menu and branch drafts, save on this device, and export a content file. This demo editor does not publish to the website or provide a secure production CMS.</p>
+    </section>
+    <section class="page-body">
+      <div class="info-grid">
+        <div class="info-panel">
+          <form id="editor" class="form-fields">
+            <label>Collection<select id="collection"><option value="products">Menu products</option><option value="branches">Branch concepts</option></select></label>
+            <label>Entry<select id="entry"></select></label>
+            <div id="fields" class="form-fields"></div>
+            <button class="button" type="submit">Save draft on this device ↗</button>
+          </form>
+        </div>
+        <div class="info-panel">
+          <p class="eyebrow">DRAFT WORKFLOW</p>
+          <h2>One place for<br>the little details.</h2>
+          <p>Save writes this collection to local browser storage. Export downloads the current draft as JSON. Import restores a previously exported draft. A developer can connect the same content model to an authenticated CMS for approval and publishing.</p>
+          <button class="button" id="export">Export draft JSON ↗</button>
+          <label style="display:block;margin-top:25px">Import a draft<input type="file" id="import" accept="application/json,.json" style="display:block;margin-top:10px"></label>
+          <button class="link" id="clear" style="background:none;border:0;margin-top:25px">Clear saved draft</button>
+          <p id="editor-status" role="status" class="status">Ready to customize.</p>
+          <p>Do not enter secrets or customer information here.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

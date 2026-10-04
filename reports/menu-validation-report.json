@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-29T09:13:40.298Z",
+  "source": "data/menu-source.json",
+  "expectedWorkbook": "menu_churro.xlsx",
+  "productCount": 53,
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "missingImages": 0,
+    "descriptionsMissing": 21
+  },
+  "developmentTodos": [
+    "Place menu_churro.xlsx in the project and run npm run menu:import -- menu_churro.xlsx when the workbook is supplied.",
+    "Add approved delivery partners only after business confirmation.",
+    "Add branch-specific product availability only after business confirmation.",
+    "Do not fill blank descriptions without an updated official menu source."
+  ]
+}
