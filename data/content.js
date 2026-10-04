@@ -11,7 +11,7 @@ const CHURROS_CAFE = {
       ar: 'لوسيل',
       subtitle: 'Churros Cafe Lusail',
       intro: 'Your Lusail stop for freshly made churros, desserts, matcha, and coffee.',
-      locationLabel: 'Lusail, Qatar',
+      locationLabel: 'Lusail Night Market, Lusail, Qatar',
       image: 'locations/lusail.png',
       mapUrl: 'https://maps.app.goo.gl/yxNDxcSqSYJZt1oc6?g_st=iwb',
       mapEmbed: 'https://www.google.com/maps?q=Churros%20Cafe%20Lusail%2C%20Lusail%2C%20Qatar&output=embed',
