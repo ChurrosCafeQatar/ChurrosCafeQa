@@ -49,5 +49,7 @@ test('AEO and GEO references expose verified business data',async({page,request}
  await page.goto('/locations/lusail/');const locationSchemas=(await page.locator('script[type="application/ld+json"]').allTextContents()).map(JSON.parse);const cafe=locationSchemas.find(schema=>schema['@type']==='CafeOrCoffeeShop');expect(cafe.name).toBe('Churros Cafe Lusail');expect(cafe.address.streetAddress).toBe('Lusail Night Market, Lusail, Qatar');
  const sitemap=await request.get('/sitemap.xml');expect(sitemap.status()).toBe(200);const sitemapText=await sitemap.text();expect((sitemapText.match(/<url>/g)||[])).toHaveLength(48);expect(sitemapText).toContain('<loc>https://churroscafeqa.com/menu/</loc>');expect(sitemapText).toContain('hreflang="ar"');expect(sitemapText).not.toContain('localhost');
  const robots=await request.get('/robots.txt');expect(await robots.text()).toContain('Sitemap: https://churroscafeqa.com/sitemap.xml');
+ const favicon=await request.get('/favicon.ico');expect(favicon.status()).toBe(200);expect(favicon.headers()['content-type']).toContain('image/x-icon');await page.goto('/');await expect(page.locator('link[rel="icon"][href="/favicon.ico"]')).toHaveCount(1);
+ const www=await request.get('/',{headers:{host:'www.churroscafeqa.com'},maxRedirects:0});expect(www.status()).toBe(308);expect(www.headers().location).toBe('https://churroscafeqa.com');
 });
 
