@@ -9,7 +9,7 @@ export default function sitemap() {
   return [...staticRoutes, ...categoryRoutes, ...locationRoutes].flatMap(route => {
     const englishUrl = `${SITE_URL}${route || '/'}`;
     const arabicUrl = `${SITE_URL}/ar${route || '/'}`;
-    const alternates = { languages: { en: englishUrl, ar: arabicUrl } };
+    const alternates = { languages: { en: englishUrl, ar: arabicUrl, 'x-default': englishUrl } };
     return [
       { url: englishUrl, alternates, changeFrequency: route.startsWith('/menu') ? 'weekly' : 'monthly', priority: route === '' ? 1 : route === '/menu/' ? 0.9 : 0.7 },
       { url: arabicUrl, alternates, changeFrequency: route.startsWith('/menu') ? 'weekly' : 'monthly', priority: route === '' ? 0.8 : 0.6 }

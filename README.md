@@ -66,4 +66,4 @@ Routes are statically generated during `next build`. Unknown routes use the Next
 
 ## Data boundaries
 
-Menu content comes from the supplied dataset. Blank descriptions remain blank, missing image files are reported, and delivery partners or branch-specific availability are omitted until approved source data is supplied. Forms and reservations remain previews and do not send customer data. Canonical, sitemap, structured-data, and LLM-reference URLs default to `https://churroscafeqa.com`; set `NEXT_PUBLIC_SITE_URL` only when deploying to a different approved production origin.
+Menu content comes from the supplied dataset. Blank descriptions remain blank, missing image files are reported, and delivery partners or branch-specific availability are omitted until approved source data is supplied. Forms and reservations remain previews and do not send customer data. Canonical, sitemap, structured-data, and LLM-reference URLs default to `https://www.churroscafeqa.com`; set `NEXT_PUBLIC_SITE_URL` only when deploying to a different approved production origin.

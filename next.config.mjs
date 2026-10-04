@@ -6,8 +6,8 @@ const nextConfig = {
     return [
       {
         source: '/:path*',
-        has: [{ type: 'host', value: 'www.churroscafeqa.com' }],
-        destination: 'https://churroscafeqa.com/:path*',
+        has: [{ type: 'host', value: 'churroscafeqa.com' }],
+        destination: 'https://www.churroscafeqa.com/:path*',
         permanent: true,
       },
     ];
