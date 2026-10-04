@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { CHURROS_CAFE, translations } from '../data/content';
 import { MENU_CATEGORIES, categoryBySlug, formatPrice, getMenuSearchText, menuByCategory } from '../data/menu';
+import { absoluteUrl } from '../data/site';
 import { ArrowIcon, BurstIcon, CloseIcon, DownIcon, MenuIcon, SparkIcon } from './icons';
 
 const filters = [
@@ -361,15 +362,18 @@ function HomePage({ lang, t, openProduct }) {
 }
 
 function MenuPage({ lang, t, openProduct }) {
-  return <main id="main"><MenuStructuredData /><PageHeading lang={lang} t={t} kicker="THE CHURROS CAFE MENU" title="Churros Cafe<br><em>Menu.</em>" description="See every current product and price, then filter by the category you are craving." /><section className="page-body"><ProductGrid lang={lang} t={t} openProduct={openProduct} full filtersVisible /><p className="template-note">{t('Prices are shown in QAR. Descriptions and options appear only where they exist in the supplied menu.')}</p></section></main>;
+  return <main id="main"><MenuStructuredData lang={lang} /><PageHeading lang={lang} t={t} kicker="THE CHURROS CAFE MENU" title="Churros Cafe<br><em>Menu.</em>" description="See every current product and price, then filter by the category you are craving." /><section className="page-body"><ProductGrid lang={lang} t={t} openProduct={openProduct} full filtersVisible /><p className="template-note">{t('Prices are shown in QAR. Descriptions and options appear only where they exist in the supplied menu.')}</p></section></main>;
 }
 
-function MenuStructuredData({ categorySlug = '' }) {
+function MenuStructuredData({ categorySlug = '', lang = 'en' }) {
   const categories = categorySlug ? MENU_CATEGORIES.filter(category => category.slug === categorySlug) : MENU_CATEGORIES;
+  const menuPath = prefix(lang, categorySlug ? `/menu/${categorySlug}/` : '/menu/');
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Menu',
     name: categorySlug ? `Churros Cafe ${categoryBySlug[categorySlug]?.label} Menu` : 'Churros Cafe Menu',
+    url: absoluteUrl(menuPath),
+    inLanguage: lang,
     hasMenuSection: categories.map(category => ({
       '@type': 'MenuSection',
       name: category.label,
@@ -377,7 +381,7 @@ function MenuStructuredData({ categorySlug = '' }) {
         '@type': 'MenuItem',
         name: item.displayName,
         ...(item.description ? { description: item.description } : {}),
-        ...(item.imageExists && item.image ? { image: `/assets/${item.image}` } : {}),
+        ...(item.imageExists && item.image ? { image: absoluteUrl(`/assets/${item.image}`) } : {}),
         ...(item.price ? { offers: item.price.type === 'fixed'
           ? { '@type': 'Offer', price: item.price.amount, priceCurrency: item.price.currency }
           : { '@type': 'AggregateOffer', lowPrice: item.price.min, highPrice: item.price.max, priceCurrency: item.price.currency }
@@ -396,7 +400,7 @@ function MenuCategoryPage({ lang, t, openProduct, categorySlug }) {
   if (!category) return null;
   const related = MENU_CATEGORIES.filter(item => item.slug !== category.slug).slice(0, 4);
   return <main id="main">
-    <MenuStructuredData categorySlug={categorySlug} />
+    <MenuStructuredData categorySlug={categorySlug} lang={lang} />
     <PageHeading lang={lang} t={t} kicker="CHURROS CAFE MENU" title={`${category.label}<br><em>at Churros Cafe.</em>`} description={category.intro} parent={{ href: '/menu/', label: 'Full menu' }} />
     <section className="page-body category-landing">
       <ProductGrid lang={lang} t={t} openProduct={openProduct} full fixedCategory={categorySlug} />

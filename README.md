@@ -37,11 +37,13 @@ When an updated workbook is supplied, run `menu:import` and then `menu:validate`
 
 - `app/layout.jsx` — root metadata, viewport, global CSS, and local font stylesheet.
 - `app/[[...slug]]/page.jsx` — statically generated English/Arabic route resolver and page metadata.
+- `app/llms.txt/route.js` and `app/llms-full.txt/route.js` — source-backed AEO/GEO discovery documents for language models and answer engines.
 - `app/admin/page.jsx` — local content-studio route.
 - `components/cafe-site.jsx` — shared site shell and interactive page components.
 - `components/content-studio.jsx` — React-based local draft editor with JSON import/export.
 - `data/menu-source.json` — exact menu source snapshot.
 - `data/menu.js` — normalized menu model shared by UI, SEO pages, search, schema, and analytics.
+- `data/site.js` and `data/llms.js` — canonical-domain helpers and generated machine-readable business references.
 - `scripts/import-menu.mjs` — Excel-to-source import pipeline.
 - `scripts/validate-menu.mjs` — build-time menu and image validation.
 - `data/content.js` — branch and Arabic translation content, with products imported from the menu model.
@@ -64,4 +66,4 @@ Routes are statically generated during `next build`. Unknown routes use the Next
 
 ## Data boundaries
 
-Menu content comes from the supplied dataset. Blank descriptions remain blank, missing image files are reported, and delivery partners or branch-specific availability are omitted until approved source data is supplied. Forms and reservations remain previews and do not send customer data. Set `NEXT_PUBLIC_SITE_URL` to the approved production origin before deployment so robots and sitemap URLs use the live domain.
+Menu content comes from the supplied dataset. Blank descriptions remain blank, missing image files are reported, and delivery partners or branch-specific availability are omitted until approved source data is supplied. Forms and reservations remain previews and do not send customer data. Canonical, sitemap, structured-data, and LLM-reference URLs default to `https://churroscafeqa.com`; set `NEXT_PUBLIC_SITE_URL` only when deploying to a different approved production origin.

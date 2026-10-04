@@ -1,14 +1,20 @@
 import '../styles.css';
 import '../theme.css';
+import { SITE_URL } from '../data/site';
 
 export const metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'Churros Cafe — Desserts & Coffee',
     template: '%s — Churros Cafe',
   },
   description: 'Fresh churros, desserts, matcha, milkshakes, and coffee from Churros Cafe in Qatar.',
   robots: { index: true, follow: true },
+  openGraph: {
+    siteName: 'Churros Cafe',
+    type: 'website',
+    images: [{ url: '/assets/campaign-dessert-spread.png', width: 2048, height: 2048, alt: 'Churros Cafe desserts with chocolate, pistachio, strawberries, and banana' }],
+  },
   icons: {
     icon: [
       { url: '/assets/churros-favicon-32.png', sizes: '32x32', type: 'image/png' },
