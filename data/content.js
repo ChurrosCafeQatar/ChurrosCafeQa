@@ -2,7 +2,6 @@ import { menuItems } from './menu';
 
 const CHURROS_CAFE = {
   brand: 'Churros Cafe',
-  template: true,
   products: menuItems,
   branches: [
     {
@@ -69,6 +68,12 @@ const CHURROS_CAFE = {
 };
 
 const translations = {
+  'CHURROS CAFE · QATAR': 'تشوروز كافيه · قطر',
+  'Churros Cafe · Qatar': 'تشوروز كافيه · قطر',
+  'The Churros Cafe website provides information about our menu and branches. It does not currently collect personal information through contact, reservation, or newsletter forms.': 'يوفر موقع تشوروز كافيه معلومات عن قائمتنا وفروعنا. ولا يجمع حالياً معلومات شخصية من خلال نماذج التواصل أو الحجز أو النشرات البريدية.',
+  'No analytics or advertising cookies are currently set by this website. Fonts and images are hosted locally.': 'لا يستخدم هذا الموقع حالياً ملفات تعريف ارتباط للتحليلات أو الإعلانات. وتتم استضافة الخطوط والصور محلياً.',
+  'Branch pages include embedded Google Maps. Opening those pages may allow Google to receive technical connection information according to Google’s own privacy terms.': 'تتضمن صفحات الفروع خرائط Google مضمّنة. وقد يتيح فتح هذه الصفحات لـ Google تلقي معلومات اتصال تقنية وفقاً لشروط الخصوصية الخاصة بها.',
+  'This policy will be updated if the website introduces analytics, forms, online ordering, or other services that collect personal information.': 'سيتم تحديث هذه السياسة إذا أضاف الموقع التحليلات أو النماذج أو الطلب عبر الإنترنت أو خدمات أخرى تجمع معلومات شخصية.',
   'Fonts and images are hosted locally. Branch detail pages load an embedded Google Map, which may send connection data to Google when the page is opened.': 'الخطوط والصور مستضافة محلياً. تحمّل صفحات الفروع خريطة Google مضمنة، وقد ترسل بيانات الاتصال إلى Google عند فتح الصفحة.',
   'Churros Cafe — Your daily dose of golden.': 'تشوروز كافيه — لحظتك الذهبية كل يوم',
   'A little coffee. A little cinnamon. A lot to love.': 'قليل من القهوة. قليل من القرفة. والكثير مما نحب.',

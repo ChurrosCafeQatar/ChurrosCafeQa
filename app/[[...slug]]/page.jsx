@@ -24,14 +24,14 @@ function resolveRoute(rawSlug = []) {
 }
 
 const metadataMap = {
-  home: ['Churros Cafe — Desserts & Coffee', 'Fresh churros, desserts, matcha, milkshakes, and coffee from Churros Cafe in Qatar.'],
-  menu: ['Churros Cafe Menu', 'Browse all current Churros Cafe products, categories and QAR prices from the supplied menu.'],
-  locations: ['Find your café', 'Find Churros Cafe branches in Lusail, Abu Hamour, Duhail, Downtown, and Mall of Qatar.'],
-  about: ['Our story', 'Learn more about the Churros Cafe story.'],
+  home: ['Churros Cafe Qatar | Churros, Desserts & Coffee', 'Visit Churros Cafe in Qatar for fresh Spanish churros, desserts, waffles, crepes, matcha, milkshakes, and hot or iced coffee.'],
+  menu: ['Menu: Churros, Desserts & Coffee', 'Explore the current Churros Cafe menu with product photography, descriptions, categories, and prices in QAR.'],
+  locations: ['Locations in Qatar', 'Find Churros Cafe branches in Lusail, Abu Hamour, Duhail, Downtown, and Mall of Qatar.'],
+  about: ['About Us', 'Discover the story and everyday café experience behind Churros Cafe in Qatar.'],
   reservations: ['Plan a visit', 'Plan your visit to Churros Cafe.'],
-  offers: ['Winter menu moments', 'Warm churros, comforting coffee, and sweet winter pairings at Churros Cafe.'],
-  stories: ['The Churros Cafe journal', 'Explore the debated origins of churros and the desserts that share the Churros Cafe table.'],
-  privacy: ['Privacy & cookies', 'Template privacy notice.'],
+  offers: ['Winter Menu', 'Warm churros, comforting coffee, and sweet winter pairings at Churros Cafe in Qatar.'],
+  stories: ['Churros Stories & Origins', 'Explore the debated origins of churros and the desserts that share the Churros Cafe table.'],
+  privacy: ['Privacy Policy', 'Learn how the Churros Cafe website handles browsing data, embedded maps, and cookies.'],
 };
 
 export function generateStaticParams() {
@@ -51,23 +51,39 @@ export async function generateMetadata({ params }) {
       ? [`${category.label} Menu`, category.intro]
       : metadataMap[route.page];
   const title = route.lang === 'ar' ? translations[baseTitle] || baseTitle : baseTitle;
+  const fullTitle = route.page === 'home'
+    ? title
+    : `${title} | ${route.lang === 'ar' ? 'تشوروز كافيه قطر' : 'Churros Cafe Qatar'}`;
   const englishPath = route.currentPath ? `/${route.currentPath}` : '/';
   const arabicPath = `/ar${englishPath}`;
   const canonicalPath = route.lang === 'ar' ? arabicPath : englishPath;
   return {
-    title: route.page === 'home' ? { absolute: title } : title,
+    title: { absolute: fullTitle },
     description,
     alternates: {
       canonical: canonicalPath,
       languages: { en: englishPath, ar: arabicPath, 'x-default': englishPath },
     },
     openGraph: {
-      title,
+      title: fullTitle,
       description,
+      siteName: 'Churros Cafe',
       type: 'website',
       url: canonicalPath,
       locale: route.lang === 'ar' ? 'ar_QA' : 'en_QA',
       alternateLocale: route.lang === 'ar' ? ['en_QA'] : ['ar_QA'],
+      images: [{
+        url: '/assets/campaign-dessert-spread.png',
+        width: 2048,
+        height: 2048,
+        alt: 'Churros Cafe desserts with chocolate, pistachio, strawberries, and banana',
+      }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: fullTitle,
+      description,
+      images: ['/assets/campaign-dessert-spread.png'],
     },
   };
 }
@@ -83,8 +99,16 @@ function PageStructuredData({ route }) {
           '@type': 'Organization',
           '@id': `${SITE_URL}/#organization`,
           name: 'Churros Cafe',
+          alternateName: ['Churros Cafe Qatar', 'churroscafeqa.com'],
           url: absoluteUrl('/'),
-          logo: { '@type': 'ImageObject', url: absoluteUrl('/assets/churros_logo.webp') },
+          description: 'Churros Cafe serves Spanish churros, desserts, matcha, milkshakes, and coffee across five branches in Qatar.',
+          logo: {
+            '@type': 'ImageObject',
+            url: absoluteUrl('/assets/churros-icon-512.png'),
+            contentUrl: absoluteUrl('/assets/churros-icon-512.png'),
+            width: 512,
+            height: 512,
+          },
           image: absoluteUrl('/assets/campaign-dessert-spread.png'),
           areaServed: { '@type': 'Country', name: 'Qatar' },
           hasMenu: absoluteUrl('/menu/'),
@@ -93,6 +117,7 @@ function PageStructuredData({ route }) {
           '@type': 'WebSite',
           '@id': `${SITE_URL}/#website`,
           name: 'Churros Cafe',
+          alternateName: ['Churros Cafe Qatar', 'churroscafeqa.com'],
           url: absoluteUrl('/'),
           inLanguage: ['en', 'ar'],
           publisher: { '@id': `${SITE_URL}/#organization` },

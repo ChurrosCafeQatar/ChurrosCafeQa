@@ -4,16 +4,37 @@ import { SITE_URL } from '../data/site';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
+  applicationName: 'Churros Cafe',
   title: {
-    default: 'Churros Cafe — Desserts & Coffee',
-    template: '%s — Churros Cafe',
+    default: 'Churros Cafe Qatar | Churros, Desserts & Coffee',
+    template: '%s | Churros Cafe Qatar',
   },
-  description: 'Fresh churros, desserts, matcha, milkshakes, and coffee from Churros Cafe in Qatar.',
-  robots: { index: true, follow: true },
+  description: 'Visit Churros Cafe in Qatar for fresh Spanish churros, desserts, waffles, crepes, matcha, milkshakes, and hot or iced coffee.',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
   openGraph: {
+    title: 'Churros Cafe Qatar | Churros, Desserts & Coffee',
+    description: 'Fresh Spanish churros, desserts, matcha, milkshakes, and coffee at five Churros Cafe branches across Qatar.',
     siteName: 'Churros Cafe',
     type: 'website',
+    locale: 'en_QA',
+    url: '/',
     images: [{ url: '/assets/campaign-dessert-spread.png', width: 2048, height: 2048, alt: 'Churros Cafe desserts with chocolate, pistachio, strawberries, and banana' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Churros Cafe Qatar | Churros, Desserts & Coffee',
+    description: 'Fresh Spanish churros, desserts, matcha, milkshakes, and coffee at five Churros Cafe branches across Qatar.',
+    images: ['/assets/campaign-dessert-spread.png'],
   },
   icons: {
     icon: [
