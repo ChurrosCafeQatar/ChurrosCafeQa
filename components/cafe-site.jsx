@@ -2,6 +2,9 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
+import SiteImage from './site-image';
+import { categoryCopy, relatedCategories } from '../data/seo';
+import { analyticsEnabled, track } from '../data/analytics';
 import { CHURROS_CAFE, translations } from '../data/content';
 import { MENU_CATEGORIES, categoryBySlug, formatPrice, getMenuSearchText, menuByCategory } from '../data/menu';
 import { absoluteUrl } from '../data/site';
@@ -14,13 +17,6 @@ const filters = [
 
 const categoryFilters = filters.filter(filter => filter.value !== 'all');
 
-function track(event, details = {}) {
-  if (typeof window === 'undefined') return;
-  const payload = { event, ...details };
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push(payload);
-  window.dispatchEvent(new CustomEvent('churros:analytics', { detail: payload }));
-}
 
 function Rich({ as: Tag = 'span', children, ...props }) {
   return <Tag {...props} dangerouslySetInnerHTML={{ __html: children }} />;
@@ -46,7 +42,7 @@ function Header({ lang, t, currentPath }) {
       </div>
       <header className="header">
         <Link href={prefix(lang)} className="logo brand-logo" aria-label="Churros Cafe home">
-          <img className="brand-logo-image" src="/assets/churros_logo.webp" alt="Churros Cafe" width="181" height="130" />
+          <SiteImage className="brand-logo-image" src="/assets/churros_logo.webp" alt="Churros Cafe" width="181" height="130" />
         </Link>
         <nav id="nav" className={open ? 'open' : ''} aria-label={t('Main navigation')}>
           <Link href={prefix(lang, '/menu/')}>{t('The menu')}</Link>
@@ -77,7 +73,7 @@ function Footer({ lang, t }) {
       <footer>
         <div className="footer-main">
           <div>
-            <Link className="footer-logo brand-footer-logo" href={prefix(lang)} aria-label="Churros Cafe home"><img className="brand-logo-image" src="/assets/churros_logo.webp" alt="Churros Cafe" width="181" height="130" /></Link>
+            <Link className="footer-logo brand-footer-logo" href={prefix(lang)} aria-label="Churros Cafe home"><SiteImage className="brand-logo-image" src="/assets/churros_logo.webp" alt="Churros Cafe" width="181" height="130" /></Link>
             <p>{t('Your daily dose of golden.')}</p>
             <span className="footer-tag">{t('COFFEE. CHURROS. CONNECTION.')}</span>
           </div>
@@ -102,6 +98,7 @@ function Footer({ lang, t }) {
           <span>© {new Date().getFullYear()} {t('Churros Cafe · Qatar')}</span>
           <span>{t('CONCEIVED WITH WARMTH. SERVED WITH JOY.')}</span>
           <Link href={prefix(lang, '/privacy/')}>{t('Privacy & cookies')}</Link>
+          {analyticsEnabled && <button onClick={() => window.dispatchEvent(new Event('churros:privacy-settings'))}>{lang === 'ar' ? 'إعدادات الخصوصية' : 'Privacy settings'}</button>}
         </div>
       </footer>
       <div className="mobile-bar">
@@ -147,7 +144,7 @@ function SiteDialog({ modal, setModal, lang, t }) {
       <button className="close-dialog" aria-label={t('Close dialog')} onClick={close}><CloseIcon /></button>
       {product && (
         <div>
-          {product.imageExists !== false && product.image ? <img src={`/assets/${product.image}`} alt={product.imageAlt} /> : <div className="product-image-placeholder">{t('Image unavailable')}</div>}
+          {product.imageExists !== false && product.image ? <SiteImage src={`/assets/${product.image}`} alt={product.imageAlt} /> : <div className="product-image-placeholder">{t('Image unavailable')}</div>}
           <p className="eyebrow">{categoryBySlug[product.displayCategory]?.label}</p>
           <h2>{lang === 'ar' ? product.ar : product.displayName}</h2>
           {product.description && <p>{product.description}</p>}
@@ -173,7 +170,7 @@ function ProductCard({ product, lang, openProduct }) {
       <button className="product-open" onClick={() => { track('product_view', { product: product.displayName, category: categoryBySlug[product.displayCategory]?.label, price: product.price?.amount ?? product.price?.min, currency: product.price?.currency, source: 'menu' }); openProduct(product.id); }} aria-label={`View ${displayName}`}>
       <div className="product-photo" onPointerEnter={() => track('product_image_interaction', { product: product.displayName, category: categoryBySlug[product.displayCategory]?.label })}>
         {product.imageExists !== false && product.image
-          ? <img src={`/assets/${product.image}`} width="800" height="800" alt={product.imageAlt} loading="lazy" decoding="async" />
+          ? <SiteImage src={`/assets/${product.image}`} width="800" height="800" alt={product.imageAlt} loading="lazy" decoding="async" />
           : <div className="product-image-placeholder">Image unavailable</div>}
         {product.featured && <span className="badge">Featured</span>}
         {product.bestseller && <span className="badge">Popular</span>}
@@ -224,7 +221,7 @@ function ProductGrid({ lang, t, openProduct, full = false, filtersVisible = fals
       const controls = document.querySelector('.menu-controls');
       if (!section || !controls) return;
       const top = section.getBoundingClientRect().top + window.scrollY - controls.offsetHeight - 16;
-      window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+      window.scrollTo({ top: Math.max(0, top), behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     });
     return () => cancelAnimationFrame(frame);
   }, [category, full]);
@@ -253,14 +250,14 @@ function ProductGrid({ lang, t, openProduct, full = false, filtersVisible = fals
           <div className="filters" aria-label={full ? 'Menu categories' : 'Filter signature menu'}>
             {filters.map(filter => (
               <button key={filter.value} className={`filter ${category === filter.value ? 'active' : ''}`} aria-pressed={category === filter.value} onClick={() => selectCategory(filter.value)}>
-                <span className="filter-image">{filter.value === 'all' ? <img src="/assets/menu/Classic Churros.webp" alt="" aria-hidden="true" /> : <img src={`/assets/${filterImage(filter)}`} alt="" aria-hidden="true" />}</span>
+                <span className="filter-image">{filter.value === 'all' ? <SiteImage src="/assets/menu/Classic Churros.webp" alt="" aria-hidden="true" /> : <SiteImage src={`/assets/${filterImage(filter)}`} alt="" aria-hidden="true" />}</span>
                 <span>{t(filter.label)}</span>
               </button>
             ))}
           </div>
           {full ? (
             <label><span className="sr-only">{t('Search the menu')}</span><input id="menu-search" className="search-input" type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder={t('Search your next favorite…')} aria-label={t('Search the menu')} /></label>
-          ) : <span className="small-note">{t('A TASTE OF THE SAMPLE MENU')}</span>}
+          ) : <span className="small-note">{lang === 'ar' ? 'من قائمتنا' : 'FROM OUR MENU'}</span>}
         </div>
       )}
       {full ? (
@@ -300,9 +297,9 @@ function BranchExplorer({ lang, t }) {
         ))}
       </div>
       <div className="branch-preview" id="branch-preview">
-        <img src={`/assets/${active.image}`} width="900" height="600" loading="lazy" alt={`${active.name} Churros Cafe branch`} />
+        <SiteImage src={`/assets/${active.image}`} width="900" height="600" loading="lazy" alt={`${active.name} Churros Cafe branch`} />
         <div className="branch-overlay">
-          <div><p>{t('BRANCH CONCEPT')} {active.number}</p><h3>{lang === 'ar' ? active.ar : active.name}</h3></div>
+          <div><p>{t('BRANCH')} {active.number}</p><h3>{lang === 'ar' ? active.ar : active.name}</h3></div>
           <Link href={prefix(lang, `/locations/${active.id}/`)}>{t('Explore the space')} <ArrowIcon /></Link>
         </div>
       </div>
@@ -311,8 +308,13 @@ function BranchExplorer({ lang, t }) {
 }
 
 function PageHeading({ lang, t, kicker, title, description, parent }) {
+  const crumbs = [{ name: t('Home'), item: absoluteUrl(prefix(lang)) }];
+  if (parent) crumbs.push({ name: t(parent.label), item: absoluteUrl(prefix(lang, parent.href)) });
+  crumbs.push({ name: t(kicker) });
+  const breadcrumbSchema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((crumb, index) => ({ '@type': 'ListItem', position: index + 1, ...crumb })) };
   return (
     <section className="page-heading">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') }} />
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <Link href={prefix(lang)}>{t('Home')}</Link><span>/</span>
         {parent && <><Link href={prefix(lang, parent.href)}>{t(parent.label)}</Link><span>/</span></>}
@@ -338,7 +340,7 @@ function HomePage({ lang, t, openProduct }) {
           <div className="hero-foot"><span>{t('COFFEE & CHURROS, BEAUTIFULLY TOGETHER.')}</span><a href="#favorites" aria-label="Discover our favorites"><DownIcon /></a></div>
         </div>
         <div className="hero-photo">
-          <img src="/assets/campaign-dessert-spread.png" width="2048" height="2048" fetchPriority="high" alt="Churros Cafe dessert trays topped with chocolate, pistachio, strawberries, and banana" />
+          <SiteImage src="/assets/campaign-dessert-spread.png" width="2048" height="2048" fetchPriority="high" alt="Churros Cafe dessert trays topped with chocolate, pistachio, strawberries, and banana" />
           <div className="photo-caption"><span>{t('A MATCH MADE FOR CHURROS.')}</span><span>{t('01 / THE EVERYDAY RITUAL')}</span></div>
           <div className="round-seal" aria-hidden="true"><span>{t('A LITTLE SIP')}</span><b><SparkIcon /></b><span>{t('A LITTLE JOY')}</span></div>
         </div>
@@ -350,12 +352,12 @@ function HomePage({ lang, t, openProduct }) {
         <div className="menu-bottom"><span>{t('Something sweet. Something bold. Always a good idea.')}</span><span>{t('53 menu selections · prices in QAR')}</span></div>
       </section>
       <section className="story section" id="story">
-        <div className="story-photo"><img src="/assets/campaign-churros-moment.png" width="2048" height="2048" alt="A customer enjoying a fresh loop churro with dipping sauces" loading="lazy" /><span className="vertical-caption">{t('GOOD THINGS TAKE A LITTLE CARE.')}</span></div>
+        <div className="story-photo"><SiteImage src="/assets/campaign-churros-moment.png" width="2048" height="2048" alt="A customer enjoying a fresh loop churro with dipping sauces" loading="lazy" /><span className="vertical-caption">{t('GOOD THINGS TAKE A LITTLE CARE.')}</span></div>
         <div className="story-copy"><p className="eyebrow">{t('HELLO, WE’RE CHURROS CAFE')}</p><Rich as="h2">{t('For the moments<br>in <em>between.</em>')}</Rich><p className="lead">{t('Between the rush and the routine, there’s a little room for something lovely.')}</p><p>{t('A warm cup held in both hands. The first bite of a golden churro. A conversation that lasts longer than you planned. That’s the feeling behind Churros Cafe.')}</p><p>{t('We’re a café concept built around a simple idea: the little things can make the whole day.')}</p><Link className="link" href={prefix(lang, '/about/')}>{t('A little more about us')} <ArrowIcon /></Link><div className="story-signature">{t('Stay a little. Smile a lot.')} <span><SparkIcon /></span></div></div>
       </section>
-      <section className="moment"><img src="/assets/campaign-seaside-churros.png" width="2048" height="2048" alt="Chocolate being poured over fresh churros in a Churros Cafe box by the sea" loading="lazy" /><div><p className="eyebrow">{t('LESS RUSH. MORE RITUAL.')}</p><Rich as="h2">{t('Some things are better<br><em>enjoyed slowly.</em>')}</Rich><Link href={prefix(lang, '/locations/')} className="button light">{t('Find your little escape')} <ArrowIcon /></Link></div></section>
+      <section className="moment"><SiteImage src="/assets/campaign-seaside-churros.png" width="2048" height="2048" alt="Chocolate being poured over fresh churros in a Churros Cafe box by the sea" loading="lazy" /><div><p className="eyebrow">{t('LESS RUSH. MORE RITUAL.')}</p><Rich as="h2">{t('Some things are better<br><em>enjoyed slowly.</em>')}</Rich><Link href={prefix(lang, '/locations/')} className="button light">{t('Find your little escape')} <ArrowIcon /></Link></div></section>
       <section className="section locations" id="locations"><div className="section-top"><div><p className="eyebrow">{t('SAME WARM WELCOME. A NEW LITTLE CORNER.')}</p><Rich as="h2">{t('Find your <em>Churros Cafe.</em>')}</Rich></div><Rich as="p">{t('Five branches across Qatar.<br>One unmistakable taste.')}</Rich></div><BranchExplorer lang={lang} t={t} /></section>
-      <section className="gather section"><div><p className="eyebrow">{t('GOOD COMPANY, GREAT TASTE')}</p><Rich as="h2">{t('A table full of<br><em>golden favorites.</em>')}</Rich><Rich as="p">{t('Classic churros, little loops, waffles, pancakes, and coffee made for sharing.<br>Find the combination that makes your moment sweeter.')}</Rich><Link className="button" href={prefix(lang, '/menu/')}>{t('Explore the full menu')} <ArrowIcon /></Link></div><div className="gather-image"><img src="/assets/campaign-coffee-treats.png" width="2048" height="2048" loading="lazy" alt="Churros Cafe latte and wrapped treats on a warm peach background" /><span>{t('BETTER TOGETHER. ALWAYS.')}</span></div></section>
+      <section className="gather section"><div><p className="eyebrow">{t('GOOD COMPANY, GREAT TASTE')}</p><Rich as="h2">{t('A table full of<br><em>golden favorites.</em>')}</Rich><Rich as="p">{t('Classic churros, little loops, waffles, pancakes, and coffee made for sharing.<br>Find the combination that makes your moment sweeter.')}</Rich><Link className="button" href={prefix(lang, '/menu/')}>{t('Explore the full menu')} <ArrowIcon /></Link></div><div className="gather-image"><SiteImage src="/assets/campaign-coffee-treats.png" width="2048" height="2048" loading="lazy" alt="Churros Cafe latte and wrapped treats on a warm peach background" /><span>{t('BETTER TOGETHER. ALWAYS.')}</span></div></section>
       <section className="newsletter section"><div className="newsletter-star" aria-hidden="true"><SparkIcon /></div><div><p className="eyebrow">{t('FIND YOUR NEXT FAVORITE')}</p><Rich as="h2">{t('Fifty-three reasons<br><em>to treat yourself.</em>')}</Rich><p>{t('From warm churros and Belgian waffles to matcha, milkshakes, and coffee—there is always something worth coming back for.')}</p></div><Link className="button" href={prefix(lang, '/menu/')}>{t('See every menu item')} <ArrowIcon /></Link></section>
     </main>
   );
@@ -398,10 +400,10 @@ function MenuCategoryPage({ lang, t, openProduct, categorySlug }) {
     if (category) track('menu_category_view', { category: category.label });
   }, [categorySlug]);
   if (!category) return null;
-  const related = MENU_CATEGORIES.filter(item => item.slug !== category.slug).slice(0, 4);
+  const related = relatedCategories[category.slug].map(slug => categoryBySlug[slug]);
   return <main id="main">
     <MenuStructuredData categorySlug={categorySlug} lang={lang} />
-    <PageHeading lang={lang} t={t} kicker="CHURROS CAFE MENU" title={`${category.label}<br><em>at Churros Cafe.</em>`} description={category.intro} parent={{ href: '/menu/', label: 'Full menu' }} />
+    <PageHeading lang={lang} t={t} kicker={lang === 'ar' ? categoryCopy[categorySlug][1] : category.label} title={lang === 'ar' ? `${categoryCopy[categorySlug][1]}<br><em>في تشوروز كافيه</em>` : `${category.label}<br><em>at Churros Cafe.</em>`} description={categoryCopy[categorySlug][lang === 'ar' ? 2 : 0]} parent={{ href: '/menu/', label: 'Full menu' }} />
     <section className="page-body category-landing">
       <ProductGrid lang={lang} t={t} openProduct={openProduct} full fixedCategory={categorySlug} />
       <div className="category-conversion">
@@ -428,11 +430,11 @@ function LocationPage({ lang, t, branchId, openProduct }) {
   if (!branch) return null;
   const displayName = lang === 'ar' ? branch.ar : branch.name;
   const title = `${displayName}<br><em>Churros Cafe.</em>`;
-  return <main id="main"><PageHeading lang={lang} t={t} kicker={`${t('BRANCH')} ${branch.number}`} title={title} description={branch.intro} parent={{ href: '/locations/', label: 'Find your café' }} /><section className="page-body"><img className="location-cover" src={`/assets/${branch.image}`} width="1600" height="900" alt={`${branch.name} Churros Cafe branch`} /><div className="info-grid location-detail-grid"><article className="info-panel location-address"><p className="eyebrow">{t('VISIT THIS BRANCH')}</p><h2>{displayName}</h2><p>{t(branch.intro)}</p><p><strong>{t('Location')}</strong><br />{branch.locationLabel}</p><a className="button" href={branch.mapUrl} target="_blank" rel="noreferrer">{t('Get directions')} <ArrowIcon /></a></article><div className="map-preview"><iframe title={`${branch.name} map`} src={branch.mapEmbed} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen /></div></div><div className="section-top" style={{ marginTop: 55 }}><div><p className="eyebrow">{t('SOMETHING LOVELY AWAITS')}</p><Rich as="h2">{t('Pick your <em>moment.</em>')}</Rich></div><Link href={prefix(lang, '/menu/')} className="link">{t('Explore the full menu')} <ArrowIcon /></Link></div><ProductGrid lang={lang} t={t} openProduct={openProduct} /><div className="info-panel" style={{ marginTop: 30 }}><h3>{t('Discover another branch.')}</h3>{CHURROS_CAFE.branches.filter(item => item.id !== branch.id).map(item => <Link key={item.id} className="link" style={{ marginInlineEnd: 25 }} href={prefix(lang, `/locations/${item.id}/`)}>{lang === 'ar' ? item.ar : item.name} <ArrowIcon /></Link>)}</div></section></main>;
+  return <main id="main"><PageHeading lang={lang} t={t} kicker={`${t('BRANCH')} ${branch.number}`} title={title} description={branch.intro} parent={{ href: '/locations/', label: 'Find your café' }} /><section className="page-body"><SiteImage className="location-cover" src={`/assets/${branch.image}`} width="1600" height="900" alt={`${branch.name} Churros Cafe branch`} /><div className="info-grid location-detail-grid"><article className="info-panel location-address"><p className="eyebrow">{t('VISIT THIS BRANCH')}</p><h2>{displayName}</h2><p>{t(branch.intro)}</p><p><strong>{t('Location')}</strong><br />{branch.locationLabel}</p><a className="button" href={branch.mapUrl} target="_blank" rel="noreferrer">{t('Get directions')} <ArrowIcon /></a></article><div className="map-preview"><iframe title={`${branch.name} map`} src={branch.mapEmbed} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen /></div></div><div className="section-top" style={{ marginTop: 55 }}><div><p className="eyebrow">{t('SOMETHING LOVELY AWAITS')}</p><Rich as="h2">{t('Pick your <em>moment.</em>')}</Rich></div><Link href={prefix(lang, '/menu/')} className="link">{t('Explore the full menu')} <ArrowIcon /></Link></div><ProductGrid lang={lang} t={t} openProduct={openProduct} /><div className="info-panel" style={{ marginTop: 30 }}><h3>{t('Discover another branch.')}</h3>{CHURROS_CAFE.branches.filter(item => item.id !== branch.id).map(item => <Link key={item.id} className="link" style={{ marginInlineEnd: 25 }} href={prefix(lang, `/locations/${item.id}/`)}>{lang === 'ar' ? item.ar : item.name} <ArrowIcon /></Link>)}</div></section></main>;
 }
 
 function StandardPage({ page, lang, t }) {
-  if (page === 'about') return <main id="main"><PageHeading lang={lang} t={t} kicker="THE CHURROS CAFE STORY" title="Small rituals.<br><em>Lasting feelings.</em>" description="A little coffee, a little cinnamon, and a place to make yourself at home." /><section className="story section"><div className="story-photo"><img src="/assets/campaign-coffee-splash.png" width="2048" height="2048" alt="Churros Cafe iced specialty coffee surrounded by a dramatic coffee splash and ice" loading="lazy" /></div><div className="story-copy"><p className="eyebrow">{t('A NOTE FROM THE CONCEPT')}</p><Rich as="h2">{t('Life happens.<br><em>Pause here.</em>')}</Rich><p className="lead">{t('Churros Cafe is a warm pause in a busy day.')}</p><p>{t('We believe there is something lovely in the ordinary: a shared plate, a familiar greeting, a cup made with care. Our café brings coffee and churros together around that feeling.')}</p><Link href={prefix(lang, '/menu/')} className="link">{t('Find your little ritual')} <ArrowIcon /></Link></div></section></main>;
+  if (page === 'about') return <main id="main"><PageHeading lang={lang} t={t} kicker="THE CHURROS CAFE STORY" title="Small rituals.<br><em>Lasting feelings.</em>" description="A little coffee, a little cinnamon, and a place to make yourself at home." /><section className="story section"><div className="story-photo"><SiteImage src="/assets/campaign-coffee-splash.png" width="2048" height="2048" alt="Churros Cafe iced specialty coffee surrounded by a dramatic coffee splash and ice" loading="lazy" /></div><div className="story-copy"><p className="eyebrow">{t('A NOTE FROM THE CONCEPT')}</p><Rich as="h2">{t('Life happens.<br><em>Pause here.</em>')}</Rich><p className="lead">{t('Churros Cafe is a warm pause in a busy day.')}</p><p>{t('We believe there is something lovely in the ordinary: a shared plate, a familiar greeting, a cup made with care. Our café brings coffee and churros together around that feeling.')}</p><Link href={prefix(lang, '/menu/')} className="link">{t('Find your little ritual')} <ArrowIcon /></Link></div></section></main>;
   if (page === 'reservations') return <main id="main"><PageHeading lang={lang} t={t} kicker="PLAN A VISIT" title="Make time for<br><em>your people.</em>" description="Choose a café concept and find the setting for your next visit." /><section className="page-body"><Link className="button" href={prefix(lang, '/locations/')}>{t('Plan a visit')} <ArrowIcon /></Link></section></main>;
   if (page === 'offers') return <main id="main"><PageHeading lang={lang} t={t} kicker="WINTER MENU MOMENTS" title="Cold days.<br><em>Warmer cravings.</em>" description="Winter makes every cinnamon-dusted churro taste a little more comforting—and every cup of coffee feel like the perfect companion." /><section className="page-body"><div className="info-grid"><article className="info-panel"><p className="eyebrow">{t('WARM, CRISP, MADE TO DIP')}</p><h2>{t('Churros taste better in winter.')}</h2><p>{t('That first crisp bite, the soft center, and a warm ribbon of chocolate feel made for cooler evenings. Choose Classic Churros, Mini Loops, or Wonder Churros, then add your favorite sauces.')}</p></article><article className="info-panel"><p className="eyebrow">{t('YOUR WINTER PAIRING')}</p><h2>{t('Something warm. Something golden.')}</h2><p>{t('Pair a fresh batch with a Spanish Latte, rich Hot Chocolate, or Arabic Qahwa. For an extra-sweet table, add Mini Pancakes, Waffle Triple, or the Celebration Box.')}</p><Link className="link" href={prefix(lang, '/menu/')}>{t('Build your winter order')} <ArrowIcon /></Link></article></div></section></main>;
   if (page === 'stories') return <main id="main"><PageHeading lang={lang} t={t} kicker="THE CHURROS CAFE JOURNAL" title="The long road<br>to <em>something golden.</em>" description="From the debated beginnings of churros to the waffles, pancakes, crepes, and coffee that now share the table." /><section className="page-body"><article className="info-panel prose"><p className="eyebrow">{t('A BRIEF HISTORY OF CHURROS')}</p><h2>{t('Where did churros begin?')}</h2><p>{t('The honest answer is that their exact origin is still debated. One familiar theory connects them to youtiao, a Chinese fried dough that Portuguese travelers may have encountered and adapted. Food historians also point to older Iberian and Mediterranean traditions of fried, scalded dough, which means the story is likely more complex than one neat invention.')}</p><p>{t('What is clear is that Spain helped shape the ridged, freshly fried churro tradition we recognize today. Churros became part of the breakfast and café ritual—especially beside thick hot chocolate—before traveling widely through Spanish- and Portuguese-speaking communities, where local tastes gave them new shapes, fillings, and finishes.')}</p></article><div className="info-grid"><article className="info-panel"><p className="eyebrow">{t('THE CHURROS CAFE TABLE')}</p><h2>{t('A classic that keeps evolving.')}</h2><p>{t('Our menu follows that spirit with Classic Churros, cinnamon-sugar Mini Churros, sauce-topped Mega Loops, filled Wonder Churros, and sharing boxes built for trying a little of everything.')}</p><Link className="link" href={prefix(lang, '/menu/')}>{t('Explore every churro')} <ArrowIcon /></Link></article><article className="info-panel"><p className="eyebrow">{t('BEYOND THE CHURRO')}</p><h2>{t('More ways to make dessert a moment.')}</h2><p>{t('Belgian-style waffles bring crisp edges and tender centers. Mini pancakes arrive soft and fluffy, while French crepes make a delicate canvas for chocolate, pistachio kunafa, fruit, and ice cream. Puffy Donuts, Vanilla Softy, and rich milkshakes complete the sweet side of the menu.')}</p><Link className="link" href={prefix(lang, '/menu/')}>{t('Discover desserts and drinks')} <ArrowIcon /></Link></article></div><p className="source-note">{t('History note: the origin of churros remains disputed; this overview reflects food-history reporting rather than claiming one definitive inventor.')}</p></section></main>;

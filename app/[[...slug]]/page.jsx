@@ -3,6 +3,7 @@ import CafeSite from '../../components/cafe-site';
 import { CHURROS_CAFE, translations } from '../../data/content';
 import { MENU_CATEGORIES, categoryBySlug } from '../../data/menu';
 import { SITE_URL, absoluteUrl } from '../../data/site';
+import { arabicPages, categoryCopy } from '../../data/seo';
 
 const standardPages = new Set(['menu', 'locations', 'about', 'reservations', 'offers', 'stories', 'privacy']);
 
@@ -45,11 +46,19 @@ export async function generateMetadata({ params }) {
   if (!route) return {};
   const branch = route.page === 'location' ? CHURROS_CAFE.branches.find(item => item.id === route.branchId) : null;
   const category = route.page === 'menu-category' ? categoryBySlug[route.categorySlug] : null;
-  const [baseTitle, description] = branch
+  let [baseTitle, description] = branch
     ? [route.lang === 'ar' ? branch.ar : branch.name, branch.intro]
     : category
       ? [`${category.label} Menu`, category.intro]
       : metadataMap[route.page];
+  if (category) description = categoryCopy[category.slug][route.lang === 'ar' ? 2 : 0];
+  if (route.lang === 'ar') {
+    if (branch) {
+      baseTitle = `فرع ${branch.ar}`;
+      description = `اعثر على فرع تشوروز كافيه في ${branch.ar}، وتصفح موقعه على الخريطة وقائمة الحلويات والمشروبات قبل زيارتك.`;
+    } else if (category) baseTitle = `قائمة ${categoryCopy[category.slug][1]}`;
+    else [baseTitle, description] = arabicPages[route.page];
+  }
   const title = route.lang === 'ar' ? translations[baseTitle] || baseTitle : baseTitle;
   const fullTitle = route.page === 'home'
     ? title

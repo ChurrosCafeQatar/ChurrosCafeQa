@@ -1,0 +1,5538 @@
+{
+  "checkedAt": "2026-10-05T12:34:13.016Z",
+  "origin": "http://127.0.0.1:4173",
+  "sitemapStatus": 200,
+  "count": 48,
+  "duplicateTitles": [
+    "/ar/"
+  ],
+  "duplicateDescriptions": [
+    "/ar/",
+    "/ar/menu/",
+    "/ar/locations/",
+    "/ar/about/",
+    "/ar/reservations/",
+    "/ar/offers/",
+    "/ar/stories/",
+    "/ar/privacy/",
+    "/ar/menu/churros/",
+    "/ar/menu/waffles/",
+    "/ar/menu/crepes/",
+    "/ar/menu/pancakes/",
+    "/ar/menu/desserts/",
+    "/ar/menu/ice-cream/",
+    "/ar/menu/matcha/",
+    "/ar/menu/hot-coffee/",
+    "/ar/menu/iced-coffee/",
+    "/ar/menu/milkshakes/",
+    "/ar/menu/iced-drinks/",
+    "/ar/locations/lusail/",
+    "/ar/locations/abu-hamour/",
+    "/ar/locations/duhail/",
+    "/ar/locations/downtown/",
+    "/ar/locations/mall-of-qatar/"
+  ],
+  "errors": [],
+  "rows": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Churros Cafe Qatar | Churros, Desserts & Coffee",
+      "description": "Visit Churros Cafe in Qatar for fresh Spanish churros, desserts, waffles, crepes, matcha, milkshakes, and hot or iced coffee.",
+      "canonical": "https://www.churroscafeqa.com/",
+      "robots": "index, follow",
+      "h1": [
+        "Golden, crispy,and drenched in liquid gold.Elevate your sweet tooth."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/",
+        "/menu/",
+        "/locations/",
+        "/menu/",
+        "/menu/iced-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/about/",
+        "/locations/",
+        "/locations/lusail/",
+        "/menu/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://www.churroscafeqa.com/#organization",
+              "name": "Churros Cafe",
+              "alternateName": [
+                "Churros Cafe Qatar",
+                "churroscafeqa.com"
+              ],
+              "url": "https://www.churroscafeqa.com/",
+              "description": "Churros Cafe serves Spanish churros, desserts, matcha, milkshakes, and coffee across five branches in Qatar.",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.churroscafeqa.com/assets/churros-icon-512.png",
+                "contentUrl": "https://www.churroscafeqa.com/assets/churros-icon-512.png",
+                "width": 512,
+                "height": 512
+              },
+              "image": "https://www.churroscafeqa.com/assets/campaign-dessert-spread.png",
+              "areaServed": {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              "hasMenu": "https://www.churroscafeqa.com/menu/"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.churroscafeqa.com/#website",
+              "name": "Churros Cafe",
+              "alternateName": [
+                "Churros Cafe Qatar",
+                "churroscafeqa.com"
+              ],
+              "url": "https://www.churroscafeqa.com/",
+              "inLanguage": [
+                "en",
+                "ar"
+              ],
+              "publisher": {
+                "@id": "https://www.churroscafeqa.com/#organization"
+              }
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 12,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/",
+      "status": 200,
+      "title": "Churros Cafe Qatar | Churros, Desserts & Coffee",
+      "description": "Visit Churros Cafe in Qatar for fresh Spanish churros, desserts, waffles, crepes, matcha, milkshakes, and hot or iced coffee.",
+      "canonical": "https://www.churroscafeqa.com/ar/",
+      "robots": "index, follow",
+      "h1": [
+        "ذهبي ومقرمش،ومغمور في الذهب السائل.ارتقِ برغبتك في الحلوى."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/menu/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/locations/lusail/",
+        "/ar/menu/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://www.churroscafeqa.com/#organization",
+              "name": "Churros Cafe",
+              "alternateName": [
+                "Churros Cafe Qatar",
+                "churroscafeqa.com"
+              ],
+              "url": "https://www.churroscafeqa.com/",
+              "description": "Churros Cafe serves Spanish churros, desserts, matcha, milkshakes, and coffee across five branches in Qatar.",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.churroscafeqa.com/assets/churros-icon-512.png",
+                "contentUrl": "https://www.churroscafeqa.com/assets/churros-icon-512.png",
+                "width": 512,
+                "height": 512
+              },
+              "image": "https://www.churroscafeqa.com/assets/campaign-dessert-spread.png",
+              "areaServed": {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              "hasMenu": "https://www.churroscafeqa.com/menu/"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.churroscafeqa.com/#website",
+              "name": "Churros Cafe",
+              "alternateName": [
+                "Churros Cafe Qatar",
+                "churroscafeqa.com"
+              ],
+              "url": "https://www.churroscafeqa.com/",
+              "inLanguage": [
+                "en",
+                "ar"
+              ],
+              "publisher": {
+                "@id": "https://www.churroscafeqa.com/#organization"
+              }
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 12,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/",
+      "status": 200,
+      "title": "Menu: Churros, Desserts & Coffee | Churros Cafe Qatar",
+      "description": "Explore the current Churros Cafe menu with product photography, descriptions, categories, and prices in QAR.",
+      "canonical": "https://www.churroscafeqa.com/menu/",
+      "robots": "index, follow",
+      "h1": [
+        "Churros CafeMenu."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/",
+        "/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/waffles/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/crepes/",
+        "/menu/crepes/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/pancakes/",
+        "/menu/desserts/",
+        "/menu/desserts/",
+        "/menu/desserts/",
+        "/menu/desserts/",
+        "/menu/ice-cream/",
+        "/menu/ice-cream/",
+        "/menu/ice-cream/",
+        "/menu/matcha/",
+        "/menu/matcha/",
+        "/menu/matcha/",
+        "/menu/matcha/",
+        "/menu/matcha/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/milkshakes/",
+        "/menu/milkshakes/",
+        "/menu/milkshakes/",
+        "/menu/milkshakes/",
+        "/menu/milkshakes/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 53,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Menu",
+          "url": "https://www.churroscafeqa.com/menu/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Churros",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Celebration Box",
+                  "description": "The box includes all our special products, such as one portion of mini pancakes, one portion mini French crepes, four pieces puffy donuts, around twenty pieces mini churros, six pieces mini loops churros coated in cinnamon sugar with three sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Celebration Box.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 170,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Classic Churros",
+                  "description": "Five pieces of Spanish churros sticks with any free two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Classic Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Churros",
+                  "description": "15 pieces of Spanish mini churros with choice of two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Loops",
+                  "description": "5 pieces of mini loop with your choice of 2 sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Loops.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mixed Churros",
+                  "description": "16 pieces of mixed churros, 4 each of Classic, Wonder, Loops and Mini Churros coated in cinnamon sugar with choice of 4 sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mixed Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 80,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Wonder Churros",
+                  "description": "5 pieces of Spanish filled churros with available sauces: Nutella, Kinder, Pistachio, Lotus or Caramel, and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Wonder Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mega Loop",
+                  "description": "Mega loop Spanish churros with any 2 sauces of your choice on top.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mega Loop.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Waffles",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Waffle",
+                  "description": "10 pieces of mini Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Waffle.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Waffle Triple",
+                  "description": "Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Waffle Triple.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 40,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Crepes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Dubai Chocolate Crepe",
+                  "description": "Dubai chocolate crepe, a delicate French crepe filled with pistachio kunafa chocolate sauce, covered in rich Belgian milk chocolate and drizzled with smooth white chocolate for the perfect indulgence.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Dubai Chocolate Crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Crepe",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Signature Ice Cream Crepe",
+                  "description": "Rich milk chocolate and a drizzle of hazelnut spread.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Signature Icecream  crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Pancakes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Pancake",
+                  "description": "10 pieces of mini pancake served with choice of any 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Pancake.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Desserts",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Hola Box",
+                  "description": "Our signature desserts box: 8 classic churros, 3 Wonder Churros, fresh strawberries and mini pancakes served with choice of 4 sauces and cinnamon sugar.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Hola Box.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 95,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Puffy Donut",
+                  "description": "6 pieces of puffy donuts filled with choices of Pistachio, Kinder, Nutella, Caramel or Lotus sauce.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Puffy Donut.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Strawberry Chocolate",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Strawberry Choclate.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 40,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Ice Cream",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Ice Cream with Churros",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Ice Cream with Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 28,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Vanilla Softy",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Vanilla Softy.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 18,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Matcha",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Matcha Frappe",
+                  "description": "Cool and creamy blend of fine matcha, lightly sweetened and blended to smooth perfection. It is earthy, energizing and your new green obsession.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Matcha Frappe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Matcha Latte",
+                  "description": "Finest quality matcha, brewed to perfection and topped with milk foam.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Matcha Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Pour Me Matcha - Raspberry",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Pour me matcha - rasberry.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 29,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Salted Caramel Matcha",
+                  "description": "Finest quality matcha brewed to perfection with salted caramel milk foam.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Salted Caramel Matcha.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Hot Coffee",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Americano",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Americano.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Arabic Qahwa",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Arabic Qahwa.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cafe Latte",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cafe Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cappuccino",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cappuccino.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cortado",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cortado.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 18,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Espresso",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Flat White",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Flatwhite.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Hot Chocolate",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Hot Chocolate.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Spanish Latte",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Spanish Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 24,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Cold Coffee",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "24 Hour Cold Brew",
+                  "image": "https://www.churroscafeqa.com/assets/menu/24 hour - Cold brew.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Dark Mocha Shaken Espresso",
+                  "description": "Espresso shaken with dark chocolate and milk — cold, frothy, and bold.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Dark Mocha Shaken Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Americano",
+                  "description": "Made with dark espresso and ice, it's the perfect way to relax and cool off during those hot summer days or anytime you're craving a refreshing coffee.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Americano.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Caramel Macchiato",
+                  "description": "Indulge in the rich and creamy flavor of Iced Caramel Macchiato, a luxurious blend of freshly brewed espresso, creamy milk and sweet caramel syrup, served over ice.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Caramel Macchiato.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Latte",
+                  "description": "Made with rich espresso, milk and ice, it's the perfect way to refresh and revitalize yourself during hot summer days, or anytime you crave a refreshing coffee.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Spanish Latte",
+                  "description": "Made with rich espresso, milk and ice, the perfect drink for those hot summer days.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Spanish Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced V60",
+                  "description": "A chilled slow brew for those who appreciate clean aromatic coffee notes. Perfect for hot days when you need a refreshing caffeine boost.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced v61.webp",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 25,
+                    "highPrice": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Pour Me Choco Spanish",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Pour me Choco spanish.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tiramisu Frappe",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Tiramisu Frappe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 28,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "White Mocha Shaken Espresso",
+                  "description": "Espresso shaken with white chocolate and milk — cold, frothy, and bold.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/White Mocha Shaken Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Milkshakes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Maltesers and Cream",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Maltesers and Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "New York Cheesecake",
+                  "description": "Classic cheesecake-flavoured milkshake.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/NewYork Cheesecake.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Oreo Cream",
+                  "description": "Oreo-flavoured milkshake.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Oreo Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Strawberry Cream",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Strawberry Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Iced Drinks",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Blue Lagoon Mojito",
+                  "description": "Blue curacao flavor, lime and mint muddled in choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Blue Lagoon Mojito.webp",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 20,
+                    "highPrice": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Karkade",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Karkade.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Passion Fruit Mojito",
+                  "description": "Fresh passion fruit, lime and mint muddled with choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Passion Fruit Mojito.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Passion Ice Tea",
+                  "description": "Passion fruit signature iced tea.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Passion Ice Tea.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Peach Iced Tea",
+                  "description": "Quench your thirst with our Peach Iced Tea, a refreshing and fruity blend of premium tea leaves and juicy peaches, perfect for sipping any time of the day.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Peach Iced Tea.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Peach Mojito",
+                  "description": "Fresh peach, lime and mint muddled with choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Peach Mojito.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Raspberry Hibiscus",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Rasberry  Hibiscus.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tropical Dragon Lemonade",
+                  "description": "Refreshing lemonade with mango, lemon and mint flavours alongside dragon fruit cubes. Tart, sweet and pink.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Tropical Dragon Lemonade.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 12,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/",
+      "status": 200,
+      "title": "Menu: Churros, Desserts & Coffee | تشوروز كافيه قطر",
+      "description": "Explore the current Churros Cafe menu with product photography, descriptions, categories, and prices in QAR.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/",
+      "robots": "index, follow",
+      "h1": [
+        "Churros CafeMenu."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/",
+        "/ar/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/waffles/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/crepes/",
+        "/ar/menu/crepes/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/desserts/",
+        "/ar/menu/desserts/",
+        "/ar/menu/desserts/",
+        "/ar/menu/desserts/",
+        "/ar/menu/ice-cream/",
+        "/ar/menu/ice-cream/",
+        "/ar/menu/ice-cream/",
+        "/ar/menu/matcha/",
+        "/ar/menu/matcha/",
+        "/ar/menu/matcha/",
+        "/ar/menu/matcha/",
+        "/ar/menu/matcha/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 53,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Churros",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Celebration Box",
+                  "description": "The box includes all our special products, such as one portion of mini pancakes, one portion mini French crepes, four pieces puffy donuts, around twenty pieces mini churros, six pieces mini loops churros coated in cinnamon sugar with three sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Celebration Box.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 170,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Classic Churros",
+                  "description": "Five pieces of Spanish churros sticks with any free two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Classic Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Churros",
+                  "description": "15 pieces of Spanish mini churros with choice of two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Loops",
+                  "description": "5 pieces of mini loop with your choice of 2 sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Loops.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mixed Churros",
+                  "description": "16 pieces of mixed churros, 4 each of Classic, Wonder, Loops and Mini Churros coated in cinnamon sugar with choice of 4 sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mixed Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 80,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Wonder Churros",
+                  "description": "5 pieces of Spanish filled churros with available sauces: Nutella, Kinder, Pistachio, Lotus or Caramel, and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Wonder Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mega Loop",
+                  "description": "Mega loop Spanish churros with any 2 sauces of your choice on top.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mega Loop.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Waffles",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Waffle",
+                  "description": "10 pieces of mini Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Waffle.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Waffle Triple",
+                  "description": "Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Waffle Triple.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 40,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Crepes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Dubai Chocolate Crepe",
+                  "description": "Dubai chocolate crepe, a delicate French crepe filled with pistachio kunafa chocolate sauce, covered in rich Belgian milk chocolate and drizzled with smooth white chocolate for the perfect indulgence.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Dubai Chocolate Crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Crepe",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Signature Ice Cream Crepe",
+                  "description": "Rich milk chocolate and a drizzle of hazelnut spread.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Signature Icecream  crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Pancakes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Pancake",
+                  "description": "10 pieces of mini pancake served with choice of any 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Pancake.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Desserts",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Hola Box",
+                  "description": "Our signature desserts box: 8 classic churros, 3 Wonder Churros, fresh strawberries and mini pancakes served with choice of 4 sauces and cinnamon sugar.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Hola Box.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 95,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Puffy Donut",
+                  "description": "6 pieces of puffy donuts filled with choices of Pistachio, Kinder, Nutella, Caramel or Lotus sauce.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Puffy Donut.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Strawberry Chocolate",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Strawberry Choclate.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 40,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Ice Cream",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Ice Cream with Churros",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Ice Cream with Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 28,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Vanilla Softy",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Vanilla Softy.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 18,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Matcha",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Matcha Frappe",
+                  "description": "Cool and creamy blend of fine matcha, lightly sweetened and blended to smooth perfection. It is earthy, energizing and your new green obsession.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Matcha Frappe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Matcha Latte",
+                  "description": "Finest quality matcha, brewed to perfection and topped with milk foam.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Matcha Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Pour Me Matcha - Raspberry",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Pour me matcha - rasberry.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 29,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Salted Caramel Matcha",
+                  "description": "Finest quality matcha brewed to perfection with salted caramel milk foam.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Salted Caramel Matcha.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Hot Coffee",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Americano",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Americano.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Arabic Qahwa",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Arabic Qahwa.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cafe Latte",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cafe Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cappuccino",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cappuccino.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cortado",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cortado.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 18,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Espresso",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Flat White",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Flatwhite.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Hot Chocolate",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Hot Chocolate.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Spanish Latte",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Spanish Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 24,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Cold Coffee",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "24 Hour Cold Brew",
+                  "image": "https://www.churroscafeqa.com/assets/menu/24 hour - Cold brew.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Dark Mocha Shaken Espresso",
+                  "description": "Espresso shaken with dark chocolate and milk — cold, frothy, and bold.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Dark Mocha Shaken Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Americano",
+                  "description": "Made with dark espresso and ice, it's the perfect way to relax and cool off during those hot summer days or anytime you're craving a refreshing coffee.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Americano.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Caramel Macchiato",
+                  "description": "Indulge in the rich and creamy flavor of Iced Caramel Macchiato, a luxurious blend of freshly brewed espresso, creamy milk and sweet caramel syrup, served over ice.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Caramel Macchiato.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Latte",
+                  "description": "Made with rich espresso, milk and ice, it's the perfect way to refresh and revitalize yourself during hot summer days, or anytime you crave a refreshing coffee.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Spanish Latte",
+                  "description": "Made with rich espresso, milk and ice, the perfect drink for those hot summer days.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Spanish Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced V60",
+                  "description": "A chilled slow brew for those who appreciate clean aromatic coffee notes. Perfect for hot days when you need a refreshing caffeine boost.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced v61.webp",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 25,
+                    "highPrice": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Pour Me Choco Spanish",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Pour me Choco spanish.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tiramisu Frappe",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Tiramisu Frappe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 28,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "White Mocha Shaken Espresso",
+                  "description": "Espresso shaken with white chocolate and milk — cold, frothy, and bold.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/White Mocha Shaken Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Milkshakes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Maltesers and Cream",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Maltesers and Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "New York Cheesecake",
+                  "description": "Classic cheesecake-flavoured milkshake.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/NewYork Cheesecake.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Oreo Cream",
+                  "description": "Oreo-flavoured milkshake.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Oreo Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Strawberry Cream",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Strawberry Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Iced Drinks",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Blue Lagoon Mojito",
+                  "description": "Blue curacao flavor, lime and mint muddled in choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Blue Lagoon Mojito.webp",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 20,
+                    "highPrice": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Karkade",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Karkade.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Passion Fruit Mojito",
+                  "description": "Fresh passion fruit, lime and mint muddled with choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Passion Fruit Mojito.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Passion Ice Tea",
+                  "description": "Passion fruit signature iced tea.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Passion Ice Tea.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Peach Iced Tea",
+                  "description": "Quench your thirst with our Peach Iced Tea, a refreshing and fruity blend of premium tea leaves and juicy peaches, perfect for sipping any time of the day.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Peach Iced Tea.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Peach Mojito",
+                  "description": "Fresh peach, lime and mint muddled with choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Peach Mojito.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Raspberry Hibiscus",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Rasberry  Hibiscus.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tropical Dragon Lemonade",
+                  "description": "Refreshing lemonade with mango, lemon and mint flavours alongside dragon fruit cubes. Tart, sweet and pink.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Tropical Dragon Lemonade.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 12,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/locations/",
+      "status": 200,
+      "title": "Locations in Qatar | Churros Cafe Qatar",
+      "description": "Find Churros Cafe branches in Lusail, Abu Hamour, Duhail, Downtown, and Mall of Qatar.",
+      "canonical": "https://www.churroscafeqa.com/locations/",
+      "robots": "index, follow",
+      "h1": [
+        "Find your nearestChurros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/locations/",
+        "/",
+        "/locations/lusail/",
+        "/locations/abu-hamour/",
+        "/locations/duhail/",
+        "/locations/downtown/",
+        "/locations/mall-of-qatar/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 0,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Churros Cafe locations in Qatar",
+          "numberOfItems": 5,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/lusail/#cafe",
+                "name": "Churros Cafe Lusail",
+                "url": "https://www.churroscafeqa.com/locations/lusail/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Lusail Night Market, Lusail, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/abu-hamour/#cafe",
+                "name": "Churros Cafe Abu Hamour",
+                "url": "https://www.churroscafeqa.com/locations/abu-hamour/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Wadi Al Ghadeeriyat Street, Doha, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/duhail/#cafe",
+                "name": "Churros Cafe Duhail",
+                "url": "https://www.churroscafeqa.com/locations/duhail/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Destination Box, 9FF8+VX9, Doha, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/downtown/#cafe",
+                "name": "Churros Cafe Downtown",
+                "url": "https://www.churroscafeqa.com/locations/downtown/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Downtown Night Market, Furousiya Street, Doha, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/mall-of-qatar/#cafe",
+                "name": "Churros Cafe Mall of Qatar",
+                "url": "https://www.churroscafeqa.com/locations/mall-of-qatar/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Mall of Qatar, Street 605, Al Rayyan, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/locations/",
+      "status": 200,
+      "title": "Locations in Qatar | تشوروز كافيه قطر",
+      "description": "Find Churros Cafe branches in Lusail, Abu Hamour, Duhail, Downtown, and Mall of Qatar.",
+      "canonical": "https://www.churroscafeqa.com/ar/locations/",
+      "robots": "index, follow",
+      "h1": [
+        "اعثر على أقربتشوروز كافيه."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/locations/",
+        "/ar/",
+        "/ar/locations/lusail/",
+        "/ar/locations/abu-hamour/",
+        "/ar/locations/duhail/",
+        "/ar/locations/downtown/",
+        "/ar/locations/mall-of-qatar/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 0,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Churros Cafe locations in Qatar",
+          "numberOfItems": 5,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/lusail/#cafe",
+                "name": "Churros Cafe Lusail",
+                "url": "https://www.churroscafeqa.com/locations/lusail/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Lusail Night Market, Lusail, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/abu-hamour/#cafe",
+                "name": "Churros Cafe Abu Hamour",
+                "url": "https://www.churroscafeqa.com/locations/abu-hamour/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Wadi Al Ghadeeriyat Street, Doha, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/duhail/#cafe",
+                "name": "Churros Cafe Duhail",
+                "url": "https://www.churroscafeqa.com/locations/duhail/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Destination Box, 9FF8+VX9, Doha, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/downtown/#cafe",
+                "name": "Churros Cafe Downtown",
+                "url": "https://www.churroscafeqa.com/locations/downtown/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Downtown Night Market, Furousiya Street, Doha, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "CafeOrCoffeeShop",
+                "@id": "https://www.churroscafeqa.com/locations/mall-of-qatar/#cafe",
+                "name": "Churros Cafe Mall of Qatar",
+                "url": "https://www.churroscafeqa.com/locations/mall-of-qatar/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Mall of Qatar, Street 605, Al Rayyan, Qatar",
+                  "addressCountry": "QA"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "title": "About Us | Churros Cafe Qatar",
+      "description": "Discover the story and everyday café experience behind Churros Cafe in Qatar.",
+      "canonical": "https://www.churroscafeqa.com/about/",
+      "robots": "index, follow",
+      "h1": [
+        "Small rituals.Lasting feelings."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/about/",
+        "/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/about/",
+      "status": 200,
+      "title": "About Us | تشوروز كافيه قطر",
+      "description": "Discover the story and everyday café experience behind Churros Cafe in Qatar.",
+      "canonical": "https://www.churroscafeqa.com/ar/about/",
+      "robots": "index, follow",
+      "h1": [
+        "طقوس صغيرة.ومشاعر تدوم."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/about/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/reservations/",
+      "status": 200,
+      "title": "Plan a visit | Churros Cafe Qatar",
+      "description": "Plan your visit to Churros Cafe.",
+      "canonical": "https://www.churroscafeqa.com/reservations/",
+      "robots": "index, follow",
+      "h1": [
+        "Make time foryour people."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/reservations/",
+        "/",
+        "/locations/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/reservations/",
+      "status": 200,
+      "title": "خطط لزيارة | تشوروز كافيه قطر",
+      "description": "Plan your visit to Churros Cafe.",
+      "canonical": "https://www.churroscafeqa.com/ar/reservations/",
+      "robots": "index, follow",
+      "h1": [
+        "خصص وقتاًلمن تحب."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/reservations/",
+        "/ar/",
+        "/ar/locations/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/offers/",
+      "status": 200,
+      "title": "Winter Menu | Churros Cafe Qatar",
+      "description": "Warm churros, comforting coffee, and sweet winter pairings at Churros Cafe in Qatar.",
+      "canonical": "https://www.churroscafeqa.com/offers/",
+      "robots": "index, follow",
+      "h1": [
+        "Cold days.Warmer cravings."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/offers/",
+        "/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/offers/",
+      "status": 200,
+      "title": "Winter Menu | تشوروز كافيه قطر",
+      "description": "Warm churros, comforting coffee, and sweet winter pairings at Churros Cafe in Qatar.",
+      "canonical": "https://www.churroscafeqa.com/ar/offers/",
+      "robots": "index, follow",
+      "h1": [
+        "أيام باردة.وشهية أكثر دفئاً."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/offers/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/stories/",
+      "status": 200,
+      "title": "Churros Stories & Origins | Churros Cafe Qatar",
+      "description": "Explore the debated origins of churros and the desserts that share the Churros Cafe table.",
+      "canonical": "https://www.churroscafeqa.com/stories/",
+      "robots": "index, follow",
+      "h1": [
+        "The long roadto something golden."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/stories/",
+        "/",
+        "/menu/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/stories/",
+      "status": 200,
+      "title": "Churros Stories & Origins | تشوروز كافيه قطر",
+      "description": "Explore the debated origins of churros and the desserts that share the Churros Cafe table.",
+      "canonical": "https://www.churroscafeqa.com/ar/stories/",
+      "robots": "index, follow",
+      "h1": [
+        "رحلة طويلةنحو شيء ذهبي."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/stories/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "title": "Privacy Policy | Churros Cafe Qatar",
+      "description": "Learn how the Churros Cafe website handles browsing data, embedded maps, and cookies.",
+      "canonical": "https://www.churroscafeqa.com/privacy/",
+      "robots": "index, follow",
+      "h1": [
+        "Your privacy,with care."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/privacy/",
+        "/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/privacy/",
+      "status": 200,
+      "title": "Privacy Policy | تشوروز كافيه قطر",
+      "description": "Learn how the Churros Cafe website handles browsing data, embedded maps, and cookies.",
+      "canonical": "https://www.churroscafeqa.com/ar/privacy/",
+      "robots": "index, follow",
+      "h1": [
+        "خصوصيتك،بعناية."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/privacy/",
+        "/ar/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 0,
+      "schemas": [],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/churros/",
+      "status": 200,
+      "title": "Churros Menu | Churros Cafe Qatar",
+      "description": "Explore the current Churros Cafe churros menu, with real products and prices from the supplied menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/churros/",
+      "robots": "index, follow",
+      "h1": [
+        "Churrosat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/churros/",
+        "/",
+        "/menu/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/menu/churros/",
+        "/locations/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/desserts/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 7,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Churros Menu",
+          "url": "https://www.churroscafeqa.com/menu/churros/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Churros",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Celebration Box",
+                  "description": "The box includes all our special products, such as one portion of mini pancakes, one portion mini French crepes, four pieces puffy donuts, around twenty pieces mini churros, six pieces mini loops churros coated in cinnamon sugar with three sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Celebration Box.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 170,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Classic Churros",
+                  "description": "Five pieces of Spanish churros sticks with any free two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Classic Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Churros",
+                  "description": "15 pieces of Spanish mini churros with choice of two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Loops",
+                  "description": "5 pieces of mini loop with your choice of 2 sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Loops.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mixed Churros",
+                  "description": "16 pieces of mixed churros, 4 each of Classic, Wonder, Loops and Mini Churros coated in cinnamon sugar with choice of 4 sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mixed Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 80,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Wonder Churros",
+                  "description": "5 pieces of Spanish filled churros with available sauces: Nutella, Kinder, Pistachio, Lotus or Caramel, and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Wonder Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mega Loop",
+                  "description": "Mega loop Spanish churros with any 2 sauces of your choice on top.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mega Loop.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/churros/",
+      "status": 200,
+      "title": "Churros Menu | تشوروز كافيه قطر",
+      "description": "Explore the current Churros Cafe churros menu, with real products and prices from the supplied menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/churros/",
+      "robots": "index, follow",
+      "h1": [
+        "Churrosat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/churros/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/menu/churros/",
+        "/ar/locations/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/desserts/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 7,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Churros Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/churros/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Churros",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Celebration Box",
+                  "description": "The box includes all our special products, such as one portion of mini pancakes, one portion mini French crepes, four pieces puffy donuts, around twenty pieces mini churros, six pieces mini loops churros coated in cinnamon sugar with three sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Celebration Box.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 170,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Classic Churros",
+                  "description": "Five pieces of Spanish churros sticks with any free two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Classic Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Churros",
+                  "description": "15 pieces of Spanish mini churros with choice of two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Loops",
+                  "description": "5 pieces of mini loop with your choice of 2 sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Loops.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mixed Churros",
+                  "description": "16 pieces of mixed churros, 4 each of Classic, Wonder, Loops and Mini Churros coated in cinnamon sugar with choice of 4 sauces.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mixed Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 80,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Wonder Churros",
+                  "description": "5 pieces of Spanish filled churros with available sauces: Nutella, Kinder, Pistachio, Lotus or Caramel, and choice of sugar or cinnamon.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Wonder Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mega Loop",
+                  "description": "Mega loop Spanish churros with any 2 sauces of your choice on top.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mega Loop.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/waffles/",
+      "status": 200,
+      "title": "Waffles Menu | Churros Cafe Qatar",
+      "description": "Belgian waffle products currently listed on the Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/waffles/",
+      "robots": "index, follow",
+      "h1": [
+        "Wafflesat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/waffles/",
+        "/",
+        "/menu/",
+        "/menu/waffles/",
+        "/menu/waffles/",
+        "/menu/waffles/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/desserts/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 2,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Waffles Menu",
+          "url": "https://www.churroscafeqa.com/menu/waffles/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Waffles",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Waffle",
+                  "description": "10 pieces of mini Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Waffle.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Waffle Triple",
+                  "description": "Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Waffle Triple.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 40,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/waffles/",
+      "status": 200,
+      "title": "Waffles Menu | تشوروز كافيه قطر",
+      "description": "Belgian waffle products currently listed on the Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/waffles/",
+      "robots": "index, follow",
+      "h1": [
+        "Wafflesat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/waffles/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/waffles/",
+        "/ar/menu/waffles/",
+        "/ar/menu/waffles/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/desserts/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 2,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Waffles Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/waffles/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Waffles",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Waffle",
+                  "description": "10 pieces of mini Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Waffle.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Waffle Triple",
+                  "description": "Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Waffle Triple.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 40,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/crepes/",
+      "status": 200,
+      "title": "Crepes Menu | Churros Cafe Qatar",
+      "description": "Crepes currently available on the Churros Cafe menu, including the Dubai Chocolate Crepe.",
+      "canonical": "https://www.churroscafeqa.com/menu/crepes/",
+      "robots": "index, follow",
+      "h1": [
+        "Crepesat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/crepes/",
+        "/",
+        "/menu/",
+        "/menu/crepes/",
+        "/menu/crepes/",
+        "/menu/crepes/",
+        "/menu/crepes/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/pancakes/",
+        "/menu/desserts/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Crepes Menu",
+          "url": "https://www.churroscafeqa.com/menu/crepes/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Crepes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Dubai Chocolate Crepe",
+                  "description": "Dubai chocolate crepe, a delicate French crepe filled with pistachio kunafa chocolate sauce, covered in rich Belgian milk chocolate and drizzled with smooth white chocolate for the perfect indulgence.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Dubai Chocolate Crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Crepe",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Signature Ice Cream Crepe",
+                  "description": "Rich milk chocolate and a drizzle of hazelnut spread.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Signature Icecream  crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/crepes/",
+      "status": 200,
+      "title": "Crepes Menu | تشوروز كافيه قطر",
+      "description": "Crepes currently available on the Churros Cafe menu, including the Dubai Chocolate Crepe.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/crepes/",
+      "robots": "index, follow",
+      "h1": [
+        "Crepesat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/crepes/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/crepes/",
+        "/ar/menu/crepes/",
+        "/ar/menu/crepes/",
+        "/ar/menu/crepes/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/desserts/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Crepes Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/crepes/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Crepes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Dubai Chocolate Crepe",
+                  "description": "Dubai chocolate crepe, a delicate French crepe filled with pistachio kunafa chocolate sauce, covered in rich Belgian milk chocolate and drizzled with smooth white chocolate for the perfect indulgence.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Dubai Chocolate Crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Crepe",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Signature Ice Cream Crepe",
+                  "description": "Rich milk chocolate and a drizzle of hazelnut spread.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Signature Icecream  crepe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/pancakes/",
+      "status": 200,
+      "title": "Pancakes Menu | Churros Cafe Qatar",
+      "description": "Mini pancakes from the current Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/pancakes/",
+      "robots": "index, follow",
+      "h1": [
+        "Pancakesat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/pancakes/",
+        "/",
+        "/menu/",
+        "/menu/pancakes/",
+        "/menu/pancakes/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/desserts/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 1,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Pancakes Menu",
+          "url": "https://www.churroscafeqa.com/menu/pancakes/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Pancakes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Pancake",
+                  "description": "10 pieces of mini pancake served with choice of any 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Pancake.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/pancakes/",
+      "status": 200,
+      "title": "Pancakes Menu | تشوروز كافيه قطر",
+      "description": "Mini pancakes from the current Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/pancakes/",
+      "robots": "index, follow",
+      "h1": [
+        "Pancakesat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/pancakes/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/pancakes/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/desserts/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 1,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Pancakes Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/pancakes/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Pancakes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Mini Pancake",
+                  "description": "10 pieces of mini pancake served with choice of any 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Mini Pancake.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/desserts/",
+      "status": 200,
+      "title": "Desserts Menu | Churros Cafe Qatar",
+      "description": "Dessert boxes, puffy donuts and strawberry chocolate from the current menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/desserts/",
+      "robots": "index, follow",
+      "h1": [
+        "Dessertsat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/desserts/",
+        "/",
+        "/menu/",
+        "/menu/desserts/",
+        "/menu/desserts/",
+        "/menu/desserts/",
+        "/menu/desserts/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Desserts Menu",
+          "url": "https://www.churroscafeqa.com/menu/desserts/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Desserts",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Hola Box",
+                  "description": "Our signature desserts box: 8 classic churros, 3 Wonder Churros, fresh strawberries and mini pancakes served with choice of 4 sauces and cinnamon sugar.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Hola Box.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 95,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Puffy Donut",
+                  "description": "6 pieces of puffy donuts filled with choices of Pistachio, Kinder, Nutella, Caramel or Lotus sauce.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Puffy Donut.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Strawberry Chocolate",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Strawberry Choclate.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 40,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/desserts/",
+      "status": 200,
+      "title": "Desserts Menu | تشوروز كافيه قطر",
+      "description": "Dessert boxes, puffy donuts and strawberry chocolate from the current menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/desserts/",
+      "robots": "index, follow",
+      "h1": [
+        "Dessertsat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/desserts/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/desserts/",
+        "/ar/menu/desserts/",
+        "/ar/menu/desserts/",
+        "/ar/menu/desserts/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Desserts Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/desserts/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Desserts",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Hola Box",
+                  "description": "Our signature desserts box: 8 classic churros, 3 Wonder Churros, fresh strawberries and mini pancakes served with choice of 4 sauces and cinnamon sugar.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Hola Box.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 95,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Puffy Donut",
+                  "description": "6 pieces of puffy donuts filled with choices of Pistachio, Kinder, Nutella, Caramel or Lotus sauce.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Puffy Donut.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 35,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Strawberry Chocolate",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Strawberry Choclate.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 40,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/ice-cream/",
+      "status": 200,
+      "title": "Ice Cream Menu | Churros Cafe Qatar",
+      "description": "Ice cream products currently listed on the Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/ice-cream/",
+      "robots": "index, follow",
+      "h1": [
+        "Ice Creamat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/ice-cream/",
+        "/",
+        "/menu/",
+        "/menu/ice-cream/",
+        "/menu/ice-cream/",
+        "/menu/ice-cream/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 2,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Ice Cream Menu",
+          "url": "https://www.churroscafeqa.com/menu/ice-cream/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Ice Cream",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Ice Cream with Churros",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Ice Cream with Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 28,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Vanilla Softy",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Vanilla Softy.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 18,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/ice-cream/",
+      "status": 200,
+      "title": "Ice Cream Menu | تشوروز كافيه قطر",
+      "description": "Ice cream products currently listed on the Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/ice-cream/",
+      "robots": "index, follow",
+      "h1": [
+        "Ice Creamat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/ice-cream/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/ice-cream/",
+        "/ar/menu/ice-cream/",
+        "/ar/menu/ice-cream/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 2,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Ice Cream Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/ice-cream/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Ice Cream",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Ice Cream with Churros",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Ice Cream with Churros.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 28,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Vanilla Softy",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Vanilla Softy.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 18,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/matcha/",
+      "status": 200,
+      "title": "Matcha Menu | Churros Cafe Qatar",
+      "description": "Matcha lattes, frappe and current matcha specials from the supplied menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/matcha/",
+      "robots": "index, follow",
+      "h1": [
+        "Matchaat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/matcha/",
+        "/",
+        "/menu/",
+        "/menu/matcha/",
+        "/menu/matcha/",
+        "/menu/matcha/",
+        "/menu/matcha/",
+        "/menu/matcha/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 4,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Matcha Menu",
+          "url": "https://www.churroscafeqa.com/menu/matcha/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Matcha",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Matcha Frappe",
+                  "description": "Cool and creamy blend of fine matcha, lightly sweetened and blended to smooth perfection. It is earthy, energizing and your new green obsession.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Matcha Frappe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Matcha Latte",
+                  "description": "Finest quality matcha, brewed to perfection and topped with milk foam.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Matcha Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Pour Me Matcha - Raspberry",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Pour me matcha - rasberry.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 29,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Salted Caramel Matcha",
+                  "description": "Finest quality matcha brewed to perfection with salted caramel milk foam.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Salted Caramel Matcha.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/matcha/",
+      "status": 200,
+      "title": "Matcha Menu | تشوروز كافيه قطر",
+      "description": "Matcha lattes, frappe and current matcha specials from the supplied menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/matcha/",
+      "robots": "index, follow",
+      "h1": [
+        "Matchaat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/matcha/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/matcha/",
+        "/ar/menu/matcha/",
+        "/ar/menu/matcha/",
+        "/ar/menu/matcha/",
+        "/ar/menu/matcha/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 4,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Matcha Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/matcha/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Matcha",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Matcha Frappe",
+                  "description": "Cool and creamy blend of fine matcha, lightly sweetened and blended to smooth perfection. It is earthy, energizing and your new green obsession.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Matcha Frappe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 30,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Matcha Latte",
+                  "description": "Finest quality matcha, brewed to perfection and topped with milk foam.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Matcha Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Pour Me Matcha - Raspberry",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Pour me matcha - rasberry.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 29,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Salted Caramel Matcha",
+                  "description": "Finest quality matcha brewed to perfection with salted caramel milk foam.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Salted Caramel Matcha.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/hot-coffee/",
+      "status": 200,
+      "title": "Hot Coffee Menu | Churros Cafe Qatar",
+      "description": "Hot coffee and chocolate drinks from the current Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/hot-coffee/",
+      "robots": "index, follow",
+      "h1": [
+        "Hot Coffeeat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/hot-coffee/",
+        "/",
+        "/menu/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 9,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Hot Coffee Menu",
+          "url": "https://www.churroscafeqa.com/menu/hot-coffee/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Hot Coffee",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Americano",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Americano.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Arabic Qahwa",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Arabic Qahwa.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cafe Latte",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cafe Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cappuccino",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cappuccino.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cortado",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cortado.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 18,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Espresso",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Flat White",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Flatwhite.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Hot Chocolate",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Hot Chocolate.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Spanish Latte",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Spanish Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 24,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/hot-coffee/",
+      "status": 200,
+      "title": "Hot Coffee Menu | تشوروز كافيه قطر",
+      "description": "Hot coffee and chocolate drinks from the current Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/hot-coffee/",
+      "robots": "index, follow",
+      "h1": [
+        "Hot Coffeeat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/hot-coffee/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 9,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Hot Coffee Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/hot-coffee/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Hot Coffee",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Americano",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Americano.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Arabic Qahwa",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Arabic Qahwa.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cafe Latte",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cafe Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cappuccino",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cappuccino.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Cortado",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Cortado.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 18,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Espresso",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Flat White",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Flatwhite.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Hot Chocolate",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Hot Chocolate.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Spanish Latte",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Spanish Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 24,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/iced-coffee/",
+      "status": 200,
+      "title": "Cold Coffee Menu | Churros Cafe Qatar",
+      "description": "Cold brew, iced coffee, frappes and shaken espresso from the current menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/iced-coffee/",
+      "robots": "index, follow",
+      "h1": [
+        "Cold Coffeeat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/iced-coffee/",
+        "/",
+        "/menu/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/menu/iced-coffee/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 10,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Cold Coffee Menu",
+          "url": "https://www.churroscafeqa.com/menu/iced-coffee/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Cold Coffee",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "24 Hour Cold Brew",
+                  "image": "https://www.churroscafeqa.com/assets/menu/24 hour - Cold brew.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Dark Mocha Shaken Espresso",
+                  "description": "Espresso shaken with dark chocolate and milk — cold, frothy, and bold.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Dark Mocha Shaken Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Americano",
+                  "description": "Made with dark espresso and ice, it's the perfect way to relax and cool off during those hot summer days or anytime you're craving a refreshing coffee.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Americano.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Caramel Macchiato",
+                  "description": "Indulge in the rich and creamy flavor of Iced Caramel Macchiato, a luxurious blend of freshly brewed espresso, creamy milk and sweet caramel syrup, served over ice.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Caramel Macchiato.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Latte",
+                  "description": "Made with rich espresso, milk and ice, it's the perfect way to refresh and revitalize yourself during hot summer days, or anytime you crave a refreshing coffee.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Spanish Latte",
+                  "description": "Made with rich espresso, milk and ice, the perfect drink for those hot summer days.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Spanish Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced V60",
+                  "description": "A chilled slow brew for those who appreciate clean aromatic coffee notes. Perfect for hot days when you need a refreshing caffeine boost.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced v61.webp",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 25,
+                    "highPrice": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Pour Me Choco Spanish",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Pour me Choco spanish.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tiramisu Frappe",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Tiramisu Frappe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 28,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "White Mocha Shaken Espresso",
+                  "description": "Espresso shaken with white chocolate and milk — cold, frothy, and bold.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/White Mocha Shaken Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/iced-coffee/",
+      "status": 200,
+      "title": "Cold Coffee Menu | تشوروز كافيه قطر",
+      "description": "Cold brew, iced coffee, frappes and shaken espresso from the current menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/iced-coffee/",
+      "robots": "index, follow",
+      "h1": [
+        "Cold Coffeeat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/iced-coffee/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/iced-coffee/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 10,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Cold Coffee Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/iced-coffee/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Cold Coffee",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "24 Hour Cold Brew",
+                  "image": "https://www.churroscafeqa.com/assets/menu/24 hour - Cold brew.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Dark Mocha Shaken Espresso",
+                  "description": "Espresso shaken with dark chocolate and milk — cold, frothy, and bold.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Dark Mocha Shaken Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Americano",
+                  "description": "Made with dark espresso and ice, it's the perfect way to relax and cool off during those hot summer days or anytime you're craving a refreshing coffee.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Americano.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 16,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Caramel Macchiato",
+                  "description": "Indulge in the rich and creamy flavor of Iced Caramel Macchiato, a luxurious blend of freshly brewed espresso, creamy milk and sweet caramel syrup, served over ice.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Caramel Macchiato.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Latte",
+                  "description": "Made with rich espresso, milk and ice, it's the perfect way to refresh and revitalize yourself during hot summer days, or anytime you crave a refreshing coffee.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced Spanish Latte",
+                  "description": "Made with rich espresso, milk and ice, the perfect drink for those hot summer days.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced Spanish Latte.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Iced V60",
+                  "description": "A chilled slow brew for those who appreciate clean aromatic coffee notes. Perfect for hot days when you need a refreshing caffeine boost.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Iced v61.webp",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 25,
+                    "highPrice": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Pour Me Choco Spanish",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Pour me Choco spanish.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 27,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tiramisu Frappe",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Tiramisu Frappe.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 28,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "White Mocha Shaken Espresso",
+                  "description": "Espresso shaken with white chocolate and milk — cold, frothy, and bold.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/White Mocha Shaken Espresso.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/milkshakes/",
+      "status": 200,
+      "title": "Milkshakes Menu | Churros Cafe Qatar",
+      "description": "The milkshake flavours currently listed on the Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/milkshakes/",
+      "robots": "index, follow",
+      "h1": [
+        "Milkshakesat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/milkshakes/",
+        "/",
+        "/menu/",
+        "/menu/milkshakes/",
+        "/menu/milkshakes/",
+        "/menu/milkshakes/",
+        "/menu/milkshakes/",
+        "/menu/milkshakes/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 4,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Milkshakes Menu",
+          "url": "https://www.churroscafeqa.com/menu/milkshakes/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Milkshakes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Maltesers and Cream",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Maltesers and Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "New York Cheesecake",
+                  "description": "Classic cheesecake-flavoured milkshake.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/NewYork Cheesecake.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Oreo Cream",
+                  "description": "Oreo-flavoured milkshake.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Oreo Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Strawberry Cream",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Strawberry Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/milkshakes/",
+      "status": 200,
+      "title": "Milkshakes Menu | تشوروز كافيه قطر",
+      "description": "The milkshake flavours currently listed on the Churros Cafe menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/milkshakes/",
+      "robots": "index, follow",
+      "h1": [
+        "Milkshakesat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/milkshakes/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/milkshakes/",
+        "/ar/menu/milkshakes/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 4,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Milkshakes Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/milkshakes/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Milkshakes",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Maltesers and Cream",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Maltesers and Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "New York Cheesecake",
+                  "description": "Classic cheesecake-flavoured milkshake.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/NewYork Cheesecake.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Oreo Cream",
+                  "description": "Oreo-flavoured milkshake.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Oreo Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Strawberry Cream",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Strawberry Cream.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/menu/iced-drinks/",
+      "status": 200,
+      "title": "Iced Drinks Menu | Churros Cafe Qatar",
+      "description": "Mojitos, iced teas, lemonade and other non-coffee iced drinks from the current menu.",
+      "canonical": "https://www.churroscafeqa.com/menu/iced-drinks/",
+      "robots": "index, follow",
+      "h1": [
+        "Iced Drinksat Churros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/menu/iced-drinks/",
+        "/",
+        "/menu/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/menu/iced-drinks/",
+        "/locations/",
+        "/menu/churros/",
+        "/menu/waffles/",
+        "/menu/crepes/",
+        "/menu/pancakes/",
+        "/menu/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 8,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Iced Drinks Menu",
+          "url": "https://www.churroscafeqa.com/menu/iced-drinks/",
+          "inLanguage": "en",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Iced Drinks",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Blue Lagoon Mojito",
+                  "description": "Blue curacao flavor, lime and mint muddled in choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Blue Lagoon Mojito.webp",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 20,
+                    "highPrice": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Karkade",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Karkade.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Passion Fruit Mojito",
+                  "description": "Fresh passion fruit, lime and mint muddled with choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Passion Fruit Mojito.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Passion Ice Tea",
+                  "description": "Passion fruit signature iced tea.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Passion Ice Tea.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Peach Iced Tea",
+                  "description": "Quench your thirst with our Peach Iced Tea, a refreshing and fruity blend of premium tea leaves and juicy peaches, perfect for sipping any time of the day.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Peach Iced Tea.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Peach Mojito",
+                  "description": "Fresh peach, lime and mint muddled with choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Peach Mojito.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Raspberry Hibiscus",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Rasberry  Hibiscus.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tropical Dragon Lemonade",
+                  "description": "Refreshing lemonade with mango, lemon and mint flavours alongside dragon fruit cubes. Tart, sweet and pink.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Tropical Dragon Lemonade.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/menu/iced-drinks/",
+      "status": 200,
+      "title": "Iced Drinks Menu | تشوروز كافيه قطر",
+      "description": "Mojitos, iced teas, lemonade and other non-coffee iced drinks from the current menu.",
+      "canonical": "https://www.churroscafeqa.com/ar/menu/iced-drinks/",
+      "robots": "index, follow",
+      "h1": [
+        "Iced Drinksat Churros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/menu/iced-drinks/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/menu/iced-drinks/",
+        "/ar/locations/",
+        "/ar/menu/churros/",
+        "/ar/menu/waffles/",
+        "/ar/menu/crepes/",
+        "/ar/menu/pancakes/",
+        "/ar/menu/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 8,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Menu",
+          "name": "Churros Cafe Iced Drinks Menu",
+          "url": "https://www.churroscafeqa.com/ar/menu/iced-drinks/",
+          "inLanguage": "ar",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Iced Drinks",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Blue Lagoon Mojito",
+                  "description": "Blue curacao flavor, lime and mint muddled in choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Blue Lagoon Mojito.webp",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 20,
+                    "highPrice": 25,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Karkade",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Karkade.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Passion Fruit Mojito",
+                  "description": "Fresh passion fruit, lime and mint muddled with choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Passion Fruit Mojito.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Passion Ice Tea",
+                  "description": "Passion fruit signature iced tea.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Passion Ice Tea.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Peach Iced Tea",
+                  "description": "Quench your thirst with our Peach Iced Tea, a refreshing and fruity blend of premium tea leaves and juicy peaches, perfect for sipping any time of the day.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Peach Iced Tea.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Peach Mojito",
+                  "description": "Fresh peach, lime and mint muddled with choice of 7 Up or Redbull.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Peach Mojito.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 20,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Raspberry Hibiscus",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Rasberry  Hibiscus.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22,
+                    "priceCurrency": "QAR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tropical Dragon Lemonade",
+                  "description": "Refreshing lemonade with mango, lemon and mint flavours alongside dragon fruit cubes. Tart, sweet and pink.",
+                  "image": "https://www.churroscafeqa.com/assets/menu/Tropical Dragon Lemonade.webp",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 25,
+                    "priceCurrency": "QAR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/locations/lusail/",
+      "status": 200,
+      "title": "Lusail | Churros Cafe Qatar",
+      "description": "Your Lusail stop for freshly made churros, desserts, matcha, and coffee.",
+      "canonical": "https://www.churroscafeqa.com/locations/lusail/",
+      "robots": "index, follow",
+      "h1": [
+        "LusailChurros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/locations/lusail/",
+        "/",
+        "/locations/",
+        "/menu/",
+        "/menu/iced-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/locations/abu-hamour/",
+        "/locations/duhail/",
+        "/locations/downtown/",
+        "/locations/mall-of-qatar/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/lusail/#cafe",
+          "name": "Churros Cafe Lusail",
+          "url": "https://www.churroscafeqa.com/locations/lusail/",
+          "image": "https://www.churroscafeqa.com/assets/locations/lusail.png",
+          "description": "Your Lusail stop for freshly made churros, desserts, matcha, and coffee.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Lusail Night Market, Lusail, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/yxNDxcSqSYJZt1oc6?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/locations/lusail/",
+      "status": 200,
+      "title": "لوسيل | تشوروز كافيه قطر",
+      "description": "Your Lusail stop for freshly made churros, desserts, matcha, and coffee.",
+      "canonical": "https://www.churroscafeqa.com/ar/locations/lusail/",
+      "robots": "index, follow",
+      "h1": [
+        "لوسيلChurros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/locations/lusail/",
+        "/ar/",
+        "/ar/locations/",
+        "/ar/menu/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/locations/abu-hamour/",
+        "/ar/locations/duhail/",
+        "/ar/locations/downtown/",
+        "/ar/locations/mall-of-qatar/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/lusail/#cafe",
+          "name": "Churros Cafe Lusail",
+          "url": "https://www.churroscafeqa.com/locations/lusail/",
+          "image": "https://www.churroscafeqa.com/assets/locations/lusail.png",
+          "description": "Your Lusail stop for freshly made churros, desserts, matcha, and coffee.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Lusail Night Market, Lusail, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/yxNDxcSqSYJZt1oc6?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/locations/abu-hamour/",
+      "status": 200,
+      "title": "Abu Hamour | Churros Cafe Qatar",
+      "description": "A warm Abu Hamour destination for golden churros, sweet plates, and your favorite coffee.",
+      "canonical": "https://www.churroscafeqa.com/locations/abu-hamour/",
+      "robots": "index, follow",
+      "h1": [
+        "Abu HamourChurros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/locations/abu-hamour/",
+        "/",
+        "/locations/",
+        "/menu/",
+        "/menu/iced-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/locations/lusail/",
+        "/locations/duhail/",
+        "/locations/downtown/",
+        "/locations/mall-of-qatar/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/abu-hamour/#cafe",
+          "name": "Churros Cafe Abu Hamour",
+          "url": "https://www.churroscafeqa.com/locations/abu-hamour/",
+          "image": "https://www.churroscafeqa.com/assets/locations/abu-hamour.png",
+          "description": "A warm Abu Hamour destination for golden churros, sweet plates, and your favorite coffee.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wadi Al Ghadeeriyat Street, Doha, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/2XeZYEFvCUzf57mA6?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/locations/abu-hamour/",
+      "status": 200,
+      "title": "أبو هامور | تشوروز كافيه قطر",
+      "description": "A warm Abu Hamour destination for golden churros, sweet plates, and your favorite coffee.",
+      "canonical": "https://www.churroscafeqa.com/ar/locations/abu-hamour/",
+      "robots": "index, follow",
+      "h1": [
+        "أبو هامورChurros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/locations/abu-hamour/",
+        "/ar/",
+        "/ar/locations/",
+        "/ar/menu/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/locations/lusail/",
+        "/ar/locations/duhail/",
+        "/ar/locations/downtown/",
+        "/ar/locations/mall-of-qatar/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/abu-hamour/#cafe",
+          "name": "Churros Cafe Abu Hamour",
+          "url": "https://www.churroscafeqa.com/locations/abu-hamour/",
+          "image": "https://www.churroscafeqa.com/assets/locations/abu-hamour.png",
+          "description": "A warm Abu Hamour destination for golden churros, sweet plates, and your favorite coffee.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wadi Al Ghadeeriyat Street, Doha, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/2XeZYEFvCUzf57mA6?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/locations/duhail/",
+      "status": 200,
+      "title": "Duhail | Churros Cafe Qatar",
+      "description": "Fresh churros, indulgent desserts, and carefully prepared drinks in Duhail.",
+      "canonical": "https://www.churroscafeqa.com/locations/duhail/",
+      "robots": "index, follow",
+      "h1": [
+        "DuhailChurros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/locations/duhail/",
+        "/",
+        "/locations/",
+        "/menu/",
+        "/menu/iced-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/locations/lusail/",
+        "/locations/abu-hamour/",
+        "/locations/downtown/",
+        "/locations/mall-of-qatar/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/duhail/#cafe",
+          "name": "Churros Cafe Duhail",
+          "url": "https://www.churroscafeqa.com/locations/duhail/",
+          "image": "https://www.churroscafeqa.com/assets/locations/duhail.png",
+          "description": "Fresh churros, indulgent desserts, and carefully prepared drinks in Duhail.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Destination Box, 9FF8+VX9, Doha, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/xyhssuVzp5KxFp8w8?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/locations/duhail/",
+      "status": 200,
+      "title": "الدحيل | تشوروز كافيه قطر",
+      "description": "Fresh churros, indulgent desserts, and carefully prepared drinks in Duhail.",
+      "canonical": "https://www.churroscafeqa.com/ar/locations/duhail/",
+      "robots": "index, follow",
+      "h1": [
+        "الدحيلChurros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/locations/duhail/",
+        "/ar/",
+        "/ar/locations/",
+        "/ar/menu/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/locations/lusail/",
+        "/ar/locations/abu-hamour/",
+        "/ar/locations/downtown/",
+        "/ar/locations/mall-of-qatar/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/duhail/#cafe",
+          "name": "Churros Cafe Duhail",
+          "url": "https://www.churroscafeqa.com/locations/duhail/",
+          "image": "https://www.churroscafeqa.com/assets/locations/duhail.png",
+          "description": "Fresh churros, indulgent desserts, and carefully prepared drinks in Duhail.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Destination Box, 9FF8+VX9, Doha, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/xyhssuVzp5KxFp8w8?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/locations/downtown/",
+      "status": 200,
+      "title": "Downtown | Churros Cafe Qatar",
+      "description": "A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.",
+      "canonical": "https://www.churroscafeqa.com/locations/downtown/",
+      "robots": "index, follow",
+      "h1": [
+        "DowntownChurros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/locations/downtown/",
+        "/",
+        "/locations/",
+        "/menu/",
+        "/menu/iced-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/locations/lusail/",
+        "/locations/abu-hamour/",
+        "/locations/duhail/",
+        "/locations/mall-of-qatar/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/downtown/#cafe",
+          "name": "Churros Cafe Downtown",
+          "url": "https://www.churroscafeqa.com/locations/downtown/",
+          "image": "https://www.churroscafeqa.com/assets/locations/downtown.png",
+          "description": "A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Downtown Night Market, Furousiya Street, Doha, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/BPuC7DKfSessXs8Z9?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/locations/downtown/",
+      "status": 200,
+      "title": "داون تاون | تشوروز كافيه قطر",
+      "description": "A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.",
+      "canonical": "https://www.churroscafeqa.com/ar/locations/downtown/",
+      "robots": "index, follow",
+      "h1": [
+        "داون تاونChurros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/locations/downtown/",
+        "/ar/",
+        "/ar/locations/",
+        "/ar/menu/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/locations/lusail/",
+        "/ar/locations/abu-hamour/",
+        "/ar/locations/duhail/",
+        "/ar/locations/mall-of-qatar/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/downtown/#cafe",
+          "name": "Churros Cafe Downtown",
+          "url": "https://www.churroscafeqa.com/locations/downtown/",
+          "image": "https://www.churroscafeqa.com/assets/locations/downtown.png",
+          "description": "A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Downtown Night Market, Furousiya Street, Doha, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/BPuC7DKfSessXs8Z9?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/locations/mall-of-qatar/",
+      "status": 200,
+      "title": "Mall of Qatar | Churros Cafe Qatar",
+      "description": "Make your Mall of Qatar visit sweeter with churros, waffles, pancakes, and refreshing drinks.",
+      "canonical": "https://www.churroscafeqa.com/locations/mall-of-qatar/",
+      "robots": "index, follow",
+      "h1": [
+        "Mall of QatarChurros Cafe."
+      ],
+      "links": [
+        "/",
+        "/menu/",
+        "/about/",
+        "/locations/",
+        "/offers/",
+        "/ar/locations/mall-of-qatar/",
+        "/",
+        "/locations/",
+        "/menu/",
+        "/menu/iced-coffee/",
+        "/menu/hot-coffee/",
+        "/menu/hot-coffee/",
+        "/locations/lusail/",
+        "/locations/abu-hamour/",
+        "/locations/duhail/",
+        "/locations/downtown/",
+        "/",
+        "/menu/",
+        "/locations/",
+        "/about/",
+        "/stories/",
+        "/offers/",
+        "/locations/",
+        "/offers/",
+        "/privacy/",
+        "/menu/",
+        "/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/mall-of-qatar/#cafe",
+          "name": "Churros Cafe Mall of Qatar",
+          "url": "https://www.churroscafeqa.com/locations/mall-of-qatar/",
+          "image": "https://www.churroscafeqa.com/assets/locations/mall-of-qatar.png",
+          "description": "Make your Mall of Qatar visit sweeter with churros, waffles, pancakes, and refreshing drinks.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Mall of Qatar, Street 605, Al Rayyan, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/p13wYrg8BZAoTtgv9?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    },
+    {
+      "path": "/ar/locations/mall-of-qatar/",
+      "status": 200,
+      "title": "مول قطر | تشوروز كافيه قطر",
+      "description": "Make your Mall of Qatar visit sweeter with churros, waffles, pancakes, and refreshing drinks.",
+      "canonical": "https://www.churroscafeqa.com/ar/locations/mall-of-qatar/",
+      "robots": "index, follow",
+      "h1": [
+        "مول قطرChurros Cafe."
+      ],
+      "links": [
+        "/ar/",
+        "/ar/menu/",
+        "/ar/about/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/locations/mall-of-qatar/",
+        "/ar/",
+        "/ar/locations/",
+        "/ar/menu/",
+        "/ar/menu/iced-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/menu/hot-coffee/",
+        "/ar/locations/lusail/",
+        "/ar/locations/abu-hamour/",
+        "/ar/locations/duhail/",
+        "/ar/locations/downtown/",
+        "/ar/",
+        "/ar/menu/",
+        "/ar/locations/",
+        "/ar/about/",
+        "/ar/stories/",
+        "/ar/offers/",
+        "/ar/locations/",
+        "/ar/offers/",
+        "/ar/privacy/",
+        "/ar/menu/",
+        "/ar/locations/"
+      ],
+      "products": 3,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://www.churroscafeqa.com/locations/mall-of-qatar/#cafe",
+          "name": "Churros Cafe Mall of Qatar",
+          "url": "https://www.churroscafeqa.com/locations/mall-of-qatar/",
+          "image": "https://www.churroscafeqa.com/assets/locations/mall-of-qatar.png",
+          "description": "Make your Mall of Qatar visit sweeter with churros, waffles, pancakes, and refreshing drinks.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Mall of Qatar, Street 605, Al Rayyan, Qatar",
+            "addressCountry": "QA"
+          },
+          "hasMap": "https://maps.app.goo.gl/p13wYrg8BZAoTtgv9?g_st=iwb",
+          "hasMenu": "https://www.churroscafeqa.com/menu/",
+          "parentOrganization": {
+            "@id": "https://www.churroscafeqa.com/#organization",
+            "name": "Churros Cafe"
+          }
+        }
+      ],
+      "imagesWithoutAlt": 0,
+      "imagesWithoutDimensions": 0,
+      "ogSiteName": "Churros Cafe"
+    }
+  ]
+}

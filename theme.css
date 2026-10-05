@@ -680,3 +680,6 @@ details, .filter-row, .menu-bottom, .story-signature { border-color: var(--line)
 @media (forced-colors: active) {
   .button, .filter.active, .product-arrow, .branch-row.active { border: 2px solid currentColor; }
 }
+:root { color-scheme: light; }
+.analytics-choice { position: fixed; z-index: 50; bottom: 80px; inset-inline: 16px; max-width: 560px; padding: 20px; background: #FFF3E0; color: #4A2E1B; border: 2px solid #4A2E1B; box-shadow: 0 4px 20px #4A2E1B33; }
+.analytics-choice button { min-height: 44px; margin: 4px; padding: 8px 16px; background: #4A2E1B; color: #FFF3E0; border: 0; }

@@ -1,6 +1,7 @@
 import '../styles.css';
 import '../theme.css';
 import { SITE_URL } from '../data/site';
+import Analytics from '../components/analytics';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -59,7 +60,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="/assets/fonts/fonts.css" />
       </head>
-      <body>{children}</body>
+      <body>{children}<Analytics /></body>
     </html>
   );
 }
