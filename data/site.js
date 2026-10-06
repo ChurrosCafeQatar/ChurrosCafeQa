@@ -1,5 +1,5 @@
 export const SITE_NAME = 'Churros Cafe';
-export const SITE_URL = 'https://www.churroscafeqa.com';
+export const SITE_URL = 'https://churroscafeqa.com';
 
 export function absoluteUrl(path = '/') {
   const normalizedPath = path.startsWith('/') ? path : `/${path}`;

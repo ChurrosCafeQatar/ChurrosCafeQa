@@ -1,7 +1,9 @@
+// @ts-nocheck
 import { notFound } from 'next/navigation';
 import CafeSite from '../../components/cafe-site';
+import SchemaMarkup from '../../components/SchemaMarkup';
 import { CHURROS_CAFE, translations } from '../../data/content';
-import { MENU_CATEGORIES, categoryBySlug } from '../../data/menu';
+import { MENU_CATEGORIES, categoryBySlug, menuByCategory } from '../../data/menu';
 import { SITE_URL, absoluteUrl } from '../../data/site';
 import { arabicPages, categoryCopy } from '../../data/seo';
 
@@ -36,8 +38,11 @@ const metadataMap = {
 };
 
 export function generateStaticParams() {
-  const routes = [[], ...[...standardPages].map(page => [page]), ...MENU_CATEGORIES.map(category => ['menu', category.slug]), ...CHURROS_CAFE.branches.map(branch => ['locations', branch.id])];
-  return routes.flatMap(slug => [{ slug }, { slug: ['ar', ...slug] }]);
+  const routes = [...[...standardPages].map(page => [page]), ...MENU_CATEGORIES.map(category => ['menu', category.slug]), ...CHURROS_CAFE.branches.map(branch => ['locations', branch.id])];
+  return routes.flatMap(slug => {
+    const isEnglishMenuOrLoc = slug.length === 1 && (slug[0] === 'menu' || slug[0] === 'locations');
+    return isEnglishMenuOrLoc ? [{ slug: ['ar', ...slug] }] : [{ slug }, { slug: ['ar', ...slug] }];
+  });
 }
 
 export async function generateMetadata({ params }) {
@@ -178,5 +183,6 @@ export default async function CatchAllPage({ params }) {
   const { slug = [] } = await params;
   const route = resolveRoute(slug);
   if (!route) notFound();
-  return <><PageStructuredData route={route} /><CafeSite {...route} /></>;
+  const branch = route.page === 'location' ? CHURROS_CAFE.branches.find(item => item.id === route.branchId) : undefined;
+  return <><SchemaMarkup type={route.page === 'menu-category' ? 'menu' : route.page} categorySlug={route.categorySlug} categories={MENU_CATEGORIES} menuByCategory={menuByCategory} branch={branch} branches={CHURROS_CAFE.branches} lang={route.lang} /><CafeSite {...route} /></>;
 }

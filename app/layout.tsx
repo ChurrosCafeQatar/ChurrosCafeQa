@@ -1,9 +1,28 @@
+import type { Metadata, Viewport } from 'next';
 import '../styles.css';
 import '../theme.css';
 import { SITE_URL } from '../data/site';
 import Analytics from '../components/analytics';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-export const metadata = {
+import { Original_Surfer, Pacifico } from 'next/font/google';
+
+const originalSurfer = Original_Surfer({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-small',
+});
+
+const pacifico = Pacifico({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-accent',
+});
+
+export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   applicationName: 'Churros Cafe',
   title: {
@@ -24,7 +43,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'Churros Cafe Qatar | Churros, Desserts & Coffee',
-    description: 'Fresh Spanish churros, desserts, matcha, milkshakes, and coffee at five Churros Cafe branches across Qatar.',
+    description: 'Fresh Spanish churros, desserts, matcha, milkshakes, and coffee at four Churros Cafe branches across Qatar.',
     siteName: 'Churros Cafe',
     type: 'website',
     locale: 'en_QA',
@@ -34,7 +53,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Churros Cafe Qatar | Churros, Desserts & Coffee',
-    description: 'Fresh Spanish churros, desserts, matcha, milkshakes, and coffee at five Churros Cafe branches across Qatar.',
+    description: 'Fresh Spanish churros, desserts, matcha, milkshakes, and coffee at four Churros Cafe branches across Qatar.',
     images: ['/assets/campaign-dessert-spread.png'],
   },
   icons: {
@@ -48,19 +67,30 @@ export const metadata = {
   },
 };
 
-export const viewport = {
+export const viewport: Viewport = {
   themeColor: '#d0551d',
   width: 'device-width',
   initialScale: 1,
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${originalSurfer.variable} ${pacifico.variable}`}>
       <head>
         <link rel="stylesheet" href="/assets/fonts/fonts.css" />
       </head>
-      <body>{children}<Analytics /></body>
+      <body>
+        <Header />
+        <main id="main">
+          {children}
+        </main>
+        <Footer />
+        <Analytics />
+      </body>
     </html>
   );
 }

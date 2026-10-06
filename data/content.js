@@ -55,18 +55,6 @@ const CHURROS_CAFE = {
       mapUrl: 'https://maps.app.goo.gl/BPuC7DKfSessXs8Z9?g_st=iwb',
       mapEmbed: 'https://www.google.com/maps?q=Churros%20Cafe%20Downtown%2C%20Downtown%20Night%20Market%2C%20Furousiya%20Street%2C%20Doha%2C%20Qatar&output=embed',
       number: '04'
-    },
-    {
-      id: 'mall-of-qatar',
-      name: 'Mall of Qatar',
-      ar: 'مول قطر',
-      subtitle: 'Churros Cafe Mall of Qatar',
-      intro: 'Make your Mall of Qatar visit sweeter with churros, waffles, pancakes, and refreshing drinks.',
-      locationLabel: 'Mall of Qatar, Street 605, Al Rayyan, Qatar',
-      image: 'locations/mall-of-qatar.png',
-      mapUrl: 'https://maps.app.goo.gl/p13wYrg8BZAoTtgv9?g_st=iwb',
-      mapEmbed: 'https://www.google.com/maps?q=Churros%20Cafe%20Mall%20of%20Qatar%2C%20Al%20Rayyan%2C%20Qatar&output=embed',
-      number: '05'
     }
   ]
 };
@@ -325,10 +313,10 @@ const translations = {
   'Belgian-style waffles bring crisp edges and tender centers. Mini pancakes arrive soft and fluffy, while French crepes make a delicate canvas for chocolate, pistachio kunafa, fruit, and ice cream. Puffy Donuts, Vanilla Softy, and rich milkshakes complete the sweet side of the menu.': 'يجمع الوافل البلجيكي بين الحواف المقرمشة والقلب الطري، ويأتي الميني بان كيك ناعماً وهشاً، فيما يشكل الكريب الفرنسي قاعدة رقيقة للشوكولاتة وكنافة الفستق والفواكه والآيس كريم. وتكمل البافي دونات وفانيلا سوفت والميلك شيك الغني الجانب الحلو من القائمة.',
   'Discover desserts and drinks': 'اكتشف الحلويات والمشروبات',
   'History note: the origin of churros remains disputed; this overview reflects food-history reporting rather than claiming one definitive inventor.': 'ملاحظة تاريخية: ما زال أصل التشوروز محل نقاش، ويعرض هذا الملخص ما ورد في تقارير تاريخ الطعام دون الجزم بمخترع واحد.',
-  'Five branches across Qatar.<br>One unmistakable taste.': 'خمسة فروع في قطر.<br>ومذاق واحد لا يُنسى.',
+  'Four branches across Qatar.<br>One unmistakable taste.': "4 U?OU^O1 U?US U,OO.<br>U^U.OO U, U^O OO_ U,O  USU?U+O3U%.",
   'OUR LOCATIONS': 'فروعنا',
   'Find your nearest<br><em>Churros Cafe.</em>': 'اعثر على أقرب<br><em>تشوروز كافيه.</em>',
-  'Five real branches across Qatar, each serving the churros, desserts, and drinks you love.': 'خمسة فروع في قطر تقدم التشوروز والحلويات والمشروبات التي تحبها.',
+  'Four real branches across Qatar, each serving the churros, desserts, and drinks you love.': "4 U?OU^O1 U?US U,OO OU,O_U. O U,OO'U^OU^O U^O U,OU,U^USO O U^O U,U.O'OU^O\"O O O U,OUS OOO\"UO .",
   'Find a branch': 'ابحث عن فرع',
   'Try Lusail, Duhail, or Downtown': 'جرّب لوسيل أو الدحيل أو داون تاون',
   'BRANCH': 'الفرع',
@@ -341,8 +329,7 @@ const translations = {
   'Your Lusail stop for freshly made churros, desserts, matcha, and coffee.': 'وجهتك في لوسيل للتشوروز الطازج والحلويات والماتشا والقهوة.',
   'A warm Abu Hamour destination for golden churros, sweet plates, and your favorite coffee.': 'وجهة دافئة في أبو هامور للتشوروز الذهبي والحلويات وقهوتك المفضلة.',
   'Fresh churros, indulgent desserts, and carefully prepared drinks in Duhail.': 'تشوروز طازج وحلويات غنية ومشروبات محضّرة بعناية في الدحيل.',
-  'A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.': 'محطة حيوية في داون تاون لقهوة سريعة أو تشوروز دافئ أو حلوى للمشاركة.',
-  'Make your Mall of Qatar visit sweeter with churros, waffles, pancakes, and refreshing drinks.': 'اجعل زيارتك لمول قطر أحلى مع التشوروز والوافل والبان كيك والمشروبات المنعشة.'
+  'A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.': 'محطة حيوية في داون تاون لقهوة سريعة أو تشوروز دافئ أو حلوى للمشاركة.'
 };
 
 export { CHURROS_CAFE, translations };
