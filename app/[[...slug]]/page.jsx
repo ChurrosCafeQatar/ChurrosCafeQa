@@ -148,6 +148,7 @@ function PageStructuredData({ route }) {
           name: `Churros Cafe ${branch.name}`,
           url: absoluteUrl(`/locations/${branch.id}/`),
           address: { '@type': 'PostalAddress', streetAddress: branch.locationLabel, addressCountry: 'QA' },
+          ...(branch.phone ? { telephone: branch.phone } : {}),
         },
       })),
     };
@@ -163,6 +164,7 @@ function PageStructuredData({ route }) {
       description: branch.intro,
       address: { '@type': 'PostalAddress', streetAddress: branch.locationLabel, addressCountry: 'QA' },
       hasMap: branch.mapUrl,
+      ...(branch.phone ? { telephone: branch.phone } : {}),
       hasMenu: absoluteUrl('/menu/'),
       parentOrganization: { '@id': `${SITE_URL}/#organization`, name: 'Churros Cafe' },
     };

@@ -17,7 +17,7 @@ export function buildLlmsIndex() {
 
 export function buildLlmsFull() {
   const branches = CHURROS_CAFE.branches.map(branch =>
-    `### ${branch.name}\n\n- Location: ${cleanText(branch.locationLabel)}\n- Page: ${absoluteUrl(`/locations/${branch.id}/`)}\n- Google Maps: ${branch.mapUrl}\n- Summary: ${cleanText(branch.intro)}`
+    `### ${branch.name}\n\n- Location: ${cleanText(branch.locationLabel)}${branch.phone ? `\n- Telephone: ${branch.phone}` : ''}\n- Page: ${absoluteUrl(`/locations/${branch.id}/`)}\n- Google Maps: ${branch.mapUrl}\n- Summary: ${cleanText(branch.intro)}`
   ).join('\n\n');
 
   const menu = MENU_CATEGORIES.map(category => {

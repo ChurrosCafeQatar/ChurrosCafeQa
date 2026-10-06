@@ -7,6 +7,7 @@ const CHURROS_CAFE = {
     {
       id: 'lusail',
       name: 'Lusail',
+      phone: '+974 3167 7999',
       ar: 'لوسيل',
       subtitle: 'Churros Cafe Lusail',
       intro: 'Your Lusail stop for freshly made churros, desserts, matcha, and coffee.',
@@ -19,6 +20,7 @@ const CHURROS_CAFE = {
     {
       id: 'abu-hamour',
       name: 'Abu Hamour',
+      phone: '+974 7791 9555',
       ar: 'أبو هامور',
       subtitle: 'Churros Cafe Abu Hamour',
       intro: 'A warm Abu Hamour destination for golden churros, sweet plates, and your favorite coffee.',
@@ -31,6 +33,7 @@ const CHURROS_CAFE = {
     {
       id: 'duhail',
       name: 'Duhail',
+      phone: '+974 3123 3633',
       ar: 'الدحيل',
       subtitle: 'Churros Cafe Duhail',
       intro: 'Fresh churros, indulgent desserts, and carefully prepared drinks in Duhail.',
@@ -43,6 +46,7 @@ const CHURROS_CAFE = {
     {
       id: 'downtown',
       name: 'Downtown',
+      phone: '+974 3149 1515',
       ar: 'داون تاون',
       subtitle: 'Churros Cafe Downtown',
       intro: 'A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.',

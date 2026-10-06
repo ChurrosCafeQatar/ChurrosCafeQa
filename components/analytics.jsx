@@ -38,7 +38,7 @@ export default function Analytics() {
       const link = event.target.closest?.('a');
       if (!link) return;
       if (link.href.includes('maps.app.goo.gl')) track('location_direction_click', { branch: link.closest('[data-branch-id]')?.dataset.branchId || path.split('/')[2], source: path });
-      if (link.protocol === 'tel:') track('location_call_click', { branch: path.split('/')[2] });
+      if (link.protocol === 'tel:') track('location_call_click', { branch: link.dataset.branchId, source: 'branch-contact' });
       if (link.classList.contains('language')) track('language_switch', { language: link.lang });
       if (path.includes('/offers/') && link.pathname.includes('/menu/')) track('offer_click', { source: 'winter-menu' });
     };
