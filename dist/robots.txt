@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://churroscafeqa.com
+Sitemap: https://churroscafeqa.com/sitemap.xml

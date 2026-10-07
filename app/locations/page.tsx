@@ -7,6 +7,14 @@ import SchemaMarkup from '../../components/SchemaMarkup';
 export const metadata = {
   title: 'Churros Cafe Locations in Qatar',
   description: 'Find Churros Cafe locations across Qatar, including branch addresses, opening hours, directions and catering contact details.',
+  alternates: {
+    canonical: '/locations/',
+    languages: {
+      en: '/locations/',
+      ar: '/ar/locations/',
+      'x-default': '/locations/'
+    }
+  }
 };
 
 export default function LocationsPage() {

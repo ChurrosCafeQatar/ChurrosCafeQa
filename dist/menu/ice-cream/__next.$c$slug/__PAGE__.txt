@@ -1,0 +1,62 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js","/_next/static/chunks/0hbyjdoyb9p48.js"],""]
+3:I[81559,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js","/_next/static/chunks/0hbyjdoyb9p48.js"],"ProductGrid"]
+4:I[81559,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js","/_next/static/chunks/0hbyjdoyb9p48.js"],"SiteDialog"]
+5:I[97367,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+a:I[97367,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"MetadataBoundary"]
+9:X
+2e:X
+2e:C
+0:{"buildId":"y3IoTM4zNpA5LmMvx_Qsd","data":[{"rsc":["$","$1","c",{"children":[[[["$","script","schema-0",{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Menu\",\"@id\":\"https://churroscafeqa.com/menu/#menu\",\"name\":\"Churros Cafe Ice Cream Menu\",\"url\":\"https://churroscafeqa.com/menu/\",\"inLanguage\":\"en\",\"hasMenuSection\":[{\"@type\":\"MenuSection\",\"name\":\"Ice Cream\",\"hasMenuItem\":[{\"@type\":\"MenuItem\",\"name\":\"Ice Cream with Churros\",\"image\":\"https://churroscafeqa.com/assets/menu/Ice Cream with Churros.webp\"},{\"@type\":\"MenuItem\",\"name\":\"Vanilla Softy\",\"image\":\"https://churroscafeqa.com/assets/menu/Vanilla Softy.webp\"}]}]}"}}]],["$","div",null,{"dir":"ltr","lang":"en","children":[["$","main",null,{"id":"main","children":[["$","section",null,{"className":"page-heading","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://churroscafeqa.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Full menu\",\"item\":\"https://churroscafeqa.com/menu/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Ice Cream\"}]}"}}],["$","nav",null,{"className":"breadcrumbs","aria-label":"Breadcrumb","children":[["$","$L2",null,{"href":"/","children":"Home"}],["$","span",null,{"children":"/"}],[["$","$L2",null,{"href":"/menu/","children":"Full menu"}],["$","span",null,{"children":"/"}]],["$","span",null,{"children":"Ice Cream"}]]}],["$","p",null,{"className":"eyebrow","children":"Ice Cream"}],["$","h1",null,{"dangerouslySetInnerHTML":{"__html":"Ice Cream<br><em>at Churros Cafe.</em>"}}],["$","p",null,{"children":"Choose Ice Cream with Churros or Vanilla Softy from the Churros Cafe menu. View photographs and QAR prices."}]]}],["$","section",null,{"className":"page-body category-landing","children":[["$","$L3",null,{"lang":"en","full":true,"fixedCategory":"ice-cream"}],["$","div",null,{"className":"category-conversion","children":[["$","div",null,{"children":[["$","p",null,{"className":"eyebrow","children":"VISIT CHURROS CAFE"}],["$","h2",null,{"children":"Find your nearest café."}],["$","p",null,{"children":"Choose from four Churros Cafe branches across Qatar."}]]}],["$","$L2",null,{"className":"button","href":"/locations/","children":["Find nearest café"," ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}]]}],["$","nav",null,{"className":"related-categories","aria-label":"Related menu categories","children":[["$","h2",null,{"children":"Explore more of the menu"}],["$","div",null,{"children":[["$","$L2","churros",{"className":"link","href":"/menu/churros/","children":["Churros"," ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}],["$","$L2","milkshakes",{"className":"link","href":"/menu/milkshakes/","children":["Milkshakes"," ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}],["$","$L2","desserts",{"className":"link","href":"/menu/desserts/","children":["Desserts"," ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}]]}],["$","$L2",null,{"className":"link","href":"/menu/","children":["View the full menu"," ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}]]}]]}]]}],["$","$L4",null,{"lang":"en"}]]}]],[["$","script","script-0",{"src":"/_next/static/chunks/0hbyjdoyb9p48.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":"$@8","staleTime":"$9","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$La",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#d0551d"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":["$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29"]}]}]}],"$L2a"]}],"isPartial":"$@2b","staleTime":"$9","varyParams":null},{"rsc":"$L2c","isPartial":"$@2d","staleTime":"$9","varyParams":"$2e"},{"rsc":"$L2f","isPartial":"$@30","staleTime":"$9","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@31","rootVaryParams":null,"needsRuntimeRequest":"$@32"}
+33:I[27201,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"IconMark"]
+34:I[39756,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+35:I[37457,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+36:I[70119,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+37:I[56691,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+38:I[92745,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+:HL["/_next/static/chunks/1j5rpw72asjah.css","style"]
+:HL["/assets/fonts/fonts.css","style"]
+7:null
+c:["$","title","0",{"children":"Ice Cream Menu | Churros Cafe Qatar"}]
+d:["$","meta","1",{"name":"description","content":"Choose Ice Cream with Churros or Vanilla Softy from the Churros Cafe menu. View photographs and QAR prices."}]
+e:["$","meta","2",{"name":"application-name","content":"Churros Cafe"}]
+f:["$","meta","3",{"name":"robots","content":"index, follow"}]
+10:["$","meta","4",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}]
+11:["$","link","5",{"rel":"canonical","href":"https://churroscafeqa.com/menu/ice-cream/"}]
+12:["$","link","6",{"rel":"alternate","hrefLang":"en","href":"https://churroscafeqa.com/menu/ice-cream/"}]
+13:["$","link","7",{"rel":"alternate","hrefLang":"ar","href":"https://churroscafeqa.com/ar/menu/ice-cream/"}]
+14:["$","link","8",{"rel":"alternate","hrefLang":"x-default","href":"https://churroscafeqa.com/menu/ice-cream/"}]
+15:["$","meta","9",{"property":"og:title","content":"Ice Cream Menu | Churros Cafe Qatar"}]
+16:["$","meta","10",{"property":"og:description","content":"Choose Ice Cream with Churros or Vanilla Softy from the Churros Cafe menu. View photographs and QAR prices."}]
+17:["$","meta","11",{"property":"og:url","content":"https://churroscafeqa.com/menu/ice-cream/"}]
+18:["$","meta","12",{"property":"og:site_name","content":"Churros Cafe"}]
+19:["$","meta","13",{"property":"og:locale","content":"en_QA"}]
+1a:["$","meta","14",{"property":"og:image","content":"https://churroscafeqa.com/assets/campaign-dessert-spread.png"}]
+1b:["$","meta","15",{"property":"og:image:width","content":"2048"}]
+1c:["$","meta","16",{"property":"og:image:height","content":"2048"}]
+1d:["$","meta","17",{"property":"og:image:alt","content":"Churros Cafe desserts with chocolate, pistachio, strawberries, and banana"}]
+1e:["$","meta","18",{"property":"og:locale:alternate","content":"ar_QA"}]
+1f:["$","meta","19",{"property":"og:type","content":"website"}]
+20:["$","meta","20",{"name":"twitter:card","content":"summary_large_image"}]
+21:["$","meta","21",{"name":"twitter:title","content":"Ice Cream Menu | Churros Cafe Qatar"}]
+22:["$","meta","22",{"name":"twitter:description","content":"Choose Ice Cream with Churros or Vanilla Softy from the Churros Cafe menu. View photographs and QAR prices."}]
+23:["$","meta","23",{"name":"twitter:image","content":"https://churroscafeqa.com/assets/campaign-dessert-spread.png"}]
+24:["$","link","24",{"rel":"shortcut icon","href":"/favicon.ico"}]
+25:["$","link","25",{"rel":"icon","href":"/favicon.ico","sizes":"any","type":"image/x-icon"}]
+26:["$","link","26",{"rel":"icon","href":"/assets/churros-icon-192.png","sizes":"192x192","type":"image/png"}]
+27:["$","link","27",{"rel":"icon","href":"/assets/churros-icon-512.png","sizes":"512x512","type":"image/png"}]
+28:["$","link","28",{"rel":"apple-touch-icon","href":"/assets/churros-apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
+29:["$","$L33","29",{}]
+2a:["$","meta",null,{"name":"next-size-adjust","content":""}]
+2c:["$","$1","c",{"children":[null,["$","$L34",null,{"parallelRouterKey":"children","template":["$","$L35",null,{}]}]]}]
+2f:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j5rpw72asjah.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3lgy7mwsoqp05.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2mgcks-pj8vfr.js","async":true}]],["$","html",null,{"lang":"en","className":"original_surfer_3bd67919-module__Yw4EQW__variable pacifico_b63dca06-module__sb6c0W__variable","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"/assets/fonts/fonts.css"}]}],["$","body",null,{"children":[["$","$L36",null,{}],["$","main",null,{"id":"main","children":["$","$L34",null,{"parallelRouterKey":"children","template":["$","$L35",null,{}],"notFound":[["$","main",null,{"id":"main","children":[["$","section",null,{"className":"page-heading","children":[["$","p",null,{"className":"eyebrow","children":"404 · PAGE NOT FOUND"}],["$","h1",null,{"children":["This page is taking",["$","br",null,{}],["$","em",null,{"children":"a coffee break."}]]}]]}],["$","section",null,{"className":"page-body","children":[["$","$L2",null,{"className":"button","href":"/","children":["Home ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}],["$","p",null,{"children":["$","$L2",null,{"className":"link","href":"/menu/","children":"Explore the menu"}]}],["$","p",null,{"children":["$","$L2",null,{"className":"link","href":"/locations/","children":"Find a branch"}]}]]}]]}],[]]}]}],["$","$L37",null,{}],["$","$L38",null,{}]]}]]}]]}]
+9:300
+32:true
+9:C
+31:0
+2b:"$undefined"
+2d:"$undefined"
+30:"$undefined"
+8:"$undefined"

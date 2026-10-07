@@ -1,6 +1,6 @@
 import { menuItems } from './menu';
 
-const CHURROS_CAFE = {
+export interface CafeLocation { id: string; name: string; phone: string; ar: string; subtitle: string; intro: string; locationLabel: string; image: string; mapUrl: string; mapEmbed: string; number: string; } export interface BrandData { brand: string; products: any[]; branches: CafeLocation[]; } const CHURROS_CAFE: BrandData = {
   brand: 'Churros Cafe',
   products: menuItems,
   branches: [
@@ -329,7 +329,11 @@ const translations = {
   'Your Lusail stop for freshly made churros, desserts, matcha, and coffee.': 'وجهتك في لوسيل للتشوروز الطازج والحلويات والماتشا والقهوة.',
   'A warm Abu Hamour destination for golden churros, sweet plates, and your favorite coffee.': 'وجهة دافئة في أبو هامور للتشوروز الذهبي والحلويات وقهوتك المفضلة.',
   'Fresh churros, indulgent desserts, and carefully prepared drinks in Duhail.': 'تشوروز طازج وحلويات غنية ومشروبات محضّرة بعناية في الدحيل.',
-  'A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.': 'محطة حيوية في داون تاون لقهوة سريعة أو تشوروز دافئ أو حلوى للمشاركة.'
+  'A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.': 'محطة حيوية في داون تاون لقهوة سريعة أو تشوروز دافئ أو حلوى للمشاركة.',
+  'PERMANENTLY CLOSED': 'مغلق بشكل دائم',
+  'Mall of Qatar<br><em>Branch</em>': 'فرع<br><em>قطر مول</em>',
+  'Choose from four Churros Cafe branches across Qatar.': 'اختر من بين 4 فروع لتشوروز كافيه في قطر.',
+  'Find nearest café': 'ابحث عن أقرب مقهى'
 };
 
 export { CHURROS_CAFE, translations };

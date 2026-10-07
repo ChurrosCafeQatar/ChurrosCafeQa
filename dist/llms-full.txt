@@ -1,0 +1,212 @@
+# Churros Cafe: verified menu and branch reference
+
+> This plain-text reference is generated from the same centralized data used by the visible Churros Cafe website. It is intended to help answer engines and language models cite current, source-backed business facts without inventing missing information.
+
+## Business facts
+
+- Brand: Churros Cafe
+- Country: Qatar
+- Currency: QAR
+- Published branches: 4
+- Published menu products: 53
+- Canonical website: https://churroscafeqa.com/
+- Full menu: https://churroscafeqa.com/menu/
+- Locations: https://churroscafeqa.com/locations/
+
+## Branch locations
+
+### Lusail
+
+- Location: Lusail Night Market, Lusail, Qatar
+- Telephone: +974 3167 7999
+- Page: https://churroscafeqa.com/locations/lusail/
+- Google Maps: https://maps.app.goo.gl/yxNDxcSqSYJZt1oc6?g_st=iwb
+- Summary: Your Lusail stop for freshly made churros, desserts, matcha, and coffee.
+
+### Abu Hamour
+
+- Location: Wadi Al Ghadeeriyat Street, Doha, Qatar
+- Telephone: +974 7791 9555
+- Page: https://churroscafeqa.com/locations/abu-hamour/
+- Google Maps: https://maps.app.goo.gl/2XeZYEFvCUzf57mA6?g_st=iwb
+- Summary: A warm Abu Hamour destination for golden churros, sweet plates, and your favorite coffee.
+
+### Duhail
+
+- Location: Destination Box, 9FF8+VX9, Doha, Qatar
+- Telephone: +974 3123 3633
+- Page: https://churroscafeqa.com/locations/duhail/
+- Google Maps: https://maps.app.goo.gl/xyhssuVzp5KxFp8w8?g_st=iwb
+- Summary: Fresh churros, indulgent desserts, and carefully prepared drinks in Duhail.
+
+### Downtown
+
+- Location: Downtown Night Market, Furousiya Street, Doha, Qatar
+- Telephone: +974 3149 1515
+- Page: https://churroscafeqa.com/locations/downtown/
+- Google Maps: https://maps.app.goo.gl/BPuC7DKfSessXs8Z9?g_st=iwb
+- Summary: A lively Downtown stop for a quick coffee, a warm churro, or dessert shared after dark.
+
+## Current menu
+
+### Churros
+
+Source-backed products: 7.
+
+- Celebration Box — QAR 170.00
+  Description: The box includes all our special products, such as one portion of mini pancakes, one portion mini French crepes, four pieces puffy donuts, around twenty pieces mini churros, six pieces mini loops churros coated in cinnamon sugar with three sauces.
+- Classic Churros — QAR 30.00
+  Description: Five pieces of Spanish churros sticks with any free two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.
+  Serving quantity: 5 pieces
+  Sauce options: Nutella, Kinder, Pistachio, Lotus, Caramel
+- Mini Churros — QAR 30.00
+  Description: 15 pieces of Spanish mini churros with choice of two sauces — Nutella, Kinder, Pistachio, Lotus or Caramel — and choice of sugar or cinnamon.
+  Serving quantity: 15 pieces
+  Sauce options: Nutella, Kinder, Pistachio, Lotus, Caramel
+- Mini Loops — QAR 30.00
+  Description: 5 pieces of mini loop with your choice of 2 sauces.
+  Serving quantity: 5 pieces
+- Mixed Churros — QAR 80.00
+  Description: 16 pieces of mixed churros, 4 each of Classic, Wonder, Loops and Mini Churros coated in cinnamon sugar with choice of 4 sauces.
+  Serving quantity: 16 pieces
+- Wonder Churros — QAR 30.00
+  Description: 5 pieces of Spanish filled churros with available sauces: Nutella, Kinder, Pistachio, Lotus or Caramel, and choice of sugar or cinnamon.
+  Serving quantity: 5 pieces
+  Sauce options: Nutella, Kinder, Pistachio, Lotus, Caramel
+- Mega Loop — QAR 20.00
+  Description: Mega loop Spanish churros with any 2 sauces of your choice on top.
+
+### Waffles
+
+Source-backed products: 2.
+
+- Mini Waffle — QAR 30.00
+  Description: 10 pieces of mini Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.
+  Serving quantity: 10 pieces
+  Sauce options: Nutella, Kinder, Pistachio, Lotus, Caramel, White Chocolate
+- Waffle Triple — QAR 40.00
+  Description: Belgian square-shaped waffle served with choice of 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.
+  Sauce options: Nutella, Kinder, Pistachio, Lotus, Caramel, White Chocolate
+
+### Crepes
+
+Source-backed products: 3.
+
+- Dubai Chocolate Crepe — QAR 35.00
+  Description: Dubai chocolate crepe, a delicate French crepe filled with pistachio kunafa chocolate sauce, covered in rich Belgian milk chocolate and drizzled with smooth white chocolate for the perfect indulgence.
+- Mini Crepe — QAR 30.00
+- Signature Ice Cream Crepe — QAR 35.00
+  Description: Rich milk chocolate and a drizzle of hazelnut spread.
+
+### Pancakes
+
+Source-backed products: 1.
+
+- Mini Pancake — QAR 30.00
+  Description: 10 pieces of mini pancake served with choice of any 3 free sauces: Nutella, Kinder, Pistachio, Lotus, Caramel or White Chocolate, and additional choice of fruits.
+  Serving quantity: 10 pieces
+  Sauce options: Nutella, Kinder, Pistachio, Lotus, Caramel, White Chocolate
+
+### Desserts
+
+Source-backed products: 3.
+
+- Hola Box — QAR 95.00
+  Description: Our signature desserts box: 8 classic churros, 3 Wonder Churros, fresh strawberries and mini pancakes served with choice of 4 sauces and cinnamon sugar.
+- Puffy Donut — QAR 35.00
+  Description: 6 pieces of puffy donuts filled with choices of Pistachio, Kinder, Nutella, Caramel or Lotus sauce.
+  Serving quantity: 6 pieces
+  Sauce options: Pistachio, Kinder, Nutella, Caramel, Lotus
+- Strawberry Chocolate — QAR 40.00
+
+### Ice Cream
+
+Source-backed products: 2.
+
+- Ice Cream with Churros — QAR 28.00
+- Vanilla Softy — QAR 18.00
+
+### Matcha
+
+Source-backed products: 4.
+
+- Matcha Frappe — QAR 30.00
+  Description: Cool and creamy blend of fine matcha, lightly sweetened and blended to smooth perfection. It is earthy, energizing and your new green obsession.
+- Matcha Latte — QAR 25.00
+  Description: Finest quality matcha, brewed to perfection and topped with milk foam.
+- Pour Me Matcha - Raspberry — QAR 29.00
+- Salted Caramel Matcha — QAR 27.00
+  Description: Finest quality matcha brewed to perfection with salted caramel milk foam.
+
+### Hot Coffee
+
+Source-backed products: 9.
+
+- Americano — QAR 16.00
+- Arabic Qahwa — QAR 16.00
+- Cafe Latte — QAR 20.00
+- Cappuccino — QAR 20.00
+- Cortado — QAR 18.00
+- Espresso — QAR 14.00
+- Flat White — QAR 20.00
+- Hot Chocolate — QAR 25.00
+- Spanish Latte — QAR 24.00
+
+### Cold Coffee
+
+Source-backed products: 10.
+
+- 24 Hour Cold Brew — QAR 27.00
+- Dark Mocha Shaken Espresso — QAR 25.00
+  Description: Espresso shaken with dark chocolate and milk — cold, frothy, and bold.
+- Iced Americano — QAR 16.00
+  Description: Made with dark espresso and ice, it's the perfect way to relax and cool off during those hot summer days or anytime you're craving a refreshing coffee.
+- Iced Caramel Macchiato — QAR 25.00
+  Description: Indulge in the rich and creamy flavor of Iced Caramel Macchiato, a luxurious blend of freshly brewed espresso, creamy milk and sweet caramel syrup, served over ice.
+- Iced Latte — QAR 20.00
+  Description: Made with rich espresso, milk and ice, it's the perfect way to refresh and revitalize yourself during hot summer days, or anytime you crave a refreshing coffee.
+- Iced Spanish Latte — QAR 25.00
+  Description: Made with rich espresso, milk and ice, the perfect drink for those hot summer days.
+- Iced V60 — QAR 25.00 – QAR 27.00
+  Description: A chilled slow brew for those who appreciate clean aromatic coffee notes. Perfect for hot days when you need a refreshing caffeine boost.
+- Pour Me Choco Spanish — QAR 27.00
+- Tiramisu Frappe — QAR 28.00
+- White Mocha Shaken Espresso — QAR 25.00
+  Description: Espresso shaken with white chocolate and milk — cold, frothy, and bold.
+
+### Milkshakes
+
+Source-backed products: 4.
+
+- Maltesers and Cream — QAR 25.00
+- New York Cheesecake — QAR 25.00
+  Description: Classic cheesecake-flavoured milkshake.
+- Oreo Cream — QAR 25.00
+  Description: Oreo-flavoured milkshake.
+- Strawberry Cream — QAR 25.00
+
+### Iced Drinks
+
+Source-backed products: 8.
+
+- Blue Lagoon Mojito — QAR 20.00 – QAR 25.00
+  Description: Blue curacao flavor, lime and mint muddled in choice of 7 Up or Redbull.
+- Karkade — QAR 22.00
+- Passion Fruit Mojito — QAR 20.00
+  Description: Fresh passion fruit, lime and mint muddled with choice of 7 Up or Redbull.
+- Passion Ice Tea — QAR 20.00
+  Description: Passion fruit signature iced tea.
+- Peach Iced Tea — QAR 20.00
+  Description: Quench your thirst with our Peach Iced Tea, a refreshing and fruity blend of premium tea leaves and juicy peaches, perfect for sipping any time of the day.
+- Peach Mojito — QAR 20.00
+  Description: Fresh peach, lime and mint muddled with choice of 7 Up or Redbull.
+- Raspberry Hibiscus — QAR 22.00
+- Tropical Dragon Lemonade — QAR 25.00
+  Description: Refreshing lemonade with mango, lemon and mint flavours alongside dragon fruit cubes. Tart, sweet and pink.
+
+## Data-use notes
+
+- Original source names and source categories are preserved internally. Customer-facing names and categories are normalized only where clearly safe.
+- A missing description means the supplied menu did not provide one; it must not be generated or inferred.
+- Product prices may be fixed or ranged and must be quoted exactly as shown above.
+- Ingredients, allergens, dietary suitability, opening hours, telephone numbers, delivery partners, and branch-level availability are not asserted unless added to the verified source data.

@@ -5,6 +5,18 @@ import { ProductGrid, BranchExplorer, SiteDialog } from '../components/cafe-inte
 import { SparkIcon, ArrowIcon, BurstIcon, DownIcon } from '../components/icons';
 import { CHURROS_CAFE } from '../data/content';
 import SchemaMarkup from '../components/SchemaMarkup';
+import { SITE_URL } from '../data/site';
+
+export const metadata = {
+  alternates: {
+    canonical: '/',
+    languages: {
+      en: '/',
+      ar: '/ar/',
+      'x-default': '/'
+    }
+  }
+};
 
 export default function LandingPage() {
   const lang = 'en';

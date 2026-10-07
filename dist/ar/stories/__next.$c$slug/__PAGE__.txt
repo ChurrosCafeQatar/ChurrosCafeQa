@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js","/_next/static/chunks/0hbyjdoyb9p48.js"],""]
+3:I[81559,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js","/_next/static/chunks/0hbyjdoyb9p48.js"],"SiteDialog"]
+4:I[97367,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"ViewportBoundary"]
+a:I[97367,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"MetadataBoundary"]
+8:X
+2b:X
+2b:C
+0:{"buildId":"y3IoTM4zNpA5LmMvx_Qsd","data":[{"rsc":["$","$1","c",{"children":[[null,["$","div",null,{"dir":"rtl","lang":"ar","children":[["$","main",null,{"id":"main","children":[["$","section",null,{"className":"page-heading","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"الرئيسية\",\"item\":\"https://churroscafeqa.com/ar/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"يوميات تشوروز كافيه\"}]}"}}],["$","nav",null,{"className":"breadcrumbs","aria-label":"Breadcrumb","children":[["$","$L2",null,{"href":"/ar/","children":"الرئيسية"}],["$","span",null,{"children":"/"}],"$undefined",["$","span",null,{"children":"يوميات تشوروز كافيه"}]]}],["$","p",null,{"className":"eyebrow","children":"يوميات تشوروز كافيه"}],["$","h1",null,{"dangerouslySetInnerHTML":{"__html":"رحلة طويلة<br>نحو <em>شيء ذهبي.</em>"}}],["$","p",null,{"children":"من بدايات التشوروز المختلف عليها إلى الوافل والبان كيك والكريب والقهوة التي تشاركه المائدة اليوم."}]]}],["$","section",null,{"className":"page-body","children":[["$","article",null,{"className":"info-panel prose","children":[["$","p",null,{"className":"eyebrow","children":"لمحة من تاريخ التشوروز"}],["$","h2",null,{"children":"أين بدأت حكاية التشوروز؟"}],["$","p",null,{"children":"الإجابة الصادقة أن أصل التشوروز الدقيق ما زال محل نقاش. تربطه إحدى النظريات بعجين اليوتيـاو الصيني المقلي الذي ربما عرفه رحالة برتغاليون وطوّروه. ويشير مؤرخو الطعام أيضاً إلى تقاليد أقدم للعجين المقلي في شبه الجزيرة الأيبيرية والبحر المتوسط، لذلك تبدو القصة أعقد من اختراع واحد."}],["$","p",null,{"children":"الواضح أن إسبانيا أسهمت في تشكيل تقليد التشوروز المحزز والطازج الذي نعرفه اليوم. وأصبح جزءاً من طقوس الإفطار والمقاهي، خصوصاً مع الشوكولاتة الساخنة الكثيفة، ثم انتشر في المجتمعات الناطقة بالإسبانية والبرتغالية واكتسب أشكالاً وحشوات ولمسات محلية."}]]}],["$","div",null,{"className":"info-grid","children":[["$","article",null,{"className":"info-panel","children":[["$","p",null,{"className":"eyebrow","children":"مائدة تشوروز كافيه"}],["$","h2",null,{"children":"كلاسيكي يتجدد دائماً."}],["$","p",null,{"children":"تواصل قائمتنا هذه الروح مع التشوروز الكلاسيكي والميني تشوروز بالقرفة والسكر والميغا لوبس بالصلصات ووندر تشوروز المحشو وبوكسات المشاركة لتجربة القليل من كل شيء."}],["$","$L2",null,{"className":"link","href":"/ar/menu/","children":["استكشف جميع أنواع التشوروز"," ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}]]}],["$","article",null,{"className":"info-panel","children":[["$","p",null,{"className":"eyebrow","children":"أكثر من تشوروز"}],["$","h2",null,{"children":"طرق أكثر لتحويل الحلوى إلى لحظة."}],["$","p",null,{"children":"يجمع الوافل البلجيكي بين الحواف المقرمشة والقلب الطري، ويأتي الميني بان كيك ناعماً وهشاً، فيما يشكل الكريب الفرنسي قاعدة رقيقة للشوكولاتة وكنافة الفستق والفواكه والآيس كريم. وتكمل البافي دونات وفانيلا سوفت والميلك شيك الغني الجانب الحلو من القائمة."}],["$","$L2",null,{"className":"link","href":"/ar/menu/","children":["اكتشف الحلويات والمشروبات"," ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}]]}]]}],["$","p",null,{"className":"source-note","children":"ملاحظة تاريخية: ما زال أصل التشوروز محل نقاش، ويعرض هذا الملخص ما ورد في تقارير تاريخ الطعام دون الجزم بمخترع واحد."}]]}]]}],["$","$L3",null,{"lang":"ar"}]]}]],[["$","script","script-0",{"src":"/_next/static/chunks/0hbyjdoyb9p48.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L9",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#d0551d"}]]}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"حكاية التشوروز | تشوروز كافيه قطر"}],["$","meta","1",{"name":"description","content":"تعرف على تاريخ التشوروز وأصوله المتنازع عليها، والحلويات التي تشاركه المائدة من وافل وبان كيك وكريب."}],"$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26"]}]}]}],"$L27"]}],"isPartial":"$@28","staleTime":"$8","varyParams":null},{"rsc":"$L29","isPartial":"$@2a","staleTime":"$8","varyParams":"$2b"},{"rsc":"$L2c","isPartial":"$@2d","staleTime":"$8","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@2e","rootVaryParams":null,"needsRuntimeRequest":"$@2f"}
+30:I[27201,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"IconMark"]
+31:I[39756,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+32:I[37457,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+33:I[70119,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+34:I[56691,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+35:I[92745,["/_next/static/chunks/3lgy7mwsoqp05.js","/_next/static/chunks/2mgcks-pj8vfr.js"],"default"]
+:HL["/_next/static/chunks/1j5rpw72asjah.css","style"]
+:HL["/assets/fonts/fonts.css","style"]
+6:null
+b:["$","meta","2",{"name":"application-name","content":"Churros Cafe"}]
+c:["$","meta","3",{"name":"robots","content":"index, follow"}]
+d:["$","meta","4",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}]
+e:["$","link","5",{"rel":"canonical","href":"https://churroscafeqa.com/ar/stories/"}]
+f:["$","link","6",{"rel":"alternate","hrefLang":"en","href":"https://churroscafeqa.com/stories/"}]
+10:["$","link","7",{"rel":"alternate","hrefLang":"ar","href":"https://churroscafeqa.com/ar/stories/"}]
+11:["$","link","8",{"rel":"alternate","hrefLang":"x-default","href":"https://churroscafeqa.com/stories/"}]
+12:["$","meta","9",{"property":"og:title","content":"حكاية التشوروز | تشوروز كافيه قطر"}]
+13:["$","meta","10",{"property":"og:description","content":"تعرف على تاريخ التشوروز وأصوله المتنازع عليها، والحلويات التي تشاركه المائدة من وافل وبان كيك وكريب."}]
+14:["$","meta","11",{"property":"og:url","content":"https://churroscafeqa.com/ar/stories/"}]
+15:["$","meta","12",{"property":"og:site_name","content":"Churros Cafe"}]
+16:["$","meta","13",{"property":"og:locale","content":"ar_QA"}]
+17:["$","meta","14",{"property":"og:image","content":"https://churroscafeqa.com/assets/campaign-dessert-spread.png"}]
+18:["$","meta","15",{"property":"og:image:width","content":"2048"}]
+19:["$","meta","16",{"property":"og:image:height","content":"2048"}]
+1a:["$","meta","17",{"property":"og:image:alt","content":"Churros Cafe desserts with chocolate, pistachio, strawberries, and banana"}]
+1b:["$","meta","18",{"property":"og:locale:alternate","content":"en_QA"}]
+1c:["$","meta","19",{"property":"og:type","content":"website"}]
+1d:["$","meta","20",{"name":"twitter:card","content":"summary_large_image"}]
+1e:["$","meta","21",{"name":"twitter:title","content":"حكاية التشوروز | تشوروز كافيه قطر"}]
+1f:["$","meta","22",{"name":"twitter:description","content":"تعرف على تاريخ التشوروز وأصوله المتنازع عليها، والحلويات التي تشاركه المائدة من وافل وبان كيك وكريب."}]
+20:["$","meta","23",{"name":"twitter:image","content":"https://churroscafeqa.com/assets/campaign-dessert-spread.png"}]
+21:["$","link","24",{"rel":"shortcut icon","href":"/favicon.ico"}]
+22:["$","link","25",{"rel":"icon","href":"/favicon.ico","sizes":"any","type":"image/x-icon"}]
+23:["$","link","26",{"rel":"icon","href":"/assets/churros-icon-192.png","sizes":"192x192","type":"image/png"}]
+24:["$","link","27",{"rel":"icon","href":"/assets/churros-icon-512.png","sizes":"512x512","type":"image/png"}]
+25:["$","link","28",{"rel":"apple-touch-icon","href":"/assets/churros-apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
+26:["$","$L30","29",{}]
+27:["$","meta",null,{"name":"next-size-adjust","content":""}]
+29:["$","$1","c",{"children":[null,["$","$L31",null,{"parallelRouterKey":"children","template":["$","$L32",null,{}]}]]}]
+2c:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1j5rpw72asjah.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3lgy7mwsoqp05.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2mgcks-pj8vfr.js","async":true}]],["$","html",null,{"lang":"en","className":"original_surfer_3bd67919-module__Yw4EQW__variable pacifico_b63dca06-module__sb6c0W__variable","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"/assets/fonts/fonts.css"}]}],["$","body",null,{"children":[["$","$L33",null,{}],["$","main",null,{"id":"main","children":["$","$L31",null,{"parallelRouterKey":"children","template":["$","$L32",null,{}],"notFound":[["$","main",null,{"id":"main","children":[["$","section",null,{"className":"page-heading","children":[["$","p",null,{"className":"eyebrow","children":"404 · PAGE NOT FOUND"}],["$","h1",null,{"children":["This page is taking",["$","br",null,{}],["$","em",null,{"children":"a coffee break."}]]}]]}],["$","section",null,{"className":"page-body","children":[["$","$L2",null,{"className":"button","href":"/","children":["Home ",["$","svg",null,{"className":"ui-icon arrow-icon ","viewBox":"0 0 20 20","aria-hidden":"true","focusable":"false","children":["$","path",null,{"d":"M5 15 15 5M7 5h8v8"}]}]]}],["$","p",null,{"children":["$","$L2",null,{"className":"link","href":"/menu/","children":"Explore the menu"}]}],["$","p",null,{"children":["$","$L2",null,{"className":"link","href":"/locations/","children":"Find a branch"}]}]]}]]}],[]]}]}],["$","$L34",null,{}],["$","$L35",null,{}]]}]]}]]}]
+8:300
+2f:true
+8:C
+2e:0
+28:"$undefined"
+2a:"$undefined"
+2d:"$undefined"
+7:"$undefined"

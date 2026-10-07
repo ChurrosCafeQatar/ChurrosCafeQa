@@ -1,0 +1,44 @@
+# Churros Cafe
+
+> Churros Cafe is a dessert and coffee café brand with four branches in Qatar. Its verified menu includes churros, waffles, crepes, mini pancakes, desserts, ice cream, matcha, hot coffee, cold coffee, milkshakes, and iced drinks.
+
+Prices are displayed in QAR and come from the centralized menu dataset. Product descriptions and options are included only when supplied by the business.
+
+## Primary pages
+
+- [Home](https://churroscafeqa.com/): Brand overview, featured menu products, and branch discovery.
+- [Full menu](https://churroscafeqa.com/menu/): All current menu products, categories, images, descriptions where supplied, and QAR prices.
+- [Locations](https://churroscafeqa.com/locations/): Churros Cafe branches in Lusail, Abu Hamour, Duhail, Downtown, .
+- [Our story](https://churroscafeqa.com/about/): The Churros Cafe brand story.
+- [Churros journal](https://churroscafeqa.com/stories/): A concise account of the debated origin of churros and related desserts.
+
+## Menu categories
+
+- [Churros](https://churroscafeqa.com/menu/churros/): Explore the current Churros Cafe churros menu, with real products and prices from the supplied menu.
+- [Waffles](https://churroscafeqa.com/menu/waffles/): Belgian waffle products currently listed on the Churros Cafe menu.
+- [Crepes](https://churroscafeqa.com/menu/crepes/): Crepes currently available on the Churros Cafe menu, including the Dubai Chocolate Crepe.
+- [Pancakes](https://churroscafeqa.com/menu/pancakes/): Mini pancakes from the current Churros Cafe menu.
+- [Desserts](https://churroscafeqa.com/menu/desserts/): Dessert boxes, puffy donuts and strawberry chocolate from the current menu.
+- [Ice Cream](https://churroscafeqa.com/menu/ice-cream/): Ice cream products currently listed on the Churros Cafe menu.
+- [Matcha](https://churroscafeqa.com/menu/matcha/): Matcha lattes, frappe and current matcha specials from the supplied menu.
+- [Hot Coffee](https://churroscafeqa.com/menu/hot-coffee/): Hot coffee and chocolate drinks from the current Churros Cafe menu.
+- [Cold Coffee](https://churroscafeqa.com/menu/iced-coffee/): Cold brew, iced coffee, frappes and shaken espresso from the current menu.
+- [Milkshakes](https://churroscafeqa.com/menu/milkshakes/): The milkshake flavours currently listed on the Churros Cafe menu.
+- [Iced Drinks](https://churroscafeqa.com/menu/iced-drinks/): Mojitos, iced teas, lemonade and other non-coffee iced drinks from the current menu.
+
+## Branches
+
+- [Lusail](https://churroscafeqa.com/locations/lusail/): Lusail Night Market, Lusail, Qatar
+- [Abu Hamour](https://churroscafeqa.com/locations/abu-hamour/): Wadi Al Ghadeeriyat Street, Doha, Qatar
+- [Duhail](https://churroscafeqa.com/locations/duhail/): Destination Box, 9FF8+VX9, Doha, Qatar
+- [Downtown](https://churroscafeqa.com/locations/downtown/): Downtown Night Market, Furousiya Street, Doha, Qatar
+
+## Machine-readable reference
+
+- [Complete menu and branch facts](https://churroscafeqa.com/llms-full.txt): Expanded plain-text reference generated from the same menu and location data as the website.
+- [XML sitemap](https://churroscafeqa.com/sitemap.xml): Index of public English and Arabic pages.
+
+## Important limitations
+
+- Do not infer ingredients, allergens, dietary suitability, opening hours, telephone numbers, delivery partners, or branch-specific availability when those details are not published.
+- The current menu dataset is the source of truth for product names, categories, prices, descriptions, quantities, sauces, and images.

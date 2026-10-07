@@ -8,6 +8,14 @@ import SiteImage from '../../components/site-image';
 export const metadata = {
   title: 'Churros Cafe Menu Qatar | Desserts, Coffee & Churros',
   description: 'Explore Churros Cafe\'s menu of freshly prepared churros, shareable dessert boxes, sweet bites, and refreshing drinks across our Qatar locations.',
+  alternates: {
+    canonical: '/menu/',
+    languages: {
+      en: '/menu/',
+      ar: '/ar/menu/',
+      'x-default': '/menu/'
+    }
+  }
 };
 
 export default function MenuPage() {
@@ -22,7 +30,7 @@ export default function MenuPage() {
         <h1>Churros Cafe<br/><em>Menu.</em></h1>
         <p className="lead">Explore Churros Cafe's menu of freshly prepared churros, shareable boxes, sweet bites and refreshing drinks across our Qatar locations.</p>
         <div style={{ marginTop: '24px' }}>
-          <Link href="/locations/" className="button">Find nearest cafAc <ArrowIcon /></Link>
+          <Link href="/locations/" className="button">Find nearest café <ArrowIcon /></Link>
         </div>
       </div>
 

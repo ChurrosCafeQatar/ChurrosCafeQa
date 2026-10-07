@@ -20,6 +20,9 @@ function resolveRoute(rawSlug = []) {
   if (slug[0] === 'locations' && slug.length === 2 && CHURROS_CAFE.branches.some(branch => branch.id === slug[1])) {
     return { lang, page: 'location', branchId: slug[1], currentPath: `locations/${slug[1]}/` };
   }
+  if (slug[0] === 'locations' && slug[1] === 'mall-of-qatar' && slug.length === 2) {
+    return { lang, page: 'closed-location', branchId: 'mall-of-qatar', currentPath: `locations/mall-of-qatar/` };
+  }
   if (slug.length === 1 && standardPages.has(slug[0])) {
     return { lang, page: slug[0], branchId: '', currentPath: `${slug[0]}/` };
   }
@@ -29,7 +32,7 @@ function resolveRoute(rawSlug = []) {
 const metadataMap = {
   home: ['Churros Cafe Qatar | Churros, Desserts & Coffee', 'Visit Churros Cafe in Qatar for fresh Spanish churros, desserts, waffles, crepes, matcha, milkshakes, and hot or iced coffee.'],
   menu: ['Menu: Churros, Desserts & Coffee', 'Explore the current Churros Cafe menu with product photography, descriptions, categories, and prices in QAR.'],
-  locations: ['Locations in Qatar', 'Find Churros Cafe branches in Lusail, Abu Hamour, Duhail, Downtown, and Mall of Qatar.'],
+  locations: ['Locations in Qatar', 'Find Churros Cafe branches in Lusail, Abu Hamour, Duhail, and Downtown.'],
   about: ['About Us', 'Discover the story and everyday café experience behind Churros Cafe in Qatar.'],
   reservations: ['Plan a visit', 'Plan your visit to Churros Cafe.'],
   offers: ['Winter Menu', 'Warm churros, comforting coffee, and sweet winter pairings at Churros Cafe in Qatar.'],
@@ -38,10 +41,10 @@ const metadataMap = {
 };
 
 export function generateStaticParams() {
-  const routes = [...[...standardPages].map(page => [page]), ...MENU_CATEGORIES.map(category => ['menu', category.slug]), ...CHURROS_CAFE.branches.map(branch => ['locations', branch.id])];
+  const routes = [[], ...[...standardPages].map(page => [page]), ...MENU_CATEGORIES.map(category => ['menu', category.slug]), ...CHURROS_CAFE.branches.map(branch => ['locations', branch.id]), ['locations', 'mall-of-qatar']];
   return routes.flatMap(slug => {
-    const isEnglishMenuOrLoc = slug.length === 1 && (slug[0] === 'menu' || slug[0] === 'locations');
-    return isEnglishMenuOrLoc ? [{ slug: ['ar', ...slug] }] : [{ slug }, { slug: ['ar', ...slug] }];
+    const isEnglishMenuOrLocOrHome = slug.length === 1 && (slug[0] === 'menu' || slug[0] === 'locations') || slug.length === 0;
+    return isEnglishMenuOrLocOrHome ? [{ slug: ['ar', ...slug] }] : [{ slug }, { slug: ['ar', ...slug] }];
   });
 }
 
@@ -51,23 +54,46 @@ export async function generateMetadata({ params }) {
   if (!route) return {};
   const branch = route.page === 'location' ? CHURROS_CAFE.branches.find(item => item.id === route.branchId) : null;
   const category = route.page === 'menu-category' ? categoryBySlug[route.categorySlug] : null;
-  let [baseTitle, description] = branch
-    ? [route.lang === 'ar' ? branch.ar : branch.name, branch.intro]
-    : category
-      ? [`${category.label} Menu`, category.intro]
-      : metadataMap[route.page];
+  
+  let baseTitle, description;
+  
+  if (route.page === 'closed-location') {
+    baseTitle = route.lang === 'ar' ? 'قطر مول' : 'Mall of Qatar';
+    description = route.lang === 'ar' 
+      ? 'تم إغلاق فرع تشوروز كافيه في قطر مول بشكل دائم. اعثر على أقرب فرع لك.' 
+      : 'The Churros Cafe location at Mall of Qatar is permanently closed. Find your nearest branch.';
+  } else if (branch) {
+    baseTitle = route.lang === 'ar' ? branch.ar : branch.name;
+    description = branch.intro;
+  } else if (category) {
+    baseTitle = `${category.label} Menu`;
+    description = category.intro;
+  } else {
+    [baseTitle, description] = metadataMap[route.page];
+  }
+  
   if (category) description = categoryCopy[category.slug][route.lang === 'ar' ? 2 : 0];
   if (route.lang === 'ar') {
     if (branch) {
       baseTitle = `فرع ${branch.ar}`;
       description = `اعثر على فرع تشوروز كافيه في ${branch.ar}، وتصفح موقعه على الخريطة وقائمة الحلويات والمشروبات قبل زيارتك.`;
+    } else if (route.page === 'closed-location') {
+      baseTitle = 'فرع قطر مول';
     } else if (category) baseTitle = `قائمة ${categoryCopy[category.slug][1]}`;
     else [baseTitle, description] = arabicPages[route.page];
   }
   const title = route.lang === 'ar' ? translations[baseTitle] || baseTitle : baseTitle;
-  const fullTitle = route.page === 'home'
-    ? title
-    : `${title} | ${route.lang === 'ar' ? 'تشوروز كافيه قطر' : 'Churros Cafe Qatar'}`;
+  
+  let fullTitle = title;
+  if (route.page === 'home') {
+    fullTitle = title;
+  } else if (route.page === 'location' && branch) {
+    fullTitle = route.lang === 'ar'
+      ? `${title} | تشوروز وحلويات وقهوة`
+      : `Churros Cafe ${branch.name} | Churros, Desserts & Coffee`;
+  } else {
+    fullTitle = `${title} | ${route.lang === 'ar' ? 'تشوروز كافيه قطر' : 'Churros Cafe Qatar'}`;
+  }
   const englishPath = route.currentPath ? `/${route.currentPath}` : '/';
   const arabicPath = `/ar${englishPath}`;
   const canonicalPath = route.lang === 'ar' ? arabicPath : englishPath;
@@ -115,7 +141,7 @@ function PageStructuredData({ route }) {
           name: 'Churros Cafe',
           alternateName: ['Churros Cafe Qatar', 'churroscafeqa.com'],
           url: absoluteUrl('/'),
-          description: 'Churros Cafe serves Spanish churros, desserts, matcha, milkshakes, and coffee across five branches in Qatar.',
+          description: 'Churros Cafe serves Spanish churros, desserts, matcha, milkshakes, and coffee across four branches in Qatar.',
           logo: {
             '@type': 'ImageObject',
             url: absoluteUrl('/assets/churros-icon-512.png'),
