@@ -161,3 +161,16 @@ An analysis of the GSC exports (`2026-10-03` to `2026-10-06`) reveals the follow
 *   **Phase 12: Final SEO Recovery Report Generation** - [Completed and verified]
 
 *(Note: Phase 11 / Deployment pushing is currently marked as **Blocked** pending explicit user authorization).*
+
+
+## 20. Page Indexing Recovery (Phase 1)
+*   **Objective:** Investigate and fix 5 "Crawled - currently not indexed" URLs and 1 "Redirect error" URL reported by Google Search Console on Oct 4, 2026.
+*   **Status:** BLOCKED
+*   **Reason:** The provided folder (`C:\Users\WORK\Downloads\churroscafeqa.com-Coverage-2026-10-10`) contains only the top-level overview files (`Chart.csv`, `Critical issues.csv`). It does not contain the detailed `Table.csv` exports that actually list the specific URLs affected by these statuses. Following strict instructions not to guess affected URLs, the investigation is halted pending the correct data.
+
+
+## 21. Page Indexing Recovery (Phase 2 - 5)
+*   **Objective:** Analyze the 5 "Crawled - currently not indexed" URLs provided via the Drilldown CSV.
+*   **Findings:** The 5 affected URLs (`/menu/iced-drinks/`, `/reservations/`, etc.) were all located on the unverified `www.` subdomain. Google's exclusion of these URLs is perfectly correct, as they are duplicates of the canonical non-www domain.
+*   **Fix:** No code changes were needed. The `vercel.json` 308 Permanent Redirect implemented in an earlier phase already universally resolves this. 
+*   **Status:** "Crawled - currently not indexed" investigation complete. Awaiting the exact URL for the "Redirect error" to complete the final exclusion check.
