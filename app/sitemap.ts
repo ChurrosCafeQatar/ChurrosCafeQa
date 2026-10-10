@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Wait, the previous sitemap.js had `route || '/'` and `/menu/` etc. Let me maintain the URL format that was there.
   
   const categoryRoutes = MENU_CATEGORIES.map(category => `/menu/${category.slug}`);
-  const locationRoutes = CHURROS_CAFE.branches.map(branch => `/locations/${branch.id}`);
+  const locationRoutes = [...CHURROS_CAFE.branches.map(branch => `/locations/${branch.id}`), "/locations/mall-of-qatar"];
   
   return [...staticRoutes, ...categoryRoutes, ...locationRoutes].flatMap(route => {
     // Append trailing slash to match original structure, except for the root route.

@@ -8,6 +8,8 @@ import SchemaMarkup from '../components/SchemaMarkup';
 import { SITE_URL } from '../data/site';
 
 export const metadata = {
+  title: 'Churros Cafe Qatar | Official Website, Menu & Locations',
+  description: 'Discover Churros Cafe in Qatar. Explore fresh churros, specialty coffee, desserts, our menu, and locations across Qatar.',
   alternates: {
     canonical: '/',
     languages: {
@@ -15,6 +17,15 @@ export const metadata = {
       ar: '/ar/',
       'x-default': '/'
     }
+  },
+  openGraph: {
+    title: 'Churros Cafe Qatar | Official Website, Menu & Locations',
+    description: 'Discover Churros Cafe in Qatar. Explore fresh churros, specialty coffee, desserts, our menu, and locations across Qatar.',
+    url: '/',
+  },
+  twitter: {
+    title: 'Churros Cafe Qatar | Official Website, Menu & Locations',
+    description: 'Discover Churros Cafe in Qatar. Explore fresh churros, specialty coffee, desserts, our menu, and locations across Qatar.',
   }
 };
 
@@ -36,7 +47,7 @@ export default function LandingPage() {
       <section className="hero">
         <div className="hero-copy">
           <div className="eyebrow"><span className="tiny-sun"><SparkIcon /></span> CHURROS CAFE · QATAR</div>
-          <Rich as="h1">{'Golden, crispy,<br>and drenched in <em>liquid gold.</em><br>Elevate your sweet tooth.'}</Rich>
+          <Rich as="h1">{'Churros Cafe Qatar.<br>Golden, crispy churros<br><em>drenched in liquid gold.</em>'}</Rich>
           <Rich as="p">{'Perfectly pulled coffee. Warm, cinnamon-dusted churros.<br class="desktop"> A little escape from the everyday.'}</Rich>
           <p>{'Churros Cafe in Qatar brings together churros, waffles, crepes, matcha, and coffee. Explore our menu and find your branch.'}</p>
           

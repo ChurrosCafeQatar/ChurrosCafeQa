@@ -33,6 +33,7 @@ export default function SchemaMarkup({
           image: absoluteUrl('/assets/campaign-dessert-spread.png'),
           areaServed: { '@type': 'Country', name: 'Qatar' },
           hasMenu: absoluteUrl('/menu/'),
+          sameAs: ['https://www.instagram.com/churroscafe.qa'],
         },
         {
           '@type': 'WebSite',
@@ -66,7 +67,7 @@ export default function SchemaMarkup({
       hasMap: branch.mapUrl,
       ...(branch.phone ? { telephone: branch.phone } : {}),
       hasMenu: { '@id': `${SITE_URL}/menu/#menu` },
-      parentOrganization: { '@id': `${SITE_URL}/#organization`, name: 'Churros Cafe' }
+      parentOrganization: { '@id': `${SITE_URL}/#organization`, name: 'Churros Cafe', url: absoluteUrl('/') }
     });
   }
 
