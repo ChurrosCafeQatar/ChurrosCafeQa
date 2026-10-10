@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.churroscafeqa.com"
+        }
+      ],
+      "destination": "https://churroscafeqa.com/$1",
+      "permanent": true
+    }
+  ]
+}

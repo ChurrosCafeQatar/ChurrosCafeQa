@@ -243,6 +243,7 @@ h1 em, h2 em,
 }
 
 .product {
+  border-radius: 18px;
   background: var(--surface-raised);
   border: 1px solid color-mix(in srgb, var(--brand-amber) 45%, var(--brand-cream));
   box-shadow: 0 10px 26px color-mix(in srgb, var(--brand-chocolate) 10%, transparent);
@@ -278,6 +279,7 @@ h1 em, h2 em,
 
 .product-photo, .branch-preview { background: var(--surface-warm); }
 .product-photo {
+  border-radius: 10px;
   aspect-ratio: 1 / 1;
   flex: 0 0 auto;
   height: auto;
@@ -1010,11 +1012,32 @@ dialog::backdrop { background: color-mix(in srgb, var(--brand-chocolate) 82%, tr
 details, .filter-row, .menu-bottom, .story-signature { border-color: var(--line); }
 
 @media (max-width: 760px) {
+  .hero-actions { flex-wrap: wrap; }
   .hero h1 { font-size: clamp(41px, 11vw, 55px); }
   .header .brand-logo-image { height: 65px; width: 122px; }
   .nav-toggle { display: flex; }
   .header nav { background: var(--brand-cream); box-shadow: 0 14px 26px var(--shadow-warm); }
   .home-page .product-category-link { display: none; }
+  /* Compact mobile cards; full descriptions and sauces stay in product details. */
+  .product-grid .product-description,
+  .product-grid .product-options { display: none; }
+  .product-grid .product-title {
+    align-items: flex-start;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .product-grid .product-title h3 {
+    font-size: clamp(15px, 4vw, 18px);
+    line-height: 1.3;
+    letter-spacing: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .product-grid .product-arrow {
+    flex: 0 0 24px;
+    width: 24px;
+    height: 24px;
+  }
   .product-grid {
     gap: 15px;
     grid-template-columns: repeat(2, minmax(0, 1fr));

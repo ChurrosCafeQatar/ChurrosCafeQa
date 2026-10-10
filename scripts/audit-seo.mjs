@@ -1,9 +1,10 @@
 import { chromium } from '@playwright/test';
 import { writeFile } from 'node:fs/promises';
+import { SITE_URL } from '../data/site.js';
 
 const origin = process.argv[2] || 'http://127.0.0.1:4173';
 const output = process.argv[3] || 'reports/seo-audit.json';
-const canonicalOrigin = 'https://www.churroscafeqa.com';
+const canonicalOrigin = SITE_URL;
 const browser = await chromium.launch({ channel: 'msedge', headless: true });
 const context = await browser.newContext({ javaScriptEnabled: false });
 const sitemapResponse = await context.request.get(`${origin}/sitemap.xml`);
