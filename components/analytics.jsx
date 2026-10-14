@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { analyticsEnabled, consentKey, GA_ID, track } from '../data/analytics';
 
@@ -7,8 +7,11 @@ export default function Analytics() {
   const path = usePathname();
   const [consent, setConsent] = useState(null);
   const [settings, setSettings] = useState(false);
+  const lastPage = useRef(null);
   useEffect(() => {
-    try { setConsent(localStorage.getItem(consentKey)); } catch { /* Storage may be disabled. */ }
+    // No initial prompt. Preserve a visitor's previously saved opt-out.
+    try { setConsent(localStorage.getItem(consentKey) === 'rejected' ? 'rejected' : 'accepted'); }
+    catch { setConsent('accepted'); }
     const open = () => setSettings(true);
     window.addEventListener('churros:privacy-settings', open);
     return () => window.removeEventListener('churros:privacy-settings', open);
@@ -27,6 +30,8 @@ export default function Analytics() {
       document.head.appendChild(script);
     }
     window.churrosAnalyticsReady = true;
+    if (lastPage.current === path) return;
+    lastPage.current = path;
     window.gtag('event', 'page_view', { page_location: `${location.origin}${path}`, page_path: path, page_title: document.title });
     const route = path.replace(/^\/ar(?=\/)/, '');
     if (route.startsWith('/locations/')) track('location_view', { branch: route.split('/')[2] || 'all' });
@@ -60,7 +65,7 @@ export default function Analytics() {
     }
     setConsent(value); setSettings(false);
   }
-  if (!analyticsEnabled || (consent !== null && !settings)) return null;
+  if (!analyticsEnabled || !settings) return null;
   const ar = path.startsWith('/ar/');
   return <aside className="analytics-choice" aria-label={ar ? 'خيارات التحليلات' : 'Analytics preferences'}>
     <p>{ar ? 'هل تسمح بتحليلات Google الاختيارية لتحسين الموقع؟ يمكنك تغيير اختيارك من إعدادات الخصوصية.' : 'Allow optional Google Analytics to help improve this website? You can change your choice in Privacy settings.'}</p>

@@ -1,4 +1,5 @@
-export const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || '';
+// Public measurement ID supplied by Churros Cafe; deployments may override it.
+export const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? 'G-CZHKZXTHKC';
 export const analyticsEnabled = /^G-[A-Z0-9]+$/.test(GA_ID);
 export const consentKey = 'churros-analytics-consent';
 
