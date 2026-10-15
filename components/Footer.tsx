@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import Link from './navigation-link';
 import { usePathname } from 'next/navigation';
 import SiteImage from './site-image';
 import { translations, CHURROS_CAFE } from '../data/content';
@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="footer-main">
           <div>
             <Link className="footer-logo brand-footer-logo" href={prefix(lang)} aria-label="Churros Cafe home">
-              <SiteImage className="brand-logo-image" src="/assets/churros_logo.webp" alt="Churros Cafe" width={181} height={130} />
+              <SiteImage className="brand-logo-image" src="/assets/churros_logo.webp" alt={isArabic ? 'تشوروز كافيه' : 'Churros Cafe'} width={181} height={130} />
             </Link>
             <p>{t('Your daily dose of golden.')}</p>
             <span className="footer-tag">{t('COFFEE. CHURROS. CONNECTION.')}</span>
@@ -65,7 +65,7 @@ export default function Footer() {
       </footer>
       <div className="mobile-bar">
         <Link href={prefix(lang, '/menu/')}>{t('Menu')}</Link>
-        <Link href={prefix(lang, '/locations/')}>{t('Find a café')}</Link>
+        <Link href={prefix(lang, '/locations/')} data-analytics="nearest-location">{t('Find a café')}</Link>
       </div>
     </>
   );

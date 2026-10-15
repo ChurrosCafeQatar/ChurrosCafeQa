@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-14T14:13:23.287Z",
+  "gaIdInHTML": false,
+  "rows": [
+    {
+      "url": "https://churroscafeqa.com",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "116355",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "connection": "close",
+        "content-disposition": "inline",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 14 Oct 2026 14:13:20 GMT",
+        "etag": "W/\"8f41ab2488b4579eb9684a3f0a5bffee\"",
+        "last-modified": "Tue, 13 Oct 2026 05:54:05 GMT",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "x-matched-path": "/",
+        "x-vercel-cache": "HIT",
+        "x-vercel-id": "bom1::7lkhk-1791987200215-4801556ba3ff"
+      }
+    },
+    {
+      "url": "https://churroscafeqa.com/assets/campaign-dessert-spread.png",
+      "status": 200,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "26803",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "connection": "close",
+        "content-disposition": "inline; filename=\"campaign-dessert-spread.png\"",
+        "content-length": "2742036",
+        "content-type": "image/png",
+        "date": "Wed, 14 Oct 2026 14:13:20 GMT",
+        "etag": "\"16f679bfce43ee0379e55bbe785eef3c\"",
+        "last-modified": "Wed, 14 Oct 2026 06:46:37 GMT",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "x-matched-path": "/assets/campaign-dessert-spread.png",
+        "x-vercel-cache": "HIT",
+        "x-vercel-id": "bom1::28cm8-1791987200896-cee7b8808ee3"
+      }
+    },
+    {
+      "url": "https://churroscafeqa.com/robots.txt",
+      "status": 200,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "13995",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "connection": "close",
+        "content-disposition": "inline; filename=\"robots.txt\"",
+        "content-length": "146",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Wed, 14 Oct 2026 14:13:21 GMT",
+        "etag": "\"1d8500008af5128864b1bcb35d4fc732\"",
+        "last-modified": "Wed, 14 Oct 2026 10:20:06 GMT",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "x-matched-path": "/robots.txt",
+        "x-vercel-cache": "HIT",
+        "x-vercel-id": "bom1::fs5r8-1791987201612-82bfe68eff65"
+      }
+    },
+    {
+      "url": "https://churroscafeqa.com/sitemap.xml",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "1750",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "connection": "close",
+        "content-disposition": "inline; filename=\"sitemap.xml\"",
+        "content-encoding": "br",
+        "content-type": "application/xml",
+        "date": "Wed, 14 Oct 2026 14:13:22 GMT",
+        "etag": "W/\"f86f1efaf1ec32e98ed9c0cf8b746769\"",
+        "last-modified": "Wed, 14 Oct 2026 13:44:11 GMT",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "x-matched-path": "/sitemap.xml",
+        "x-vercel-cache": "HIT",
+        "x-vercel-id": "bom1::fb5kd-1791987202289-6ecdba5943eb"
+      }
+    },
+    {
+      "url": "https://churroscafeqa.com/_next/static/chunks/1zegd38j6m2al.css?dpl=dpl_CtPBimkGPbT8uLwFRwuNc4RsViYb",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "26805",
+        "cache-control": "public,max-age=31536000,immutable",
+        "connection": "close",
+        "content-disposition": "inline; filename=\"1zegd38j6m2al.css\"",
+        "content-encoding": "br",
+        "content-type": "text/css; charset=utf-8",
+        "date": "Wed, 14 Oct 2026 14:13:22 GMT",
+        "etag": "W/\"d8f86d68278276a9e55b154b63c8b215\"",
+        "last-modified": "Wed, 14 Oct 2026 06:46:37 GMT",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "x-matched-path": "/_next/static/chunks/1zegd38j6m2al.css",
+        "x-vercel-cache": "HIT",
+        "x-vercel-id": "bom1::l9lbm-1791987202958-2ed9134b678d"
+      }
+    }
+  ]
+}

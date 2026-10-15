@@ -1,0 +1,712 @@
+[
+  {
+    "device": "mobile",
+    "measurements": {
+      "transferBytes": {
+        "before": 3943177,
+        "after": 1053081,
+        "reductionPercent": 73.2935904221393
+      },
+      "imageBytes": {
+        "before": 3218557,
+        "after": 303509,
+        "reductionPercent": 90.57002874269432
+      },
+      "requests": {
+        "before": 46,
+        "after": 42,
+        "reductionPercent": 8.695652173913048
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4194/_next/static/media/9b58e445f326df4a-s.p.0yhqqpzk097i7.woff2",
+        "type": "link",
+        "bytes": 19376,
+        "decoded": 19076,
+        "duration": 27.5,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/media/a624dffa201843ff-s.p.2xocl9mu6olar.woff2",
+        "type": "link",
+        "bytes": 22596,
+        "decoded": 22296,
+        "duration": 44,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+        "type": "link",
+        "bytes": 207724,
+        "decoded": 207424,
+        "duration": 46.19999998807907,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/2w__0hixt5m--.css",
+        "type": "link",
+        "bytes": 50878,
+        "decoded": 50578,
+        "duration": 43.29999998211861,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-320.webp",
+        "type": "link",
+        "bytes": 22032,
+        "decoded": 21732,
+        "duration": 44.29999998211861,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/310vm2bl3xxpt.js",
+        "type": "link",
+        "bytes": 5664,
+        "decoded": 5364,
+        "duration": 27.900000005960464,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/19mx3mg6lkumu.js",
+        "type": "script",
+        "bytes": 29207,
+        "decoded": 28907,
+        "duration": 34.599999994039536,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/0bma92pht_c97.js",
+        "type": "script",
+        "bytes": 229456,
+        "decoded": 229156,
+        "duration": 45.5,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/344n2zhqbh4pn.js",
+        "type": "script",
+        "bytes": 165529,
+        "decoded": 165229,
+        "duration": 55.400000005960464,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/turbopack-154wuuf6u0_13.js",
+        "type": "script",
+        "bytes": 10021,
+        "decoded": 9721,
+        "duration": 59,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/1p_fkr4qj3tbb.js",
+        "type": "script",
+        "bytes": 50574,
+        "decoded": 50274,
+        "duration": 58,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/1olcpaqoyw_04.js",
+        "type": "script",
+        "bytes": 62329,
+        "decoded": 62029,
+        "duration": 58.5,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/2-u-pt7l5f9wh.js",
+        "type": "script",
+        "bytes": 23699,
+        "decoded": 23399,
+        "duration": 60.099999994039536,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/190aty-r3-v9_.js",
+        "type": "script",
+        "bytes": 12671,
+        "decoded": 12371,
+        "duration": 61.099999994039536,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+        "type": "img",
+        "bytes": 2762,
+        "decoded": 2462,
+        "duration": 16.099999994039536,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+        "type": "img",
+        "bytes": 3158,
+        "decoded": 2858,
+        "duration": 17.900000005960464,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+        "type": "img",
+        "bytes": 1724,
+        "decoded": 1424,
+        "duration": 19.400000005960464,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+        "type": "img",
+        "bytes": 3704,
+        "decoded": 3404,
+        "duration": 22,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+        "type": "img",
+        "bytes": 1718,
+        "decoded": 1418,
+        "duration": 24.5,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+        "type": "img",
+        "bytes": 3468,
+        "decoded": 3168,
+        "duration": 30.80000001192093,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+        "type": "img",
+        "bytes": 2112,
+        "decoded": 1812,
+        "duration": 39.5,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+        "type": "img",
+        "bytes": 1884,
+        "decoded": 1584,
+        "duration": 33.900000005960464,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-96.webp",
+        "type": "img",
+        "bytes": 2268,
+        "decoded": 1968,
+        "duration": 37.099999994039536,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-96.webp",
+        "type": "img",
+        "bytes": 1076,
+        "decoded": 776,
+        "duration": 42.20000001788139,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+        "type": "img",
+        "bytes": 1406,
+        "decoded": 1106,
+        "duration": 41.79999998211861,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+        "type": "img",
+        "bytes": 1666,
+        "decoded": 1366,
+        "duration": 44.400000005960464,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-320.webp",
+        "type": "img",
+        "bytes": 4584,
+        "decoded": 4284,
+        "duration": 45.5,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-320.webp",
+        "type": "img",
+        "bytes": 8592,
+        "decoded": 8292,
+        "duration": 53.400000005960464,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/favicon.ico",
+        "type": "other",
+        "bytes": 0,
+        "decoded": 0,
+        "duration": 1.2999999821186066,
+        "classification": "Necessary browser icon; repeated zero-byte favicon entries do not imply duplicate transferred payload"
+      },
+      {
+        "url": "http://127.0.0.1:4194/favicon.ico",
+        "type": "other",
+        "bytes": 0,
+        "decoded": 0,
+        "duration": 0.9000000059604645,
+        "classification": "Necessary browser icon; repeated zero-byte favicon entries do not imply duplicate transferred payload"
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CZHKZXTHKC",
+        "type": "script",
+        "bytes": 0,
+        "decoded": 0,
+        "duration": 4.199999988079071,
+        "classification": "Necessary but deferrable: async analytics; mocked in this payload measurement"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/churros-icon-192.png",
+        "type": "other",
+        "bytes": 33631,
+        "decoded": 33331,
+        "duration": 12.099999994039536,
+        "classification": "Necessary browser icon; repeated zero-byte favicon entries do not imply duplicate transferred payload"
+      },
+      {
+        "url": "http://127.0.0.1:4194/menu/",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 0,
+        "duration": 113.7999999821186,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/locations/",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 0,
+        "duration": 71.39999997615814,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/about/",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 0,
+        "duration": 59.29999998211861,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/about/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+        "type": "fetch",
+        "bytes": 937,
+        "decoded": 637,
+        "duration": 12.300000011920929,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/locations/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+        "type": "fetch",
+        "bytes": 853,
+        "decoded": 553,
+        "duration": 11.799999982118607,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/about/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+        "type": "fetch",
+        "bytes": 760,
+        "decoded": 460,
+        "duration": 4,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/locations/__next.locations.__PAGE__.txt?_rsc=ugCrXaKigQkSBmoG",
+        "type": "fetch",
+        "bytes": 760,
+        "decoded": 460,
+        "duration": 3.5,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/menu/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+        "type": "fetch",
+        "bytes": 848,
+        "decoded": 548,
+        "duration": 10.199999988079071,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/menu/__next.menu.__PAGE__.txt?_rsc=BK3JmPiONFEjQlOn",
+        "type": "fetch",
+        "bytes": 760,
+        "decoded": 460,
+        "duration": 3.7999999821186066,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      }
+    ],
+    "note": "HTML navigation is an additional critical request. Local uncompressed static export, GA mocked; supplied external audit is not a comparable baseline."
+  },
+  {
+    "device": "desktop",
+    "measurements": {
+      "transferBytes": {
+        "before": 3981056,
+        "after": 1076999,
+        "reductionPercent": 72.94690152562536
+      },
+      "imageBytes": {
+        "before": 3254399,
+        "after": 327427,
+        "reductionPercent": 89.93894110709843
+      },
+      "requests": {
+        "before": 50,
+        "after": 43,
+        "reductionPercent": 14.000000000000002
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4194/_next/static/media/9b58e445f326df4a-s.p.0yhqqpzk097i7.woff2",
+        "type": "link",
+        "bytes": 19376,
+        "decoded": 19076,
+        "duration": 27.700000017881393,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/media/a624dffa201843ff-s.p.2xocl9mu6olar.woff2",
+        "type": "link",
+        "bytes": 22596,
+        "decoded": 22296,
+        "duration": 33.400000005960464,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+        "type": "link",
+        "bytes": 207724,
+        "decoded": 207424,
+        "duration": 36.89999997615814,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-192.webp",
+        "type": "link",
+        "bytes": 11178,
+        "decoded": 10878,
+        "duration": 53.599999994039536,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/2w__0hixt5m--.css",
+        "type": "link",
+        "bytes": 50878,
+        "decoded": 50578,
+        "duration": 39.80000001192093,
+        "classification": "Critical: visible brand imagery, stylesheet or fonts"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/310vm2bl3xxpt.js",
+        "type": "link",
+        "bytes": 5664,
+        "decoded": 5364,
+        "duration": 40.5,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/19mx3mg6lkumu.js",
+        "type": "script",
+        "bytes": 29207,
+        "decoded": 28907,
+        "duration": 51.10000002384186,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/0bma92pht_c97.js",
+        "type": "script",
+        "bytes": 229456,
+        "decoded": 229156,
+        "duration": 55.60000002384186,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/turbopack-154wuuf6u0_13.js",
+        "type": "script",
+        "bytes": 10021,
+        "decoded": 9721,
+        "duration": 62.29999998211861,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/1p_fkr4qj3tbb.js",
+        "type": "script",
+        "bytes": 50574,
+        "decoded": 50274,
+        "duration": 62.69999998807907,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/344n2zhqbh4pn.js",
+        "type": "script",
+        "bytes": 165529,
+        "decoded": 165229,
+        "duration": 58.29999998211861,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/1olcpaqoyw_04.js",
+        "type": "script",
+        "bytes": 62329,
+        "decoded": 62029,
+        "duration": 68.69999998807907,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/2-u-pt7l5f9wh.js",
+        "type": "script",
+        "bytes": 23699,
+        "decoded": 23399,
+        "duration": 69.40000000596046,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/_next/static/chunks/190aty-r3-v9_.js",
+        "type": "script",
+        "bytes": 12671,
+        "decoded": 12371,
+        "duration": 71.5,
+        "classification": "Necessary: async framework/navigation/menu hydration; not synchronous"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+        "type": "img",
+        "bytes": 2762,
+        "decoded": 2462,
+        "duration": 14.400000005960464,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+        "type": "img",
+        "bytes": 3158,
+        "decoded": 2858,
+        "duration": 16.099999994039536,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+        "type": "img",
+        "bytes": 1724,
+        "decoded": 1424,
+        "duration": 16.299999982118607,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+        "type": "img",
+        "bytes": 3704,
+        "decoded": 3404,
+        "duration": 17.69999998807907,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+        "type": "img",
+        "bytes": 1718,
+        "decoded": 1418,
+        "duration": 18,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+        "type": "img",
+        "bytes": 3468,
+        "decoded": 3168,
+        "duration": 19.599999994039536,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+        "type": "img",
+        "bytes": 2112,
+        "decoded": 1812,
+        "duration": 30.599999994039536,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+        "type": "img",
+        "bytes": 1884,
+        "decoded": 1584,
+        "duration": 30.900000005960464,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-96.webp",
+        "type": "img",
+        "bytes": 2268,
+        "decoded": 1968,
+        "duration": 31.900000005960464,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-96.webp",
+        "type": "img",
+        "bytes": 1076,
+        "decoded": 776,
+        "duration": 34.29999998211861,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+        "type": "img",
+        "bytes": 1406,
+        "decoded": 1106,
+        "duration": 34.599999994039536,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+        "type": "img",
+        "bytes": 1666,
+        "decoded": 1366,
+        "duration": 38.30000001192093,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-480.webp",
+        "type": "img",
+        "bytes": 7794,
+        "decoded": 7494,
+        "duration": 42.80000001192093,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-480.webp",
+        "type": "img",
+        "bytes": 13036,
+        "decoded": 12736,
+        "duration": 50.70000001788139,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/optimized/arabic-qahwa-455790a061d1d560-480.webp",
+        "type": "img",
+        "bytes": 27118,
+        "decoded": 26818,
+        "duration": 59.30000001192093,
+        "classification": "Necessary but deferrable: lazy image, thumbnail or card variant"
+      },
+      {
+        "url": "http://127.0.0.1:4194/favicon.ico",
+        "type": "other",
+        "bytes": 0,
+        "decoded": 0,
+        "duration": 1.199999988079071,
+        "classification": "Necessary browser icon; repeated zero-byte favicon entries do not imply duplicate transferred payload"
+      },
+      {
+        "url": "http://127.0.0.1:4194/menu/",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 0,
+        "duration": 12.200000017881393,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/locations/",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 0,
+        "duration": 12.5,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/about/",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 0,
+        "duration": 12.799999982118607,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/favicon.ico",
+        "type": "other",
+        "bytes": 0,
+        "decoded": 0,
+        "duration": 2.0999999940395355,
+        "classification": "Necessary browser icon; repeated zero-byte favicon entries do not imply duplicate transferred payload"
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CZHKZXTHKC",
+        "type": "script",
+        "bytes": 0,
+        "decoded": 0,
+        "duration": 8.799999982118607,
+        "classification": "Necessary but deferrable: async analytics; mocked in this payload measurement"
+      },
+      {
+        "url": "http://127.0.0.1:4194/assets/churros-icon-192.png",
+        "type": "other",
+        "bytes": 33631,
+        "decoded": 33331,
+        "duration": 8,
+        "classification": "Necessary browser icon; repeated zero-byte favicon entries do not imply duplicate transferred payload"
+      },
+      {
+        "url": "http://127.0.0.1:4194/menu/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+        "type": "fetch",
+        "bytes": 848,
+        "decoded": 548,
+        "duration": 7.9000000059604645,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/locations/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+        "type": "fetch",
+        "bytes": 853,
+        "decoded": 553,
+        "duration": 9,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/about/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+        "type": "fetch",
+        "bytes": 937,
+        "decoded": 637,
+        "duration": 8.599999994039536,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/menu/__next.menu.__PAGE__.txt?_rsc=BK3JmPiONFEjQlOn",
+        "type": "fetch",
+        "bytes": 760,
+        "decoded": 460,
+        "duration": 4.300000011920929,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/locations/__next.locations.__PAGE__.txt?_rsc=ugCrXaKigQkSBmoG",
+        "type": "fetch",
+        "bytes": 760,
+        "decoded": 460,
+        "duration": 6.800000011920929,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      },
+      {
+        "url": "http://127.0.0.1:4194/about/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+        "type": "fetch",
+        "bytes": 760,
+        "decoded": 460,
+        "duration": 6.9000000059604645,
+        "classification": "Deferrable: Next route navigation prefetch (primary content links retained)"
+      }
+    ],
+    "note": "HTML navigation is an additional critical request. Local uncompressed static export, GA mocked; supplied external audit is not a comparable baseline."
+  }
+]

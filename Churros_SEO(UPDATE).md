@@ -1,6 +1,6 @@
 # Churros Cafe SEO history
 
-Last SEO Run: 2026-10-07 (formal external recommendation review).
+Last SEO Run: 2026-10-14 (performance review plus verified Gemini/workbook keyword implementation review; local implementation, not deployed).
 
 The requested history file did not exist when this review began. This file initializes the history; no previous entries were overwritten. Previous periodic review dates are unknown. Last 30-Day, 3-Month, 6-Month, and 12-Month SEO Review dates have NOT been reset or claimed complete.
 
@@ -124,3 +124,80 @@ Collect GSC Search results exports for queries and pages, filtered to Qatar and 
 ## Next Review
 
 Date: 2026-11-06. Suggested review only; no scheduled automation was created. Earlier intervention only for wrong facts, technical failure, indexation problems or an evidenced significant regression. Do not reset periodic review dates on a routine external-audit check.
+
+---
+
+# PERFORMANCE / TECHNICAL SEO AUDIT REVIEW — 2026-10-14
+
+## Source and verified current state
+
+User-supplied comprehensive performance/accessibility recovery audit. Starting commit c2fe2b826f47722ff00444b4ef72e7b62f8691e7 preserved on local rollback branch perf-baseline-2026-10-14. Current code/live crawl have 48 sitemap URLs (including English/Arabic permanently closed Mall of Qatar pages), rather than the 46 recorded on October 7. This review did not add those URLs or reactivate that branch. Four active branches remain.
+
+## Recommendations reviewed and decisions
+
+- Oversized photography and absent responsive variants: VALID. Implemented a build-time hashed WebP pipeline with true dimensions and srcsets; originals and appearance retained.
+- Separate render-blocking font declaration CSS: VALID. Bundled existing declarations. Necessary critical CSS remains to avoid FOUC/CLS; font families/colors unchanged.
+- Missing CDN: INCORRECT. Vercel HIT confirmed for live HTML, source image and other assets. Added immutable cache policy only for new hashed variants, preserving the existing www-to-apex redirect; deployment verification pending.
+- Missing GA4: OUTDATED. Existing G-CZHKZXTHKC retained with environment override, async loading and saved opt-out. Added actual category/contact/nearest/social interaction events and prevented duplicate menu_view emission. Property receipt not authenticated.
+- Replace all empty image alts: PARTIALLY VALID. Decorative thumbnails keep empty alt; localized meaningful image alternatives added. Nested main landmarks and overridden product accessible names corrected.
+- Aspect ratio warning: PARTIALLY VALID. Actual source dimensions replace guesses; intentional cover/contain crops preserved. Locations minimum grid width corrected for 320px screens.
+- Short homepage meta description: OUTDATED. Current accurate homepage text retained. Locations description/lead corrected because opening hours were promised but unavailable.
+- SPF: VALID DNS gap, PENDING sender confirmation. No email provider invented and no DNS changed. DMARC absent; DKIM selector unknown.
+- ads.txt: NOT APPLICABLE to inspected implementation; no advertising inventory seller integration found.
+- Excessive requests: PARTIALLY VALID. Disabled shared-navigation auto-prefetch, retained async code splitting and useful content links. Raw request count is not the optimization objective.
+
+## Changes implemented
+
+Affected URLs: shared assets/components across existing English/Arabic routes; locations metadata only at /locations/. No new routes, no H1/title/canonical/hreflang/schema/menu changes. Home creative wording and typography protected. About/branch/first-location photo LCP candidates now eager rather than lazy. Exact file list and evidence: docs/CHURROS_OPTIMIZATION_RESULTS.md; initial investigation: docs/CHURROS_PERFORMANCE_AUDIT.md.
+
+Local mobile initial application bytes: 3,943,177 to 1,053,081 (~73.3% smaller); initial image bytes: 3,218,557 to 303,509 (~90.6% smaller). These are controlled local uncompressed, GA-mocked payload measurements, not deployed production figures. Full-scroll mobile application transfer: 11,053,331 to 1,648,503 bytes. Two release Lighthouse mobile runs: performance 80/75, FCP ~1.21s, LCP 5.34–7.32s (still above target). Desktop scores 96/96, LCP ~1.41s. Accessibility 96 and SEO 100. Hosting-emulation differences and original audit noncomparability are documented; no field INP or ranking result claimed.
+
+## QA and remaining work
+
+Production static build and TypeScript pass; 10 browser tests; 48-route no-JavaScript crawl with zero errors/duplicate titles/descriptions; seven viewport widths; keyboard, mobile navigation, English/Arabic menus and analytics queue checks. New cache policy and performance still need live deployment verification; GA4 receipt needs property access; SPF needs sender details. Protected-color contrast and mobile simulated LCP remain unresolved. Dependency audit reports 8 affected packages; no untested major upgrade was attempted. Do not call this an all-green or completed field-CWV result.
+
+No push, deployment, new subscription, DNS edit, source-image deletion or periodic automation performed. Search Console verification preserved.
+
+## Measurement and next review
+
+Keep the previously recorded 2026-11-06 SEO review date. Last 30-Day / 3-Month / 6-Month / 12-Month SEO Review dates are NOT reset. After deployment record the actual date, re-run live tests immediately and evaluate 28 days of field p75 LCP/INP/CLS where available. Compare qualified menu/branch actions and Qatar organic clicks against the preceding equivalent period; no #1 ranking guarantee. Do not change titles/H1 again to chase lab scores.
+
+---
+
+# EXTERNAL SEO AUDIT REVIEW — 2026-10-14
+
+## Source
+
+User-supplied Gemini keyword/backlink report and unchanged Churros Cafe research workbook. Current request authorizes safe website implementation. Full classification table, evidence, per-change risk/benefit/URLs and measurement plan: `docs/GEMINI_KEYWORD_IMPLEMENTATION_REVIEW.md`.
+
+## Recommendations Reviewed
+
+1. Five-branch promotion: INCORRECT / POTENTIALLY HARMFUL. Mall of Qatar is permanently closed. Live Arabic home/locations metadata and Arabic About metadata were factually stale despite four correct active branch records. Corrected these three descriptions and two corrupted Arabic branch sentences.
+2. Missing category pages / canonical consolidation: ALREADY IMPLEMENTED. All eleven bilingual categories exist, live www returns 308 to apex, and 48 live routes have correct self-canonicals. No new route, sitemap or redirect changes.
+3. Arabic menu coverage: VALID. Completed display translations/transliterations for all 53 products without changing English/source names. Added missing category/control labels and translated the Arabic menu H1/lead and closed-branch H1 that previously fell back to English. Existing English descriptions are preserved with explicit language markup; this is not a full Arabic description translation.
+4. Menu schema: VALID. Fixed category/language Menu ID/URL reuse, linked sections/items to existing category URLs and product anchors, localized visible names and added exact source-backed fixed/range QAR offers. No ratings, availability, checkout, dietary, delivery or sales claims.
+5. Internal links: PARTIALLY VALID. Linked eleven English menu section headings to existing category pages. Filters/anchors preserved; no new homepage link campaign or competing pages.
+6. Missing descriptions / aggregator additions: POTENTIALLY HARMFUL. Removed fabricated fresh-to-order/premium-ingredients modal fallback. The 21 absent descriptions remain absent; no extra products, sauce options or altered prices from Gemini accepted.
+7. Wholesale keyword insertion, demand/rank/revenue claims, homepage H1/title rewrites: rejected/deferred. No authenticated baseline or business data supports them, and recent-change protection still applies. Backlink prospects do not authorize submissions, spending or third-party account modifications.
+
+## Changes Implemented
+
+Application files: `data/seo.js`, `data/content.ts`, `data/menu.js`, `components/SchemaMarkup.tsx`, `components/cafe-interactive.tsx`, `app/menu/page.tsx`.
+
+QA/docs: `tests/seo-source-truth.spec.cjs`, `docs/GEMINI_KEYWORD_IMPLEMENTATION_REVIEW.md`, `reports/gemini-review-live-before.json`, `reports/gemini-review-local-after.json`, regenerated validation timestamp in `reports/menu-validation-report.json`, and this appended history entry.
+
+Metadata: only the three inaccurate Arabic branch descriptions. Headings: translation repair on existing Arabic menu and closed-branch pages; English/homepage H1s retained. Internal links: English menu section headings and stable product fragment IDs. Schema: exact menu entities/prices as above. No source menu, styles, dependencies, canonical host, hreflang, sitemap, robots, homepage copy, branch contacts, images or GA4 changes.
+
+## QA and limitations
+
+Build/TypeScript passed. Fourteen tests passed including schema-to-source checks on all 24 menu/category pages, all 48 sitemap URLs, mobile layout, interactions and local payload/CLS budgets. Live/local audits report zero canonical/indexability/H1/metadata errors or duplicate titles/descriptions. Menu validator: 53 products, no errors/warnings/missing assets, 21 optional descriptions absent. Mobile/desktop screenshots reviewed. Turn-start repository hashes protect pre-existing changes and business-source data.
+
+Arabic root HTML is still initially English until hydration; main content is explicitly Arabic/RTL. Proper root-layout refactoring remains a technical/accessibility follow-up, not an asserted ranking fix. Native editorial review of localized branded spellings and approved translations of supplied English descriptions remain useful. No field CWV or GSC/GA4/GBP results available. No push, deploy, outreach, link purchase, listing submission or DNS change performed.
+
+## Changes To Monitor
+
+URLs: Arabic home/about/locations metadata; Arabic menu/product-bearing pages; English menu heading links; bilingual menu schema. Immediate target: correct facts and source/schema consistency. Organic baseline: unavailable. Compare Qatar query/page clicks, impressions, CTR, menu engagement and branch actions over equivalent 28–30-day periods after actual deployment. No first-place guarantee.
+
+## Next Review
+
+Keep 2026-11-06. Record actual deployment separately and allow a full 28–30-day measurement window for this patch. Last 30-Day, 3-Month, 6-Month and 12-Month SEO Review dates remain unchanged; no automation scheduled.

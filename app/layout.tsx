@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import '../styles.css';
 import '../theme.css';
+import '../public/assets/fonts/fonts.css';
 import { SITE_URL } from '../data/site';
 import Analytics from '../components/analytics';
 import Header from '../components/Header';
@@ -80,14 +81,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${originalSurfer.variable} ${pacifico.variable}`}>
-      <head>
-        <link rel="stylesheet" href="/assets/fonts/fonts.css" />
-      </head>
       <body>
         <Header />
-        <main id="main">
-          {children}
-        </main>
+        {children}
         <Footer />
         <Analytics />
       </body>

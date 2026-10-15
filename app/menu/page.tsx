@@ -50,7 +50,7 @@ export default function MenuPage() {
               return (
                 <a key={category.slug} href={`#${category.slug}`} className="filter" style={{ textDecoration: 'none' }}>
                   <span className="filter-image">
-                    <SiteImage src={imageSrc} width={100} height={100} alt="" aria-hidden="true" />
+                    <SiteImage src={imageSrc} sizes="48px" width={100} height={100} alt="" aria-hidden="true" />
                   </span>
                   <span>{category.label}</span>
                 </a>
@@ -65,7 +65,7 @@ export default function MenuPage() {
           return (
             <section key={category.slug} id={category.slug} className="menu-section">
               <div className="section-header">
-                <h2>{category.label}</h2>
+                <h2><Link href={`/menu/${category.slug}/`}>{category.label}</Link></h2>
                 {category.intro && <p>{category.intro}</p>}
               </div>
 

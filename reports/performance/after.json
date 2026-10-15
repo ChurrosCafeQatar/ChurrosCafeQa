@@ -1,0 +1,2682 @@
+{
+  "origin": "http://127.0.0.1:4194",
+  "date": "2026-10-14T13:53:03.385Z",
+  "runs": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 2,
+      "initial": {
+        "resources": [
+          {
+            "url": "http://127.0.0.1:4194/_next/static/media/9b58e445f326df4a-s.p.0yhqqpzk097i7.woff2",
+            "type": "link",
+            "bytes": 19376,
+            "decoded": 19076,
+            "duration": 40.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/media/a624dffa201843ff-s.p.2xocl9mu6olar.woff2",
+            "type": "link",
+            "bytes": 22596,
+            "decoded": 22296,
+            "duration": 50.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-320.webp",
+            "type": "link",
+            "bytes": 22032,
+            "decoded": 21732,
+            "duration": 54.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+            "type": "link",
+            "bytes": 207724,
+            "decoded": 207424,
+            "duration": 68.90000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/2w__0hixt5m--.css",
+            "type": "link",
+            "bytes": 50878,
+            "decoded": 50578,
+            "duration": 55.20000001788139
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/310vm2bl3xxpt.js",
+            "type": "link",
+            "bytes": 5664,
+            "decoded": 5364,
+            "duration": 38.89999997615814
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/19mx3mg6lkumu.js",
+            "type": "script",
+            "bytes": 29207,
+            "decoded": 28907,
+            "duration": 55.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/0bma92pht_c97.js",
+            "type": "script",
+            "bytes": 229456,
+            "decoded": 229156,
+            "duration": 65
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/turbopack-154wuuf6u0_13.js",
+            "type": "script",
+            "bytes": 10021,
+            "decoded": 9721,
+            "duration": 78.19999998807907
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/344n2zhqbh4pn.js",
+            "type": "script",
+            "bytes": 165529,
+            "decoded": 165229,
+            "duration": 72
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/0xo9dks3v6-52.js",
+            "type": "script",
+            "bytes": 50527,
+            "decoded": 50227,
+            "duration": 77.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1olcpaqoyw_04.js",
+            "type": "script",
+            "bytes": 62329,
+            "decoded": 62029,
+            "duration": 80.59999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1n4smbz9ipdcz.js",
+            "type": "script",
+            "bytes": 22877,
+            "decoded": 22577,
+            "duration": 82.40000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1edl4a9jp1b5-.js",
+            "type": "script",
+            "bytes": 12688,
+            "decoded": 12388,
+            "duration": 85.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+            "type": "img",
+            "bytes": 2762,
+            "decoded": 2462,
+            "duration": 24.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+            "type": "img",
+            "bytes": 3158,
+            "decoded": 2858,
+            "duration": 36.60000002384186
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+            "type": "img",
+            "bytes": 1724,
+            "decoded": 1424,
+            "duration": 34.29999998211861
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+            "type": "img",
+            "bytes": 3704,
+            "decoded": 3404,
+            "duration": 36
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+            "type": "img",
+            "bytes": 1718,
+            "decoded": 1418,
+            "duration": 43.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+            "type": "img",
+            "bytes": 3468,
+            "decoded": 3168,
+            "duration": 47.599999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+            "type": "img",
+            "bytes": 2112,
+            "decoded": 1812,
+            "duration": 59.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+            "type": "img",
+            "bytes": 1884,
+            "decoded": 1584,
+            "duration": 61.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-96.webp",
+            "type": "img",
+            "bytes": 2268,
+            "decoded": 1968,
+            "duration": 61
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+            "type": "img",
+            "bytes": 1406,
+            "decoded": 1106,
+            "duration": 67.2000000178814
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-96.webp",
+            "type": "img",
+            "bytes": 1076,
+            "decoded": 776,
+            "duration": 74.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+            "type": "img",
+            "bytes": 1666,
+            "decoded": 1366,
+            "duration": 69.7999999821186
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-320.webp",
+            "type": "img",
+            "bytes": 4584,
+            "decoded": 4284,
+            "duration": 85.09999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-320.webp",
+            "type": "img",
+            "bytes": 8592,
+            "decoded": 8292,
+            "duration": 82.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/favicon.ico",
+            "type": "other",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 14.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/favicon.ico",
+            "type": "other",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 9.200000017881393
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-CZHKZXTHKC",
+            "type": "script",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 14.399999976158142
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/churros-icon-192.png",
+            "type": "other",
+            "bytes": 33631,
+            "decoded": 33331,
+            "duration": 17.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 10.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/ar/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 90.7999999821186
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 148.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 90.89999997615814
+          },
+          {
+            "url": "http://127.0.0.1:4194/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 1464,
+            "decoded": 1164,
+            "duration": 19.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 73.2000000178814
+          },
+          {
+            "url": "http://127.0.0.1:4194/ar/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 1621,
+            "decoded": 1321,
+            "duration": 14.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 853,
+            "decoded": 553,
+            "duration": 15.699999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/__next.__PAGE__.txt?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "bytes": 23534,
+            "decoded": 23234,
+            "duration": 18.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/ar/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 7.300000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 937,
+            "decoded": 637,
+            "duration": 16.200000017881393
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/__next.locations.__PAGE__.txt?_rsc=ugCrXaKigQkSBmoG",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 4.700000017881393
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 3.300000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 848,
+            "decoded": 548,
+            "duration": 10.399999976158142
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/__next.menu.__PAGE__.txt?_rsc=BK3JmPiONFEjQlOn",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 3.5999999940395355
+          }
+        ],
+        "requests": 48,
+        "transferBytes": 1080190,
+        "imageBytes": 303509,
+        "cls": 0,
+        "fcp": 576,
+        "images": [
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-320.webp",
+            "alt": "Churros Cafe Qatar Logo",
+            "width": 122,
+            "height": 65,
+            "naturalWidth": 122,
+            "naturalHeight": 63,
+            "fit": "contain",
+            "loading": "eager",
+            "sizes": "(max-width: 760px) 122px, 181px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+            "alt": "Churros Cafe dessert trays topped with chocolate, pistachio, strawberries, and banana",
+            "width": 390,
+            "height": 450,
+            "naturalWidth": 389,
+            "naturalHeight": 389,
+            "fit": "cover",
+            "loading": "eager",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 43,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 35,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 39,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-320.webp",
+            "alt": "24 Hour Cold Brew",
+            "width": 142,
+            "height": 142,
+            "naturalWidth": 153,
+            "naturalHeight": 153,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-320.webp",
+            "alt": "Americano",
+            "width": 142,
+            "height": 142,
+            "naturalWidth": 153,
+            "naturalHeight": 153,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/arabic-qahwa-455790a061d1d560-592.webp",
+            "alt": "Arabic Qahwa",
+            "width": 142,
+            "height": 142,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-churros-moment-c32d8e1d5773734c-640.webp",
+            "alt": "A customer enjoying a fresh loop churro with dipping sauces",
+            "width": 319,
+            "height": 420,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-seaside-churros-a4e4ad6767173ac2-640.webp",
+            "alt": "Chocolate being poured over fresh churros in a Churros Cafe box by the sea",
+            "width": 390,
+            "height": 390,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/lusail-2802c5d56c2a9fd8-640.webp",
+            "alt": "Lusail Churros Cafe branch",
+            "width": 342,
+            "height": 350,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-coffee-treats-a912802f8d7ecedd-640.webp",
+            "alt": "Churros Cafe latte and wrapped treats on a warm peach background",
+            "width": 342,
+            "height": 280,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-320.webp",
+            "alt": "Churros Cafe",
+            "width": 142,
+            "height": 76,
+            "naturalWidth": 122,
+            "naturalHeight": 63,
+            "fit": "contain",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 122px, 181px"
+          }
+        ]
+      },
+      "full": {
+        "resources": [
+          {
+            "url": "http://127.0.0.1:4194/_next/static/media/9b58e445f326df4a-s.p.0yhqqpzk097i7.woff2",
+            "type": "link",
+            "bytes": 19376,
+            "decoded": 19076,
+            "duration": 40.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/media/a624dffa201843ff-s.p.2xocl9mu6olar.woff2",
+            "type": "link",
+            "bytes": 22596,
+            "decoded": 22296,
+            "duration": 50.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-320.webp",
+            "type": "link",
+            "bytes": 22032,
+            "decoded": 21732,
+            "duration": 54.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+            "type": "link",
+            "bytes": 207724,
+            "decoded": 207424,
+            "duration": 68.90000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/2w__0hixt5m--.css",
+            "type": "link",
+            "bytes": 50878,
+            "decoded": 50578,
+            "duration": 55.20000001788139
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/310vm2bl3xxpt.js",
+            "type": "link",
+            "bytes": 5664,
+            "decoded": 5364,
+            "duration": 38.89999997615814
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/19mx3mg6lkumu.js",
+            "type": "script",
+            "bytes": 29207,
+            "decoded": 28907,
+            "duration": 55.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/0bma92pht_c97.js",
+            "type": "script",
+            "bytes": 229456,
+            "decoded": 229156,
+            "duration": 65
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/turbopack-154wuuf6u0_13.js",
+            "type": "script",
+            "bytes": 10021,
+            "decoded": 9721,
+            "duration": 78.19999998807907
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/344n2zhqbh4pn.js",
+            "type": "script",
+            "bytes": 165529,
+            "decoded": 165229,
+            "duration": 72
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/0xo9dks3v6-52.js",
+            "type": "script",
+            "bytes": 50527,
+            "decoded": 50227,
+            "duration": 77.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1olcpaqoyw_04.js",
+            "type": "script",
+            "bytes": 62329,
+            "decoded": 62029,
+            "duration": 80.59999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1n4smbz9ipdcz.js",
+            "type": "script",
+            "bytes": 22877,
+            "decoded": 22577,
+            "duration": 82.40000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1edl4a9jp1b5-.js",
+            "type": "script",
+            "bytes": 12688,
+            "decoded": 12388,
+            "duration": 85.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+            "type": "img",
+            "bytes": 2762,
+            "decoded": 2462,
+            "duration": 24.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+            "type": "img",
+            "bytes": 3158,
+            "decoded": 2858,
+            "duration": 36.60000002384186
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+            "type": "img",
+            "bytes": 1724,
+            "decoded": 1424,
+            "duration": 34.29999998211861
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+            "type": "img",
+            "bytes": 3704,
+            "decoded": 3404,
+            "duration": 36
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+            "type": "img",
+            "bytes": 1718,
+            "decoded": 1418,
+            "duration": 43.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+            "type": "img",
+            "bytes": 3468,
+            "decoded": 3168,
+            "duration": 47.599999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+            "type": "img",
+            "bytes": 2112,
+            "decoded": 1812,
+            "duration": 59.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+            "type": "img",
+            "bytes": 1884,
+            "decoded": 1584,
+            "duration": 61.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-96.webp",
+            "type": "img",
+            "bytes": 2268,
+            "decoded": 1968,
+            "duration": 61
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+            "type": "img",
+            "bytes": 1406,
+            "decoded": 1106,
+            "duration": 67.2000000178814
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-96.webp",
+            "type": "img",
+            "bytes": 1076,
+            "decoded": 776,
+            "duration": 74.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+            "type": "img",
+            "bytes": 1666,
+            "decoded": 1366,
+            "duration": 69.7999999821186
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-320.webp",
+            "type": "img",
+            "bytes": 4584,
+            "decoded": 4284,
+            "duration": 85.09999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-320.webp",
+            "type": "img",
+            "bytes": 8592,
+            "decoded": 8292,
+            "duration": 82.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/favicon.ico",
+            "type": "other",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 14.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/favicon.ico",
+            "type": "other",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 9.200000017881393
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-CZHKZXTHKC",
+            "type": "script",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 14.399999976158142
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/churros-icon-192.png",
+            "type": "other",
+            "bytes": 33631,
+            "decoded": 33331,
+            "duration": 17.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 10.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/ar/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 90.7999999821186
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 148.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 90.89999997615814
+          },
+          {
+            "url": "http://127.0.0.1:4194/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 1464,
+            "decoded": 1164,
+            "duration": 19.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 73.2000000178814
+          },
+          {
+            "url": "http://127.0.0.1:4194/ar/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 1621,
+            "decoded": 1321,
+            "duration": 14.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 853,
+            "decoded": 553,
+            "duration": 15.699999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/__next.__PAGE__.txt?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "bytes": 23534,
+            "decoded": 23234,
+            "duration": 18.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/ar/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 7.300000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 937,
+            "decoded": 637,
+            "duration": 16.200000017881393
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/__next.locations.__PAGE__.txt?_rsc=ugCrXaKigQkSBmoG",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 4.700000017881393
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 3.300000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 848,
+            "decoded": 548,
+            "duration": 10.399999976158142
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/__next.menu.__PAGE__.txt?_rsc=BK3JmPiONFEjQlOn",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 3.5999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/arabic-qahwa-455790a061d1d560-320.webp",
+            "type": "img",
+            "bytes": 15204,
+            "decoded": 14904,
+            "duration": 15.299999982118607
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-churros-moment-c32d8e1d5773734c-960.webp",
+            "type": "img",
+            "bytes": 228394,
+            "decoded": 228094,
+            "duration": 19
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-seaside-churros-a4e4ad6767173ac2-960.webp",
+            "type": "img",
+            "bytes": 116322,
+            "decoded": 116022,
+            "duration": 17.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/lusail-2802c5d56c2a9fd8-960.webp",
+            "type": "img",
+            "bytes": 159782,
+            "decoded": 159482,
+            "duration": 13.800000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-coffee-treats-a912802f8d7ecedd-960.webp",
+            "type": "img",
+            "bytes": 67682,
+            "decoded": 67382,
+            "duration": 15.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/lusail/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 73.59999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/abu-hamour/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 81.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/duhail/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 80
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/downtown/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 76.90000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/lusail/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 948,
+            "decoded": 648,
+            "duration": 15.300000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/lusail/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 5.5999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/abu-hamour/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 952,
+            "decoded": 652,
+            "duration": 11.800000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/downtown/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 950,
+            "decoded": 650,
+            "duration": 14.300000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/abu-hamour/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 8.199999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/duhail/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 948,
+            "decoded": 648,
+            "duration": 16.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/downtown/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 8.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/duhail/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 6
+          },
+          {
+            "url": "http://127.0.0.1:4194/stories/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 4.600000023841858
+          },
+          {
+            "url": "http://127.0.0.1:4194/offers/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 6.100000023841858
+          },
+          {
+            "url": "http://127.0.0.1:4194/privacy/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 4.9000000059604645
+          }
+        ],
+        "requests": 68,
+        "transferBytes": 1677892,
+        "imageBytes": 890893,
+        "cls": 0,
+        "fcp": 576,
+        "images": [
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-320.webp",
+            "alt": "Churros Cafe Qatar Logo",
+            "width": 122,
+            "height": 65,
+            "naturalWidth": 122,
+            "naturalHeight": 63,
+            "fit": "contain",
+            "loading": "eager",
+            "sizes": "(max-width: 760px) 122px, 181px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+            "alt": "Churros Cafe dessert trays topped with chocolate, pistachio, strawberries, and banana",
+            "width": 390,
+            "height": 450,
+            "naturalWidth": 389,
+            "naturalHeight": 389,
+            "fit": "cover",
+            "loading": "eager",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 43,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 35,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-320.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-320.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 39,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+            "alt": "",
+            "width": 27,
+            "height": 27,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-320.webp",
+            "alt": "24 Hour Cold Brew",
+            "width": 142,
+            "height": 142,
+            "naturalWidth": 153,
+            "naturalHeight": 153,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-320.webp",
+            "alt": "Americano",
+            "width": 142,
+            "height": 142,
+            "naturalWidth": 153,
+            "naturalHeight": 153,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/arabic-qahwa-455790a061d1d560-320.webp",
+            "alt": "Arabic Qahwa",
+            "width": 142,
+            "height": 142,
+            "naturalWidth": 153,
+            "naturalHeight": 153,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-churros-moment-c32d8e1d5773734c-960.webp",
+            "alt": "A customer enjoying a fresh loop churro with dipping sauces",
+            "width": 319,
+            "height": 420,
+            "naturalWidth": 389,
+            "naturalHeight": 389,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-seaside-churros-a4e4ad6767173ac2-960.webp",
+            "alt": "Chocolate being poured over fresh churros in a Churros Cafe box by the sea",
+            "width": 390,
+            "height": 390,
+            "naturalWidth": 389,
+            "naturalHeight": 389,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/lusail-2802c5d56c2a9fd8-960.webp",
+            "alt": "Lusail Churros Cafe branch",
+            "width": 342,
+            "height": 350,
+            "naturalWidth": 389,
+            "naturalHeight": 443,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-coffee-treats-a912802f8d7ecedd-960.webp",
+            "alt": "Churros Cafe latte and wrapped treats on a warm peach background",
+            "width": 342,
+            "height": 280,
+            "naturalWidth": 389,
+            "naturalHeight": 389,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-320.webp",
+            "alt": "Churros Cafe",
+            "width": 142,
+            "height": 76,
+            "naturalWidth": 122,
+            "naturalHeight": 63,
+            "fit": "contain",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 122px, 181px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "initial": {
+        "resources": [
+          {
+            "url": "http://127.0.0.1:4194/_next/static/media/9b58e445f326df4a-s.p.0yhqqpzk097i7.woff2",
+            "type": "link",
+            "bytes": 19376,
+            "decoded": 19076,
+            "duration": 29.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/media/a624dffa201843ff-s.p.2xocl9mu6olar.woff2",
+            "type": "link",
+            "bytes": 22596,
+            "decoded": 22296,
+            "duration": 38.70000001788139
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+            "type": "link",
+            "bytes": 207724,
+            "decoded": 207424,
+            "duration": 49.60000002384186
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-192.webp",
+            "type": "link",
+            "bytes": 11178,
+            "decoded": 10878,
+            "duration": 74.39999997615814
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/2w__0hixt5m--.css",
+            "type": "link",
+            "bytes": 50878,
+            "decoded": 50578,
+            "duration": 37.69999998807907
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/310vm2bl3xxpt.js",
+            "type": "link",
+            "bytes": 5664,
+            "decoded": 5364,
+            "duration": 52.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/19mx3mg6lkumu.js",
+            "type": "script",
+            "bytes": 29207,
+            "decoded": 28907,
+            "duration": 56.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/344n2zhqbh4pn.js",
+            "type": "script",
+            "bytes": 165529,
+            "decoded": 165229,
+            "duration": 71.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/0bma92pht_c97.js",
+            "type": "script",
+            "bytes": 229456,
+            "decoded": 229156,
+            "duration": 72.40000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/turbopack-154wuuf6u0_13.js",
+            "type": "script",
+            "bytes": 10021,
+            "decoded": 9721,
+            "duration": 69.59999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/0xo9dks3v6-52.js",
+            "type": "script",
+            "bytes": 50527,
+            "decoded": 50227,
+            "duration": 75.90000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1olcpaqoyw_04.js",
+            "type": "script",
+            "bytes": 62329,
+            "decoded": 62029,
+            "duration": 78.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1n4smbz9ipdcz.js",
+            "type": "script",
+            "bytes": 22877,
+            "decoded": 22577,
+            "duration": 85.2000000178814
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1edl4a9jp1b5-.js",
+            "type": "script",
+            "bytes": 12688,
+            "decoded": 12388,
+            "duration": 86.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+            "type": "img",
+            "bytes": 2762,
+            "decoded": 2462,
+            "duration": 19.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+            "type": "img",
+            "bytes": 3158,
+            "decoded": 2858,
+            "duration": 22.599999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+            "type": "img",
+            "bytes": 1724,
+            "decoded": 1424,
+            "duration": 24.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+            "type": "img",
+            "bytes": 3704,
+            "decoded": 3404,
+            "duration": 24.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+            "type": "img",
+            "bytes": 1718,
+            "decoded": 1418,
+            "duration": 26
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+            "type": "img",
+            "bytes": 3468,
+            "decoded": 3168,
+            "duration": 28.69999998807907
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+            "type": "img",
+            "bytes": 2112,
+            "decoded": 1812,
+            "duration": 39
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+            "type": "img",
+            "bytes": 1884,
+            "decoded": 1584,
+            "duration": 41.79999998211861
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-96.webp",
+            "type": "img",
+            "bytes": 2268,
+            "decoded": 1968,
+            "duration": 42.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-96.webp",
+            "type": "img",
+            "bytes": 1076,
+            "decoded": 776,
+            "duration": 42.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+            "type": "img",
+            "bytes": 1406,
+            "decoded": 1106,
+            "duration": 48.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+            "type": "img",
+            "bytes": 1666,
+            "decoded": 1366,
+            "duration": 49.20000001788139
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-480.webp",
+            "type": "img",
+            "bytes": 7794,
+            "decoded": 7494,
+            "duration": 61.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-480.webp",
+            "type": "img",
+            "bytes": 13036,
+            "decoded": 12736,
+            "duration": 64.09999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/arabic-qahwa-455790a061d1d560-480.webp",
+            "type": "img",
+            "bytes": 27118,
+            "decoded": 26818,
+            "duration": 71.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/favicon.ico",
+            "type": "other",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 1.0999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/favicon.ico",
+            "type": "other",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 6.5999999940395355
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-CZHKZXTHKC",
+            "type": "script",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 4.9000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/churros-icon-192.png",
+            "type": "other",
+            "bytes": 33631,
+            "decoded": 33331,
+            "duration": 5.9000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 9.899999976158142
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 11.199999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 11.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 12
+          },
+          {
+            "url": "http://127.0.0.1:4194/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 1464,
+            "decoded": 1164,
+            "duration": 6.0999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 848,
+            "decoded": 548,
+            "duration": 10
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 937,
+            "decoded": 637,
+            "duration": 8.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 853,
+            "decoded": 553,
+            "duration": 10.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/offers/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 72.59999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/__next.__PAGE__.txt?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "bytes": 23534,
+            "decoded": 23234,
+            "duration": 7.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/__next.menu.__PAGE__.txt?_rsc=BK3JmPiONFEjQlOn",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 7.4000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 8.399999976158142
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/__next.locations.__PAGE__.txt?_rsc=ugCrXaKigQkSBmoG",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 6.700000017881393
+          },
+          {
+            "url": "http://127.0.0.1:4194/ar/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 7.699999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/offers/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 938,
+            "decoded": 638,
+            "duration": 16.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/offers/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 5.299999982118607
+          }
+        ],
+        "requests": 50,
+        "transferBytes": 1104185,
+        "imageBytes": 327427,
+        "cls": 0,
+        "fcp": 240,
+        "images": [
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-192.webp",
+            "alt": "Churros Cafe Qatar Logo",
+            "width": 154,
+            "height": 82,
+            "naturalWidth": 181,
+            "naturalHeight": 94,
+            "fit": "contain",
+            "loading": "eager",
+            "sizes": "(max-width: 760px) 122px, 181px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+            "alt": "Churros Cafe dessert trays topped with chocolate, pistachio, strawberries, and banana",
+            "width": 720,
+            "height": 929,
+            "naturalWidth": 720,
+            "naturalHeight": 720,
+            "fit": "cover",
+            "loading": "eager",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 43,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 35,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 39,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-480.webp",
+            "alt": "24 Hour Cold Brew",
+            "width": 282,
+            "height": 282,
+            "naturalWidth": 349,
+            "naturalHeight": 349,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-480.webp",
+            "alt": "Americano",
+            "width": 282,
+            "height": 282,
+            "naturalWidth": 349,
+            "naturalHeight": 349,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/arabic-qahwa-455790a061d1d560-480.webp",
+            "alt": "Arabic Qahwa",
+            "width": 282,
+            "height": 282,
+            "naturalWidth": 349,
+            "naturalHeight": 349,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-churros-moment-c32d8e1d5773734c-640.webp",
+            "alt": "A customer enjoying a fresh loop churro with dipping sauces",
+            "width": 565,
+            "height": 490,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-seaside-churros-a4e4ad6767173ac2-640.webp",
+            "alt": "Chocolate being poured over fresh churros in a Churros Cafe box by the sea",
+            "width": 1440,
+            "height": 460,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/lusail-2802c5d56c2a9fd8-640.webp",
+            "alt": "Lusail Churros Cafe branch",
+            "width": 677,
+            "height": 435,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-coffee-treats-a912802f8d7ecedd-640.webp",
+            "alt": "Churros Cafe latte and wrapped treats on a warm peach background",
+            "width": 573,
+            "height": 340,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-192.webp",
+            "alt": "Churros Cafe",
+            "width": 142,
+            "height": 76,
+            "naturalWidth": 181,
+            "naturalHeight": 94,
+            "fit": "contain",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 122px, 181px"
+          }
+        ]
+      },
+      "full": {
+        "resources": [
+          {
+            "url": "http://127.0.0.1:4194/_next/static/media/9b58e445f326df4a-s.p.0yhqqpzk097i7.woff2",
+            "type": "link",
+            "bytes": 19376,
+            "decoded": 19076,
+            "duration": 29.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/media/a624dffa201843ff-s.p.2xocl9mu6olar.woff2",
+            "type": "link",
+            "bytes": 22596,
+            "decoded": 22296,
+            "duration": 38.70000001788139
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+            "type": "link",
+            "bytes": 207724,
+            "decoded": 207424,
+            "duration": 49.60000002384186
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-192.webp",
+            "type": "link",
+            "bytes": 11178,
+            "decoded": 10878,
+            "duration": 74.39999997615814
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/2w__0hixt5m--.css",
+            "type": "link",
+            "bytes": 50878,
+            "decoded": 50578,
+            "duration": 37.69999998807907
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/310vm2bl3xxpt.js",
+            "type": "link",
+            "bytes": 5664,
+            "decoded": 5364,
+            "duration": 52.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/19mx3mg6lkumu.js",
+            "type": "script",
+            "bytes": 29207,
+            "decoded": 28907,
+            "duration": 56.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/344n2zhqbh4pn.js",
+            "type": "script",
+            "bytes": 165529,
+            "decoded": 165229,
+            "duration": 71.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/0bma92pht_c97.js",
+            "type": "script",
+            "bytes": 229456,
+            "decoded": 229156,
+            "duration": 72.40000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/turbopack-154wuuf6u0_13.js",
+            "type": "script",
+            "bytes": 10021,
+            "decoded": 9721,
+            "duration": 69.59999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/0xo9dks3v6-52.js",
+            "type": "script",
+            "bytes": 50527,
+            "decoded": 50227,
+            "duration": 75.90000000596046
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1olcpaqoyw_04.js",
+            "type": "script",
+            "bytes": 62329,
+            "decoded": 62029,
+            "duration": 78.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1n4smbz9ipdcz.js",
+            "type": "script",
+            "bytes": 22877,
+            "decoded": 22577,
+            "duration": 85.2000000178814
+          },
+          {
+            "url": "http://127.0.0.1:4194/_next/static/chunks/1edl4a9jp1b5-.js",
+            "type": "script",
+            "bytes": 12688,
+            "decoded": 12388,
+            "duration": 86.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+            "type": "img",
+            "bytes": 2762,
+            "decoded": 2462,
+            "duration": 19.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+            "type": "img",
+            "bytes": 3158,
+            "decoded": 2858,
+            "duration": 22.599999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+            "type": "img",
+            "bytes": 1724,
+            "decoded": 1424,
+            "duration": 24.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+            "type": "img",
+            "bytes": 3704,
+            "decoded": 3404,
+            "duration": 24.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+            "type": "img",
+            "bytes": 1718,
+            "decoded": 1418,
+            "duration": 26
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+            "type": "img",
+            "bytes": 3468,
+            "decoded": 3168,
+            "duration": 28.69999998807907
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+            "type": "img",
+            "bytes": 2112,
+            "decoded": 1812,
+            "duration": 39
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+            "type": "img",
+            "bytes": 1884,
+            "decoded": 1584,
+            "duration": 41.79999998211861
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-96.webp",
+            "type": "img",
+            "bytes": 2268,
+            "decoded": 1968,
+            "duration": 42.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-96.webp",
+            "type": "img",
+            "bytes": 1076,
+            "decoded": 776,
+            "duration": 42.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+            "type": "img",
+            "bytes": 1406,
+            "decoded": 1106,
+            "duration": 48.80000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+            "type": "img",
+            "bytes": 1666,
+            "decoded": 1366,
+            "duration": 49.20000001788139
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-480.webp",
+            "type": "img",
+            "bytes": 7794,
+            "decoded": 7494,
+            "duration": 61.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-480.webp",
+            "type": "img",
+            "bytes": 13036,
+            "decoded": 12736,
+            "duration": 64.09999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/arabic-qahwa-455790a061d1d560-480.webp",
+            "type": "img",
+            "bytes": 27118,
+            "decoded": 26818,
+            "duration": 71.30000001192093
+          },
+          {
+            "url": "http://127.0.0.1:4194/favicon.ico",
+            "type": "other",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 1.0999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/favicon.ico",
+            "type": "other",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 6.5999999940395355
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-CZHKZXTHKC",
+            "type": "script",
+            "bytes": 0,
+            "decoded": 0,
+            "duration": 4.9000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/churros-icon-192.png",
+            "type": "other",
+            "bytes": 33631,
+            "decoded": 33331,
+            "duration": 5.9000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 9.899999976158142
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 11.199999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 11.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 12
+          },
+          {
+            "url": "http://127.0.0.1:4194/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 1464,
+            "decoded": 1164,
+            "duration": 6.0999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 848,
+            "decoded": 548,
+            "duration": 10
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 937,
+            "decoded": 637,
+            "duration": 8.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 853,
+            "decoded": 553,
+            "duration": 10.400000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/offers/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 72.59999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/__next.__PAGE__.txt?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "bytes": 23534,
+            "decoded": 23234,
+            "duration": 7.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/__next.menu.__PAGE__.txt?_rsc=BK3JmPiONFEjQlOn",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 7.4000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/about/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 8.399999976158142
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/__next.locations.__PAGE__.txt?_rsc=ugCrXaKigQkSBmoG",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 6.700000017881393
+          },
+          {
+            "url": "http://127.0.0.1:4194/ar/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 7.699999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/offers/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 938,
+            "decoded": 638,
+            "duration": 16.900000005960464
+          },
+          {
+            "url": "http://127.0.0.1:4194/offers/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 5.299999982118607
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-churros-moment-c32d8e1d5773734c-960.webp",
+            "type": "img",
+            "bytes": 228394,
+            "decoded": 228094,
+            "duration": 4.9000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-seaside-churros-a4e4ad6767173ac2-960.webp",
+            "type": "img",
+            "bytes": 116322,
+            "decoded": 116022,
+            "duration": 4.299999982118607
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/iced-coffee/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 73.7000000178814
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/hot-coffee/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 74.09999999403954
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/iced-coffee/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 948,
+            "decoded": 648,
+            "duration": 14.100000023841858
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/hot-coffee/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 947,
+            "decoded": 647,
+            "duration": 14.599999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/iced-coffee/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 4.0999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/menu/hot-coffee/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 5.9000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/lusail-2802c5d56c2a9fd8-960.webp",
+            "type": "img",
+            "bytes": 159782,
+            "decoded": 159482,
+            "duration": 6
+          },
+          {
+            "url": "http://127.0.0.1:4194/assets/optimized/campaign-coffee-treats-a912802f8d7ecedd-960.webp",
+            "type": "img",
+            "bytes": 67682,
+            "decoded": 67382,
+            "duration": 5.9000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/lusail/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 4.699999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/lusail/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 948,
+            "decoded": 648,
+            "duration": 3.5
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/lusail/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 3.5999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/abu-hamour/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 6.0999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/duhail/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 6.5999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/downtown/",
+            "type": "fetch",
+            "bytes": 300,
+            "decoded": 0,
+            "duration": 7.0999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/abu-hamour/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 952,
+            "decoded": 652,
+            "duration": 5.0999999940395355
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/duhail/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 948,
+            "decoded": 648,
+            "duration": 8.100000023841858
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/downtown/__next._tree.txt?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "bytes": 950,
+            "decoded": 650,
+            "duration": 10.099999994039536
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/abu-hamour/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 6.300000011920929
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/duhail/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 6.199999988079071
+          },
+          {
+            "url": "http://127.0.0.1:4194/locations/downtown/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 8.200000017881393
+          },
+          {
+            "url": "http://127.0.0.1:4194/stories/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 6.4000000059604645
+          },
+          {
+            "url": "http://127.0.0.1:4194/privacy/__next.$c$slug.__PAGE__.txt?_rsc=OG11jBRWgnpb35u4",
+            "type": "fetch",
+            "bytes": 760,
+            "decoded": 460,
+            "duration": 5.200000017881393
+          }
+        ],
+        "requests": 74,
+        "transferBytes": 1689938,
+        "imageBytes": 899607,
+        "cls": 0,
+        "fcp": 240,
+        "images": [
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-192.webp",
+            "alt": "Churros Cafe Qatar Logo",
+            "width": 154,
+            "height": 82,
+            "naturalWidth": 181,
+            "naturalHeight": 94,
+            "fit": "contain",
+            "loading": "eager",
+            "sizes": "(max-width: 760px) 122px, 181px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-dessert-spread-c82c17ca58352687-960.webp",
+            "alt": "Churros Cafe dessert trays topped with chocolate, pistachio, strawberries, and banana",
+            "width": 720,
+            "height": 929,
+            "naturalWidth": 720,
+            "naturalHeight": 720,
+            "fit": "cover",
+            "loading": "eager",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/classic-churros-fda1a0413c6ead9f-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/celebration-box-3b04b3a862f70038-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 43,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/mini-waffle-678fb38be751d242-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/dubai-chocolate-crepe-39896b48bae00f30-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/mini-pancake-25f6e7d4a956a104-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/hola-box-a4b727f81f9065d3-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/ice-cream-with-churros-b4fc868f2d1fe199-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 35,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/matcha-frappe-968e2bc2fb21a013-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 32,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-480.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-480.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/maltesers-and-cream-7e2521eb3cc15a72-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 39,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/blue-lagoon-mojito-b4b6cacc7044d7d8-96.webp",
+            "alt": "",
+            "width": 32,
+            "height": 32,
+            "naturalWidth": 48,
+            "naturalHeight": 48,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "48px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/24-hour-cold-brew-5b51fca98864c76f-480.webp",
+            "alt": "24 Hour Cold Brew",
+            "width": 282,
+            "height": 282,
+            "naturalWidth": 349,
+            "naturalHeight": 349,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/americano-3e1713056eb418a1-480.webp",
+            "alt": "Americano",
+            "width": 282,
+            "height": 282,
+            "naturalWidth": 349,
+            "naturalHeight": 349,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/arabic-qahwa-455790a061d1d560-480.webp",
+            "alt": "Arabic Qahwa",
+            "width": 282,
+            "height": 282,
+            "naturalWidth": 349,
+            "naturalHeight": 349,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) calc((100vw - 83px) / 2), (max-width: 1100px) 28vw, 350px"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-churros-moment-c32d8e1d5773734c-960.webp",
+            "alt": "A customer enjoying a fresh loop churro with dipping sauces",
+            "width": 565,
+            "height": 490,
+            "naturalWidth": 720,
+            "naturalHeight": 720,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-seaside-churros-a4e4ad6767173ac2-960.webp",
+            "alt": "Chocolate being poured over fresh churros in a Churros Cafe box by the sea",
+            "width": 1440,
+            "height": 460,
+            "naturalWidth": 720,
+            "naturalHeight": 720,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/lusail-2802c5d56c2a9fd8-960.webp",
+            "alt": "Lusail Churros Cafe branch",
+            "width": 677,
+            "height": 435,
+            "naturalWidth": 720,
+            "naturalHeight": 818,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/campaign-coffee-treats-a912802f8d7ecedd-960.webp",
+            "alt": "Churros Cafe latte and wrapped treats on a warm peach background",
+            "width": 573,
+            "height": 340,
+            "naturalWidth": 720,
+            "naturalHeight": 720,
+            "fit": "cover",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 100vw, 50vw"
+          },
+          {
+            "src": "http://127.0.0.1:4194/assets/optimized/churros-logo-ee8487e1cc2fbfdb-192.webp",
+            "alt": "Churros Cafe",
+            "width": 142,
+            "height": 76,
+            "naturalWidth": 181,
+            "naturalHeight": 94,
+            "fit": "contain",
+            "loading": "lazy",
+            "sizes": "(max-width: 760px) 122px, 181px"
+          }
+        ]
+      }
+    }
+  ]
+}

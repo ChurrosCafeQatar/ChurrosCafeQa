@@ -7,11 +7,12 @@
     "start": "node node_modules/next/dist/bin/next start",
     "test": "node node_modules/@playwright/test/cli.js test",
     "build": "node node_modules/next/dist/bin/next build",
-    "preview": "node node_modules/next/dist/bin/next start",
-    "images:optimize": "node optimize.cjs",
+    "preview": "node scripts/serve-export.mjs",
+    "images:optimize": "node scripts/build-images.mjs",
     "menu:import": "node scripts/import-menu.mjs",
     "menu:validate": "node scripts/validate-menu.mjs",
-    "prebuild": "npm run menu:validate"
+    "prebuild": "npm run menu:validate && npm run images:optimize",
+    "predev": "npm run images:optimize"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import Link from './navigation-link';
 import { usePathname } from 'next/navigation';
 import SiteImage from './site-image';
 import { translations } from '../data/content';
@@ -39,7 +39,7 @@ export default function Header() {
       </div>
       <header className="header">
         <Link href={prefix(lang)} className="logo brand-logo" aria-label="Churros Cafe Qatar - Home">
-          <SiteImage className="brand-logo-image" src="/assets/churros_logo.webp" alt="Churros Cafe Qatar Logo" width={181} height={130} />
+          <SiteImage className="brand-logo-image" src="/assets/churros_logo.webp" alt={isArabic ? 'تشوروز كافيه قطر' : 'Churros Cafe Qatar Logo'} width={181} height={130} loading="eager" />
         </Link>
         <nav id="nav" className={open ? 'open' : ''} aria-label={t('Main navigation')}>
           <Link href={prefix(lang, '/menu/')}>{lang === 'ar' ? 'القائمة' : 'Dessert & Coffee Menu'}</Link>
@@ -49,7 +49,7 @@ export default function Header() {
         </nav>
         <div className="header-actions">
           {/* New Growth CTA */}
-          <Link href={prefix(lang, '/locations/')} className="button compact" style={{ minHeight: '38px', padding: '8px 16px', fontSize: '10px' }}>
+          <Link href={prefix(lang, '/locations/')} data-analytics="nearest-location" className="button compact" style={{ minHeight: '38px', padding: '8px 16px', fontSize: '10px' }}>
             {lang === 'ar' ? 'فروعنا' : 'Find Nearest Cafe'}
           </Link>
           <Link href={otherLanguage} className="language" lang={isArabic ? 'en' : 'ar'}>

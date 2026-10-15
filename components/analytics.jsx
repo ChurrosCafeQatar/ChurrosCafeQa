@@ -36,14 +36,31 @@ export default function Analytics() {
     const route = path.replace(/^\/ar(?=\/)/, '');
     if (route.startsWith('/locations/')) track('location_view', { branch: route.split('/')[2] || 'all' });
     if (route === '/offers/') track('offer_view');
-    if (route.startsWith('/menu/')) track('menu_view', { category: route.split('/')[2] || 'all' });
+    if (route.startsWith('/menu/')) {
+      track('menu_view', { category: route.split('/')[2] || 'all' });
+      track('menu_category_view', { category: route.split('/')[2] || 'all' });
+    }
   }, [consent, path]);
   useEffect(() => {
     const onClick = event => {
       const link = event.target.closest?.('a');
       if (!link) return;
-      if (link.href.includes('maps.app.goo.gl')) track('location_direction_click', { branch: link.closest('[data-branch-id]')?.dataset.branchId || path.split('/')[2], source: path });
-      if (link.protocol === 'tel:') track('location_call_click', { branch: link.dataset.branchId, source: 'branch-contact' });
+      const route = path.replace(/^\/ar(?=\/)/, '');
+      const branch = link.closest('[data-branch-id]')?.dataset.branchId || (route.startsWith('/locations/') ? route.split('/')[2] : undefined);
+      if (link.hostname === 'maps.app.goo.gl') {
+        track('location_direction_click', { branch, source: path }); // Preserve existing reports.
+        track('direction_click', { branch, source: path });
+      }
+      if (link.protocol === 'tel:') {
+        track('location_call_click', { branch, source: 'branch-contact' });
+        track('call_click', { branch, source: 'branch-contact' });
+      }
+      if (link.dataset.analytics === 'nearest-location') track('nearest_location_click', { source: path });
+      if (['instagram.com', 'www.instagram.com'].includes(link.hostname)) track('social_click', { partner: 'instagram', source: path });
+      if (link.closest('.menu-controls') && link.hash) {
+        track('menu_filter_click', { category: link.hash.slice(1) });
+        track('menu_category_view', { category: link.hash.slice(1) });
+      }
       if (link.classList.contains('language')) track('language_switch', { language: link.lang });
       if (path.includes('/offers/') && link.pathname.includes('/menu/')) track('offer_click', { source: 'winter-menu' });
     };

@@ -3,9 +3,9 @@ const { defineConfig } = require('@playwright/test');
 module.exports = defineConfig({
   testDir: './tests',
   webServer: {
-    command: 'node node_modules/next/dist/bin/next start -p 4173',
+    command: 'node scripts/serve-export.mjs 4173',
     url: 'http://127.0.0.1:4173',
-    reuseExistingServer: true,
+    reuseExistingServer: !process.env.CI,
     timeout: 120000,
   },
   use: {

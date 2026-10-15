@@ -89,7 +89,8 @@ export function SiteDialog({ lang }) {
                 src={`/assets/${product.image}`}
                 width={1000}
                 height={1000}
-                alt={product.imageAlt || product.displayName}
+                alt={lang === 'ar' ? product.ar : product.imageAlt || product.displayName}
+                sizes="(max-width: 760px) 90vw, 500px"
                 loading="eager"
               />
             ) : (
@@ -98,7 +99,7 @@ export function SiteDialog({ lang }) {
             <div className="product-modal-gradient" />
             <div className="product-modal-badges">
               <span className="badge">
-                {categoryBySlug[product.displayCategory]?.label || product.sourceCategory}
+                {t(categoryBySlug[product.displayCategory]?.label || product.sourceCategory)}
               </span>
               {product.featured && <span className="badge featured">★ {t('Featured')}</span>}
               {product.bestseller && <span className="badge popular">🔥 {t('Popular')}</span>}
@@ -111,7 +112,7 @@ export function SiteDialog({ lang }) {
               <div>
                 <span className="product-modal-subtitle">
                   <span className="tiny-sun"><SparkIcon /></span>
-                  {categoryBySlug[product.displayCategory]?.label || t('Churros Cafe Specialty')}
+                  {t(categoryBySlug[product.displayCategory]?.label || 'Churros Cafe Specialty')}
                 </span>
                 <h2 className="product-modal-title">{lang === 'ar' ? product.ar : product.displayName}</h2>
               </div>
@@ -123,29 +124,27 @@ export function SiteDialog({ lang }) {
               )}
             </div>
 
-            <div className="product-modal-about-section">
+            {product.description && <div className="product-modal-about-section">
               <h3 className="product-modal-about-title">
                 <span className="tiny-sun"><SparkIcon /></span> {t('About this item')}
               </h3>
-              <p className="product-modal-about-text">
-                {product.description || (lang === 'ar'
-                  ? 'محضر طازجاً حسب الطلب بوصفة أصيلة ومكونات متميزة في تشوروز كافيه قطر.'
-                  : 'Handcrafted fresh to order with authentic recipes and premium ingredients at Churros Cafe Qatar.')}
+              <p className="product-modal-about-text" lang="en" dir="ltr">
+                {product.description}
               </p>
-            </div>
+            </div>}
 
             {(product.servingQuantity || (product.sauceOptions && product.sauceOptions.length > 0) || product.sourceCategory) && (
               <div className="product-modal-specs-grid">
                 {product.servingQuantity && (
                   <div className="product-modal-spec-card">
                     <span className="product-modal-spec-label">{t('Serving')}</span>
-                    <span className="product-modal-spec-val">{product.servingQuantity}</span>
+                    <span className="product-modal-spec-val" lang="en" dir="ltr">{product.servingQuantity}</span>
                   </div>
                 )}
                 {product.sourceCategory && (
                   <div className="product-modal-spec-card">
                     <span className="product-modal-spec-label">{t('Category')}</span>
-                    <span className="product-modal-spec-val">{product.sourceCategory}</span>
+                    <span className="product-modal-spec-val">{t(categoryBySlug[product.displayCategory]?.label || product.sourceCategory)}</span>
                   </div>
                 )}
                 {product.sauceOptions && product.sauceOptions.length > 0 && (
@@ -153,7 +152,7 @@ export function SiteDialog({ lang }) {
                     <span className="product-modal-spec-label">{t('Sauce options')}</span>
                     <div className="product-modal-sauces">
                       {product.sauceOptions.map((sauce: string) => (
-                        <span key={sauce} className="product-modal-sauce-tag">{sauce}</span>
+                        <span key={sauce} className="product-modal-sauce-tag" lang="en" dir="ltr">{sauce}</span>
                       ))}
                     </div>
                   </div>
@@ -185,8 +184,9 @@ export function SiteDialog({ lang }) {
 
 export function ProductCard({ product, lang }) {
   const displayName = lang === 'ar' ? product.ar : product.displayName;
+  const t = text => lang === 'ar' ? translations[text] || text : text;
   return (
-    <article className="product" data-product={product.id}>
+    <article className="product" id={`product-${product.id}`} data-product={product.id}>
       <button
         className="product-open"
         onClick={() => {
@@ -201,11 +201,10 @@ export function ProductCard({ product, lang }) {
             detail: { type: 'product', id: product.id, product }
           }));
         }}
-        aria-label={`View ${displayName}`}
       >
         <div className="product-photo" onPointerEnter={() => track('product_image_interaction', { product: product.displayName, category: categoryBySlug[product.displayCategory]?.label })}>
           {product.imageExists !== false && product.image
-            ? <SiteImage src={`/assets/${product.image}`} width={800} height={800} alt={product.imageAlt} loading="lazy" decoding="async" />
+            ? <SiteImage src={`/assets/${product.image}`} width={800} height={800} alt={lang === 'ar' ? product.ar : product.imageAlt || product.displayName} loading="lazy" decoding="async" />
             : <div className="product-image-placeholder">Image unavailable</div>}
           {product.featured && <span className="badge">Featured</span>}
           {product.bestseller && <span className="badge">Popular</span>}
@@ -216,12 +215,12 @@ export function ProductCard({ product, lang }) {
           <span className="product-arrow" aria-hidden="true"><ArrowIcon /></span>
         </div>
         <div className="product-meta">
-          {product.description && <span className="product-description">{product.description}</span>}
+          {product.description && <span className="product-description" lang="en" dir="ltr">{product.description}</span>}
           <strong className="product-price">{formatPrice(product.price)}</strong>
         </div>
-        {product.sauceOptions?.length > 0 && <span className="product-options"><strong>Sauces:</strong> {product.sauceOptions.join(', ')}</span>}
+        {product.sauceOptions?.length > 0 && <span className="product-options"><strong>{t('Sauce options')}:</strong> <span lang="en" dir="ltr">{product.sauceOptions.join(', ')}</span></span>}
       </button>
-      <Link className="product-category-link" href={prefix(lang, `/menu/${product.displayCategory}/`)}>{categoryBySlug[product.displayCategory]?.label} <ArrowIcon /></Link>
+      <Link className="product-category-link" href={prefix(lang, `/menu/${product.displayCategory}/`)}>{t(categoryBySlug[product.displayCategory]?.label)} <ArrowIcon /></Link>
     </article>
   );
 }
@@ -266,12 +265,8 @@ export function ProductGrid({ lang, full = false, filtersVisible = false, initia
     categoryChangeRequested.current = true;
     setCategory(value);
     track('menu_filter_click', { category: value === 'all' ? 'All' : categoryBySlug[value]?.label });
+    if (value !== category) track('menu_category_view', { category: value === 'all' ? 'All' : categoryBySlug[value]?.label });
   };
-
-  useEffect(() => {
-    if (!full) return;
-    track('menu_view', { category: fixedCategory ? categoryBySlug[fixedCategory]?.label : 'All' });
-  }, [full, fixedCategory]);
 
   useEffect(() => {
     if (!query.trim()) return;
@@ -286,7 +281,7 @@ export function ProductGrid({ lang, full = false, filtersVisible = false, initia
           <div className="filters" aria-label={full ? 'Menu categories' : 'Filter signature menu'}>
             {filters.map(filter => (
               <button key={filter.value} className={`filter ${category === filter.value ? 'active' : ''}`} aria-pressed={category === filter.value} onClick={() => selectCategory(filter.value)}>
-                <span className="filter-image">{filter.value === 'all' ? <SiteImage src="/assets/menu/Classic Churros.webp" alt="" aria-hidden="true" /> : <SiteImage src={`/assets/${filterImage(filter)}`} alt="" aria-hidden="true" />}</span>
+                <span className="filter-image">{filter.value === 'all' ? <SiteImage src="/assets/menu/Classic Churros.webp" sizes="48px" alt="" aria-hidden="true" /> : <SiteImage src={`/assets/${filterImage(filter)}`} sizes="48px" alt="" aria-hidden="true" />}</span>
                 <span>{t(filter.label)}</span>
               </button>
             ))}
@@ -334,7 +329,7 @@ export function BranchExplorer({ lang }) {
         ))}
       </div>
       <div className="branch-preview" id="branch-preview">
-        <SiteImage src={`/assets/${active.image}`} width={900} height={600} loading="lazy" alt={`${active.name} Churros Cafe branch`} />
+        <SiteImage src={`/assets/${active.image}`} width={900} height={600} loading="lazy" alt={lang === 'ar' ? `فرع تشوروز كافيه ${active.ar}` : `${active.name} Churros Cafe branch`} />
         <div className="branch-overlay">
           <div><p>{t('BRANCH')} {active.number}</p><h3>{lang === 'ar' ? active.ar : active.name}</h3></div>
           <Link href={prefix(lang, `/locations/${active.id}/`)}>{t('Explore the space')} <ArrowIcon /></Link>

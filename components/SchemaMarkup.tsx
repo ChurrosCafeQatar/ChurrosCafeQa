@@ -1,4 +1,26 @@
 import { absoluteUrl, SITE_URL } from '../data/site';
+import { categoryCopy } from '../data/seo';
+
+// Only publish prices from the same source used by the cards. A range is not
+// a single starting price, and a menu listing does not imply online checkout.
+function menuOffer(price: any) {
+  if (!price || price.currency !== 'QAR') return undefined;
+  if (price.type === 'fixed' && Number.isFinite(price.amount) && price.amount >= 0) {
+    return { '@type': 'Offer', price: price.amount, priceCurrency: price.currency };
+  }
+  if (price.type === 'range' && Number.isFinite(price.min) && Number.isFinite(price.max) && price.min >= 0 && price.max >= price.min) {
+    return {
+      '@type': 'Offer',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        minPrice: price.min,
+        maxPrice: price.max,
+        priceCurrency: price.currency,
+      },
+    };
+  }
+  return undefined;
+}
 
 export default function SchemaMarkup({
   type,
@@ -98,23 +120,34 @@ export default function SchemaMarkup({
     });
   }
 
-  // Global or Category-specific Menu schema (without transactional ecommerce data)
+  // Each language/category describes its own visible menu, not the full menu
+  // under a shared identity. Product identities remain stable across views.
   if (type === 'menu' && categories && menuByCategory) {
     const cats = categorySlug ? categories.filter((c: any) => c.slug === categorySlug) : categories;
+    const languagePrefix = lang === 'ar' ? '/ar' : '';
+    const menuPath = `${languagePrefix}/menu/${categorySlug ? `${categorySlug}/` : ''}`;
+    const categoryLabel = (category: any) => lang === 'ar' ? categoryCopy[category.slug][1] : category.label;
     schemas.push({
       '@context': 'https://schema.org',
       '@type': 'Menu',
-      '@id': `${SITE_URL}/menu/#menu`,
-      name: categorySlug ? `Churros Cafe ${cats[0]?.label} Menu` : 'Churros Cafe Menu',
-      url: absoluteUrl('/menu/'),
+      '@id': `${absoluteUrl(menuPath)}#menu`,
+      name: lang === 'ar'
+        ? (categorySlug ? `قائمة ${categoryLabel(cats[0])} في تشوروز كافيه` : 'قائمة تشوروز كافيه')
+        : (categorySlug ? `Churros Cafe ${cats[0]?.label} Menu` : 'Churros Cafe Menu'),
+      url: absoluteUrl(menuPath),
       inLanguage: lang,
       hasMenuSection: cats.map((category: any) => ({
         '@type': 'MenuSection',
-        name: category.label,
+        '@id': `${absoluteUrl(`${languagePrefix}/menu/${category.slug}/`)}#section`,
+        url: absoluteUrl(`${languagePrefix}/menu/${category.slug}/`),
+        name: categoryLabel(category),
         hasMenuItem: menuByCategory[category.slug]?.map((item: any) => ({
           '@type': 'MenuItem',
-          name: item.displayName,
+          '@id': `${absoluteUrl(`${languagePrefix}/menu/${category.slug}/`)}#product-${item.id}`,
+          url: `${absoluteUrl(`${languagePrefix}/menu/${category.slug}/`)}#product-${item.id}`,
+          name: lang === 'ar' ? item.ar : item.displayName,
           ...(item.description ? { description: item.description } : {}),
+          ...(menuOffer(item.price) ? { offers: menuOffer(item.price) } : {}),
           ...(item.imageExists && item.image ? { image: absoluteUrl(`/assets/${item.image}`) } : {})
         })) || []
       }))

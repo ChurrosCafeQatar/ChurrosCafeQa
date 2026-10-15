@@ -6,7 +6,7 @@ import SchemaMarkup from '../../components/SchemaMarkup';
 
 export const metadata = {
   title: 'Churros Cafe Locations in Qatar',
-  description: 'Find Churros Cafe locations across Qatar, including branch addresses, opening hours, directions and catering contact details.',
+  description: 'Find Churros Cafe in Lusail, Abu Hamour, Duhail and Downtown. View branch addresses, phone numbers and map directions, then explore our menu.',
   alternates: {
     canonical: '/locations/',
     languages: {
@@ -26,19 +26,19 @@ export default function LocationsPage() {
       <div className="page-heading">
         <p className="eyebrow"><span className="tiny-sun"><SparkIcon /></span> CHURROS CAFE BRANCHES</p>
         <h1>Churros Cafe<br/><em>Locations in Qatar</em></h1>
-        <p className="lead">Find Churros Cafe locations across Qatar, including branch addresses, opening hours, directions and catering contact details.</p>
+        <p className="lead">Find Churros Cafe in Lusail, Abu Hamour, Duhail and Downtown, with branch addresses, phone numbers and map directions.</p>
         <div style={{ marginTop: '24px' }}>
           <Link href="/menu/" className="button">Explore the Menu <ArrowIcon /></Link>
         </div>
       </div>
 
       <div className="page-body">
-        <div className="locations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3rem', padding: '2rem 0' }}>
-          {CHURROS_CAFE.branches.map((branch: any) => (
+        <div className="locations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))', gap: '3rem', padding: '2rem 0' }}>
+          {CHURROS_CAFE.branches.map((branch: any, index: number) => (
             <article key={branch.id} className="location-card" style={{ background: 'var(--brand-card-bg, #fff)', borderRadius: '1rem', overflow: 'hidden', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
               {branch.image && (
                 <div className="location-photo">
-                  <SiteImage src={`/assets/${branch.image}`} width={800} height={600} alt={`Churros Cafe ${branch.name}`} style={{ width: '100%', height: '240px', objectFit: 'cover' }} />
+                  <SiteImage src={`/assets/${branch.image}`} width={800} height={600} priority={index === 0} sizes="(max-width: 760px) calc(100vw - 48px), 40vw" alt={`Churros Cafe ${branch.name}`} style={{ width: '100%', height: '240px', objectFit: 'cover' }} />
                 </div>
               )}
               
